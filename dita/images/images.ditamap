@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Images supported in DITA</title>
+ <topicref href="not_supported.dita"/>
+ <topicref href="supported.dita"/>
+ <topicref href="svg.dita"/>
+</map>

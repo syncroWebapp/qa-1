@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="eps">
+  <title>Images supported default</title>
+  <body>
+    <image href="img/error.png"/>
+    <image href="img/CorelTiff.eps"/>
+    <image href="img/splash.bmp"/>
+    <image href="img/Raster.tif"/>
+  </body>
+</topic>
