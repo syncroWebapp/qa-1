@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="urn:oasis:names:tc:dita:rng:map.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<map>
+ <title>Images supported in DITA</title>
+ <topicref href="not_supported.dita" audience="expert" platform="linux"/>
+ <topicref href="supported.dita" keys="support" keyscope="support" audience="expert novice"/>
+ <topicref href="svg_1.3.dita" audience="novice" platform="mac"/>
+ <topicref href="mathml_1.3.dita" audience="novice" platform="windows"/>
+</map>

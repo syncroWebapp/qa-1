@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ah2_r4d_cs">
+  <title>Images not supported default</title>
+  <body>
+    <image href="img/HTC_Clock.psd" id="image_op1_tjb_nt"/>
+    <image href="img/cr_blockdiagram.pdf" id="image_lrj_bsz_ft"/>
+    <image href="img/cr_dcxo_clock.pdf"/>
+  </body>
+</topic>
