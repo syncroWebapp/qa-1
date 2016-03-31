@@ -50,4 +50,6 @@
  <topicref href="images/Chrysanthemums.jpg" format="jpg" navtitle="Chrysanthemum"
   keys="chrysanthemums" keyscope="chrysanthèmes chrysanthemums"
   keyref="chrysanthemums.chrysanthemums"/>
+  <keydef href="images/Gerbera.jpg" format="jpg" keys="img-gerbera" keyscope="gerbera"
+  keyref="gerbera.img-gerbera"/>
 </map>
