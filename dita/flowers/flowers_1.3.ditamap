@@ -22,7 +22,8 @@
   </topicref>
   <topicref href="concepts/autumnFlowers.dita" collection-type="sequence">
    <topicref href="topics/flowers/chrysanthemum.dita" audience="expert"/>
-   <topicref href="topics/flowers/salvia.dita"/>
+   <topicref href="topics/flowers/salvia.dita" keys="salvia" keyscope="salvia"
+    keyref="salvia.salvia"/>
   </topicref>
   <topicref href="concepts/winterFlowers.dita" collection-type="sequence" audience="novice">
    <topicref href="topics/flowers/gerbera.dita"/>
