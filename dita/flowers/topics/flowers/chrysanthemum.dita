@@ -35,6 +35,6 @@
             sometimes with the addition of night lights.</p>
     </body>
     <related-links>
-        <link href="salvia.dita#topic-1"/>
+        <link keyref="salvia.salvia"/>
     </related-links>
 </topic>
