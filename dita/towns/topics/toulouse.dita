@@ -280,7 +280,7 @@
             <entry>3 h 45</entry>
           </row>
           <row>
-            <entry><?oxy_comment_start author="syncroWebapp" timestamp="20160406T180403+0300" comment="Ajouter les transports qui relient Toulouse et Paris"?>Paris<?oxy_comment_end?></entry>
+            <entry><?oxy_comment_start author="syncroWebapp" timestamp="20160406T180403+0300" comment="Ajouter les transports qui relient Toulouse et Paris" id="e4b_yxf_4v"?><?oxy_comment_start author="syncroWebapp" timestamp="20160406T180701+0300" comment="Et les améliorations à venir." parentID="e4b_yxf_4v" id="fdp_dyf_4v" mid="6"?><?oxy_comment_start author="syncroWebapp" timestamp="20160406T180751+0300" comment="La ligne TGV" parentID="fdp_dyf_4v" mid="5"?><?oxy_comment_start author="syncroWebapp" timestamp="20160406T180748+0300" comment="Par ex. le train" parentID="e4b_yxf_4v" mid="3"?><?oxy_comment_start author="syncroWebapp" timestamp="20160406T180821+0300" comment="Par ex. l&apos;avion" parentID="e4b_yxf_4v" mid="4"?>Paris<?oxy_comment_end mid="4"?><?oxy_comment_end mid="3"?><?oxy_comment_end mid="5"?><?oxy_comment_end mid="6"?><?oxy_comment_end?></entry>
             <entry>A20-A71-A10</entry>
             <entry>675 km</entry>
             <entry>6 h</entry>
