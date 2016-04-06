@@ -492,9 +492,11 @@
           <row>
             <entry>Record de froid</entry>
             <entry>−18,6</entry>
-            <?oxy_comment_start author="admin" timestamp="20160328T155645+0300" comment="Préciser l&apos;année où cela à eu lieu"?>
+            <?oxy_comment_start author="admin" timestamp="20160328T155645+0300" comment="Préciser l&apos;année où cela à eu lieu" id="jck_lzf_4v"?>
+            <?oxy_comment_start author="syncroWebapp" timestamp="20160406T181745+0300" comment="Et la date précise" parentID="jck_lzf_4v" mid="9"?>
             <entry>−19,2</entry>
             <?oxy_comment_end?>
+            <?oxy_comment_end mid="9"?>
             <entry>−8,4</entry>
             <entry>−3</entry>
             <entry>−0,8</entry>
