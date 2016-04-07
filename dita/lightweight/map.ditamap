@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD LW DITA Map//EN" "map.dtd">
-<map id="map_nt2_k1l_4v">
+<map id="map_up5_2p5_mv">
     <topicmeta>
         <navtitle>DITA Topic Map</navtitle>
     </topicmeta>
+    <topicref href="topic.dita"/>
 </map>
