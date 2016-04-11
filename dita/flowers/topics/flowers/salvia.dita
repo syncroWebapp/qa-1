@@ -4,7 +4,9 @@
   <title>Salvia</title>
   <body>
     <p><i>From Wikipedia, the free encyclopedia.</i></p>
-    <p><b>Salvia</b><indexterm>flowers<indexterm>autumn<indexterm>salvia</indexterm></indexterm></indexterm>
+    <?oxy_attributes id="&lt;change type=&quot;inserted&quot; author=&quot;syncroWebapp&quot; timestamp=&quot;20160411T083153+0300&quot; /&gt;"?>
+    <p id="salviaPara"
+          ><b>Salvia</b><indexterm>flowers<indexterm>autumn<indexterm>salvia</indexterm></indexterm></indexterm>
       is the largest
         <?oxy_attributes keyref="&lt;change type=&quot;modified&quot; oldValue=&quot;flowers.genus&quot; author=&quot;julien&quot; timestamp=&quot;20160209T122024+0200&quot; /&gt;"?><xref
         keyref="flowers.genus" format="dita">genus</xref> of plants in the mint family,
@@ -16,7 +18,8 @@
       scientific name <b>Salvia</b>. The genus is distributed throughout the world, with the center
       of diversity and origin appearing to be Central and South Western Asia, while nearly 500
       species are native to Mexico and Central and South America.</p>
-    <p><image href="../../images/Salvia.jpg" scale="75"/></p>
+    <p><?oxy_attributes id="&lt;change type=&quot;inserted&quot; author=&quot;syncroWebapp&quot; timestamp=&quot;20160411T083130+0300&quot; /&gt;"?><image
+        href="../../images/Salvia.jpg" scale="75" id="salviaFlower"/></p>
     <p>The name is derived from the Latin <i>salvere</i> ("to save"), referring to the long-believed
       healing properties of salvia. The Latin was corrupted to '<i>sauja</i>', to the French
         '<i>sauge</i>', and to the old English '<i>sawge</i>', and eventually became the modern day
