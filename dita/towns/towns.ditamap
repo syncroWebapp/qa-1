@@ -2,9 +2,9 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map xml:lang="fr-FR">
  <title>Les villes en France</title>
- <topicref href="http://localhost/webdav/dita/towns/topics/toulouse.dita">
+ <topicref href="topics/toulouse.dita">
     <keydef keys="toulouse" href="https://fr.wikipedia.org/wiki/Toulouse" scope="external"
       format="html"/>
   </topicref>
- <topicref href="http://localhost/webdav/dita/towns/topics/lyon.dita"/>
+  <topicref href="topics/lyon.dita"/>
 </map>
