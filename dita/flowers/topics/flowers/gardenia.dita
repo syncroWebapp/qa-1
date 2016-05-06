@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
-<topic id="topic-1">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="gardenia">
     <title><tm tmtype="service">Gardenia</tm></title>
     <body>
         <p><i>From Wikipedia, the free encyclopedia.</i></p>
         <p><b>Gardenia</b><indexterm>flowers<indexterm>summer<indexterm>gardenia</indexterm></indexterm></indexterm>
-            is a <xref keyref="flowers.genus" format="dita">genus</xref> of about 250 species of
-            flowering plants in the coffee family, <b>Rubiaceae</b>, native to the tropical and
-            subtropical regions of Africa, southern Asia, Australasia and Oceania. Several species
-            occur on Hawaii, where gardenias are known as <i>na'u</i> or <i>nanu</i>.</p>
+            is a <xref keyref="flowers.genus" format="dita">genus</xref> of about 250
+            species of flowering plants in the coffee family, <b>Rubiaceae</b>, native to the
+            tropical and subtropical regions of Africa, southern Asia, Australasia and Oceania.
+            Several species occur on Hawaii, where gardenias are known as <i>na'u</i> or
+            <i>nanu</i>.</p>
         <p><image href="../../images/Gardeniaflower.jpg" id="img"/></p>
         <p>The genus was named by Carl Linnaeus after Dr. Alexander Garden (1730-1791), a
             Scottish-born American naturalist.</p>
@@ -28,11 +29,10 @@
         <p>In Japan and China, <b>Gardenia jasminoides</b> is called <i>Kuchinashi</i> (Japanese)
             and <i>Zhi zi</i> (Chinese); the bloom is used as a yellow dye, which is used for
             clothes and food (including the Korean mung bean jelly called hwangpomuk).</p>
-        <image conref="#topic-1/img"/>
-        <p conref="lilac.dita#topic-1/p2" conrefend="lilac.dita#topic-1/p3"/>
+        <image conref="#gardenia/img"/>
     </body>
     <related-links>
         <link href="helianthus.dita#topic_ywr_jsq_vr"/>
-        <link href="lilac.dita#topic-1" audience="expert"/>
+        <link href="lilac.dita#lilac" audience="expert"/>
     </related-links>
 </topic>

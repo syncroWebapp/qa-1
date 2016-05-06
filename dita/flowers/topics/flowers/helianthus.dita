@@ -27,7 +27,7 @@
     </ul>
   </body>
   <related-links>
-    <link href="gardenia.dita#topic-1"/>
-    <link href="lilac.dita#topic-1" audience="expert"/>
+    <link href="gardenia.dita#gardenia"/>
+    <link href="lilac.dita#lilac" audience="expert"/>
   </related-links>
 </topic>

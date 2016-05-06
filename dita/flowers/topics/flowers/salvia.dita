@@ -1,13 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
-<topic id="topic-1">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="salvia">
   <title>Salvia</title>
   <body>
     <p><i>From Wikipedia, the free encyclopedia.</i></p>
     <p><b>Salvia</b><indexterm>flowers<indexterm>autumn<indexterm>salvia</indexterm></indexterm></indexterm>
-      is the largest
-        <?oxy_attributes keyref="&lt;change type=&quot;modified&quot; oldValue=&quot;flowers.genus&quot; author=&quot;julien&quot; timestamp=&quot;20160209T122024+0200&quot; /&gt;"?><xref
-        keyref="flowers.genus" format="dita">genus</xref> of plants in the mint family,
+      is the largest <xref keyref="flowers.genus" format="dita">genus</xref> of plants in the mint
+      family,
         <b><?oxy_comment_start author="Mary" timestamp="20120510T124943+0300" comment="The correct term is Lamiaceae."?>Lamiac<?oxy_insert_start author="Mary" timestamp="20120510T124928+0300"?>e<?oxy_insert_end?>ae<?oxy_comment_end?></b>,
       with approximately 900 species of shrubs, herbaceous perennials, and annuals. It is one of
       three genera commonly referred to as sage. When used without modifiers, sage generally refers
@@ -41,7 +40,7 @@
       exclusively on <b>S. aegyptiaca</b>), <b>C. ornatipennella</b> and <b>C. virgatella</b> (both
       recorded on <b>S. pratensis</b>).</p>
     <p>The defining characteristic of the genus <b>Salvia</b> is the unusual
-        <?oxy_attributes keyref="&lt;change type=&quot;modified&quot; oldValue=&quot;flowers.pollination&quot; author=&quot;julien&quot; timestamp=&quot;20160209T122029+0200&quot; /&gt;"?><xref
+        <?oxy_attributes keyref="&lt;change type=&quot;modified&quot; oldValue=&quot;pollination&quot; author=&quot;julien&quot; timestamp=&quot;20160506T151141+0300&quot; /&gt;"?><xref
         keyref="flowers.pollination" format="dita">pollination</xref> mechanism, which consists of
       two stamens (instead of the typical four found in other members of the tribe <b>Mentheae</b>)
       and the way the two stamens are connected to form a lever. When a pollinator enters the flower
@@ -55,9 +54,9 @@
       monophyletic.</p>
   </body>
   <related-links>
-    <?oxy_attributes audience="&lt;change type=&quot;inserted&quot; author=&quot;julien&quot; timestamp=&quot;20160429T121340+0300&quot; /&gt;"?>
-    <link href="chrysanthemum.dita#topic-1" audience="expert"/>
+    <link href="chrysanthemum.dita#chrysanthemum" audience="expert"/>
   </related-links>
 </topic>
+
 
 <?oxy_options track_changes="on"?>
