@@ -22,6 +22,7 @@
             <topicref href="topics/flowers/snowdrop.dita"/>
         </topicref>
         <topicref href="concepts/summerFlowers.dita" collection-type="sequence">
+            <topicref href="topics/flowers/p%D0%BE%D0%B7%D0%B0.dita"/>
             <topicref href="topics/flowers/gardenia.dita"/>
             <topicref href="topics/flowers/helianthus.dita"/>
             <topicref href="topics/flowers/lilac.dita" audience="expert"/>
