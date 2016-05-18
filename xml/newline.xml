@@ -7,7 +7,7 @@
         special character or sequence of characters signifying the end of a line of text and the
         start of a new line. The actual codes representing a newline vary across operating systems,
         which can be a problem when exchanging text files between systems with different newline
-        representations.</p>
+        representations. test</p>
     <p>The concepts of line feed (LF) and carriage return (CR) are closely associated, and can be
         either considered separately or lumped together. In the physical media of typewriters and
         printers, two axes of motion, "down" and "across", are needed to create a new line on the
