@@ -3,12 +3,15 @@
     margin: 50px;
 }
 
+root{
+    border: 1px solid black;
+    padding-bottom:50px;
+}
+
 title{
     font-size: 32px;
+    margin-left: 40%;
     font-weight: bold;
-    margin-top: 30px;
-    margin-left: 150px;
-    margin-bottom: 30px;
     text-decoration: underline;
 }
 
@@ -21,14 +24,14 @@ subtitle{
 
 p{
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 5px;
 }
 
 list{
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 75px;
     margin-bottom: 5px;
     list-style: disc;
     display: list-item;
@@ -36,7 +39,7 @@ list{
 
 sublist{
     margin-top: 5px;
-    margin-left: 100px;
+    margin-left: 125px;
     margin-bottom: 5px;
     list-style: square;
     display: list-item;
