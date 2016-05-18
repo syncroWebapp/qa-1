@@ -14,7 +14,7 @@
         page. Although the design of a machine (typewriter or printer) must consider them
         separately, the abstract logic of software can lump them together as one event. This is why
         a newline in character encoding can be defined as LF and CR combined into one (CR+LF, CRLF,
-        LF+CR, LFCR).</p>
+        LF+CR, LFCR). test</p>
     <p>Two ways to view newlines, both of which are self-consistent, are that newlines separate
         lines or that they terminate lines. If a newline is considered a separator, there will be no
         newline after the last line of a file. Some programs have problems processing the last line
