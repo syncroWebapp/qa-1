@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="newline.css"?>
+<root>
+    <title>Newline</title>
+    <subtitle>From Wikipedia, the free encyclopedia</subtitle>
+    <p>In computing, a newline, also known as a line ending, end of line (EOL), or line break, is a
+        special character or sequence of characters signifying the end of a line of text and the
+        start of a new line. The actual codes representing a newline vary across operating systems,
+        which can be a problem when exchanging text files between systems with different newline
+        representations.</p>
+    <p>The concepts of line feed (LF) and carriage return (CR) are closely associated, and can be
+        either considered separately or lumped together. In the physical media of typewriters and
+        printers, two axes of motion, "down" and "across", are needed to create a new line on the
+        page. Although the design of a machine (typewriter or printer) must consider them
+        separately, the abstract logic of software can lump them together as one event. This is why
+        a newline in character encoding can be defined as LF and CR combined into one (CR+LF, CRLF,
+        LF+CR, LFCR).</p>
+    <p>Two ways to view newlines, both of which are self-consistent, are that newlines separate
+        lines or that they terminate lines. If a newline is considered a separator, there will be no
+        newline after the last line of a file. Some programs have problems processing the last line
+        of a file if it is not terminated by a newline. On the other hand, programs that expect
+        newline to be used as a separator will interpret a final newline as starting a new (empty)
+        line.</p>
+    <p>In text intended primarily to be read by humans using software which implements the word wrap
+        feature, a newline character typically only needs to be stored if a line break is required
+        independent of whether the next word would fit on the same line, such as between paragraphs
+        and in vertical lists. Therefore, in the logic of word processing, newline is used as a
+        paragraph break and is known as a "hard return", in contrast to "soft returns", which are
+        the dynamic ones created by word wrap that are changeable with each display instance. A
+        separate control character called "manual line break" exists for forcing line breaks inside
+        a single paragraph.</p>
+    <p>Software applications and operating systems usually represent a newline with one or two
+        control characters:</p>
+    <list>Systems based on ASCII or a compatible character set use either LF (Line feed, '\n', 0x0A,
+        10 in decimal) or CR (Carriage return, '\r', 0x0D, 13 in decimal) individually, or CR
+        followed by LF (CR+LF, '\r\n', 0x0D0A). These characters are based on printer commands: The
+        line feed indicated that one line of paper should feed out of the printer thus instructed
+        the printer to advance the paper one line, and a carriage return indicated that the printer
+        carriage should return to the beginning of the current line. Some rare systems, such as QNX
+        before version 4, used the ASCII RS (record separator, 0x1E, 30 in decimal) character as the
+        newline character.</list>
+    <sublist>LF: Multics, Unix and Unix-like systems (Linux, OS X, FreeBSD, AIX, Xenix, etc.), BeOS,
+        Amiga, RISC OS, and others</sublist>
+    <sublist>CR: Commodore 8-bit machines, Acorn BBC, ZX Spectrum, TRS-80, Apple II family, Oberon,
+        Mac OS up to version 9, and OS-9</sublist>
+    <sublist>RS: QNX pre-POSIX implementation</sublist>
+    <sublist>0x9B: Atari 8-bit machines using ATASCII variant of ASCII (155 in decimal)</sublist>
+    <sublist>CR+LF: Microsoft Windows, DOS (MS-DOS, PC DOS, etc.), DEC TOPS-10, RT-11, CP/M, MP/M,
+        Atari TOS, OS/2, Symbian OS, Palm OS, Amstrad CPC, and most other early non-Unix and non-IBM
+        OSes</sublist>
+    <sublist>LF+CR: Acorn BBC and RISC OS spooled text output.</sublist>
+    <list>EBCDIC systems—mainly IBM mainframe systems, including z/OS (OS/390) and i5/OS
+        (OS/400)—use NL (New Line, 0x15) as the character combining the functions of line-feed and
+        carriage-return. The equivalent UNICODE character is called NEL (Next Line). Note that
+        EBCDIC also has control characters called CR and LF, but the numerical value of LF (0x25)
+        differs from the one used by ASCII (0x0A). Additionally, some EBCDIC variants also use NL
+        but assign a different numeric code to the character.</list>
+    <list>Operating systems for the CDC 6000 series defined a newline as two or more zero-valued
+        six-bit characters at the end of a 60-bit word. Some configurations also defined a
+        zero-valued character as a colon character, with the result that multiple colons could be
+        interpreted as a newline depending on position.</list>
+    <list>ZX80 and ZX81, home computers from Sinclair Research Ltd used a specific non-ASCII
+        character set with code NEWLINE (0x76, 118 decimal) as the newline character.</list>
+    <list>OpenVMS uses a record-based file system, which stores text files as one record per line.
+        In most file formats, no line terminators are actually stored, but the Record Management
+        Services facility can transparently add a terminator to each line when it is retrieved by an
+        application. The records themselves could contain the same line terminator characters, which
+        could either be considered a feature or a nuisance depending on the application.</list>
+    <list>Fixed line length was used by some early mainframe operating systems. In such a system, an
+        implicit end-of-line was assumed every 72 or 80 characters, for example. No newline
+        character was stored. If a file was imported from the outside world, lines shorter than the
+        line length had to be padded with spaces, while lines longer than the line length had to be
+        truncated. This mimicked the use of punched cards, on which each line was stored on a
+        separate card, usually with 80 columns on each card, often with sequence numbers in columns
+        73–80. Many of these systems added a carriage control character to the start of the next
+        record; this could indicate whether the next record was a continuation of the line started
+        by the previous record, or a new line, or should overprint the previous line (similar to a
+        CR). Often this was a normal printing character such as "#" that thus could not be used as
+        the first character in a line. Some early line printers interpreted these characters
+        directly in the records sent to them.</list>
+    <p>Most textual Internet protocols (including HTTP, SMTP, FTP, IRC, and many others) mandate the
+        use of ASCII CR+LF ('\r\n', 0x0D 0x0A) on the protocol level, but recommend that tolerant
+        applications recognize lone LF ('\n', 0x0A) as well. Despite the dictated standard, many
+        applications erroneously use the C newline escape sequence '\n' (LF) instead of the correct
+        combination of carriage return escape and newline escape sequences '\r\n' (CR+LF) (see
+        section Newline in programming languages below). This accidental use of the wrong escape
+        sequences leads to problems when trying to communicate with systems adhering to the stricter
+        interpretation of the standards instead of the suggested tolerant interpretation. One such
+        intolerant system is the qmail mail transfer agent that actively refuses to accept messages
+        from systems that send bare LF instead of the required CR+LF.</p>
+    <p>FTP has a feature to transform newlines between CR+LF and the native encoding of the system
+        (e.g., LF only) when transferring text files. This feature must not be used on binary files.
+        Often binary files and text files are recognised by checking their filename extension; most
+        command-line FTP clients have an explicit command to switch between binary and text mode
+        transfers.</p>
+</root>

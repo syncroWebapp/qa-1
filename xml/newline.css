@@ -1,0 +1,43 @@
+*{
+    display: block;
+    margin: 50px;
+}
+
+title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+subtitle{
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+p{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+list{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    list-style: disc;
+    display: list-item;
+}
+
+sublist{
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    list-style: square;
+    display: list-item;
+}
