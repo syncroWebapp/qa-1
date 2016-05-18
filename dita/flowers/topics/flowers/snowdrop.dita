@@ -9,8 +9,9 @@
             is the common name for members of the <xref keyref="flowers.genus" format="dita"
                 >genus</xref>
             <b>Galanthus</b>, a small genus of about 20 species in the family <b>Amaryllidaceae</b>;
-            snowdrops are among the first <xref keyref="flowers.bulb" format="dita">bulbs</xref> to
-            bloom in spring, although certain species flower in late autumn and winter.</p>
+            snowdrops are among the first <xref keyref="flowers.bulb" format="dita">bulbs<desc>bulbs
+                    description</desc></xref> to bloom in spring, although certain species flower in
+            late autumn and winter.</p>
         <image href="../../images/Snowdrop.jpg" scale="75"/>
         <section id="galanthus-nivalis">
             <title>Galanthus nivalis</title>
