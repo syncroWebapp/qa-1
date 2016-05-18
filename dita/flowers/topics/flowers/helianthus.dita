@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="topic_ywr_jsq_vr" xml:lang="ja-JP">
-  <title><tm tmtype="reg">Helianthus</tm></title>
+<topic id="helianthus" xml:lang="ja-JP">
+  <title><tm tmtype="reg">ヒマワリ属</tm></title>
   <body>
     <p><i>From Wikipedia, the free encyclopedia.</i></p>
     <p>ヒマワリ（向日葵、学名：Helianthus
@@ -29,5 +29,6 @@
   <related-links>
     <link href="gardenia.dita#gardenia"/>
     <link href="lilac.dita#lilac" audience="expert"/>
+    <link href="rose.dita"/>
   </related-links>
 </topic>

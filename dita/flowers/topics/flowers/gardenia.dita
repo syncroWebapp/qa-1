@@ -32,7 +32,8 @@
         <image conref="#gardenia/img"/>
     </body>
     <related-links>
-        <link href="helianthus.dita#topic_ywr_jsq_vr"/>
+        <link href="rose.dita"/>
+        <link href="helianthus.dita"/>
         <link href="lilac.dita#lilac" audience="expert"/>
     </related-links>
 </topic>
