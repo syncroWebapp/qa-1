@@ -11,7 +11,7 @@
     </topicref>
     <topicref href="topics/care.dita">
         <topicref href="tasks/pruning.dita"/>
-        <topicref href="tasks/gardenPreparation.dita"/>
+        <topicref href="tasks/gardenPreparation.dita" audience="expert"/>
     </topicref>
     <topicref href="topics/index.dita" collection-type="sequence">
         <topicref href="concepts/springFlowers.dita" collection-type="sequence">
@@ -40,7 +40,7 @@
     <topichead navtitle="Glossary" type="topic">
         <?oxy_comment_end?>
         <topicref navtitle="Genus" href="concepts/glossaryGenus.dita" keys="flowers.genus"
-            print="yes" audience="expert"/>
+            print="yes" audience="novice"/>
         <topicref navtitle="Pollination" href="concepts/glossaryPollination.dita"
             keys="flowers.pollination" print="yes"/>
         <topicref navtitle="Sepal" href="concepts/glossarySepal.dita" keys="flowers.sepal"
