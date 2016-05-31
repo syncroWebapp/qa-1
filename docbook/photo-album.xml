@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<article xmlns="http://docbook.org/ns/docbook"
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
-    <info>
-        <title>Installing the <emphasis>Photo Album Application</emphasis> on <phrase os="linux"
-                >Linux</phrase><phrase os="windows">Windows</phrase></title>
-    </info>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                         "http://www.docbook.org/xml/4.5/docbookx.dtd">
+<article>
+    <title>Installing the <emphasis>Photo Album Application</emphasis> on <phrase os="linux"
+            >Linux</phrase><phrase os="windows">Windows</phrase></title>
     <sect1>
         <title>Prerequisites</title>
         <para>Before installing the photo album organizer you must check that your computer fulfills
@@ -14,12 +12,12 @@
             <listitem>
                 <para><emphasis>Disk Space</emphasis></para>
                 <para os="linux">The application needs at least 100MB free disk space. <phrase
-                        audience="novice">Ask your system administrator for help</phrase>
-                    <phrase audience="expert">To find the available free space on your disk, type
+                        userlevel="beginner">Ask your system administrator for help</phrase>
+                    <phrase userlevel="advanced">To find the available free space on your disk, type
                             <command>df</command> in a terminal and check that the partition where
                         you want to install the program has at least 100 MB free space. You can see
                         the free space in the <abbrev>Avail</abbrev>
-                    column.</phrase><screen audience="expert">Filesystem            Size  Used Avail Use% Mounted on
+                    column.</phrase><screen userlevel="advanced">Filesystem            Size  Used Avail Use% Mounted on
 /dev/md0               73G   65G  4.3G  94% /
 /dev/sda2              92M  5.7M   81M   7% /boot
 /dev/sdd1             230G   31G  188G  15% /home
