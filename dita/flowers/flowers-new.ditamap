@@ -16,6 +16,7 @@
    <topicref href="topics/flowers/tulip.dita"/>
    <topicref href="topics/flowers/snowdrop.dita" keys="snowdrop galanthus"
     keyscope="snowdrop galanthus" keyref="snowdrop.snowdrop"/>
+   <topicref href="topics/flowers/primula.dita"/>
   </topicref>
   <topicref href="concepts/summerFlowers.dita" collection-type="sequence">
    <topicref href="topics/flowers/rose.dita"/>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="primula" xml:lang="fr-FR">
+  <title>Primevère</title>
+  <body>
+    <p>La Primevère, ou Primula, est un genre de plantes herbacées de la famille des
+      Primulacées.</p>
+    <p>Ce genre auquel on rattache maintenant Cortusa, Dionysia et Dodecatheon comprend plusieurs
+      centaines d'espèces originaires pour l'essentiel des zones tempérées de l'hémisphère nord.</p>
+    <p>La primevère commune des jardins est une des premières fleurs du printemps (primo vere
+      signifie au début du printemps en latin). C'est une plante vivace, souvent cultivée en
+      annuelle. Elle fleurit de février à mai, est rustique et possède un feuillage
+      semi-persistant.</p>
+    <p>Les primevères sauvages, Primula elatior et Primula veris, dont les fleurs retombantes se
+      présentent en ombelle au sommet d'une longue tige, sont également connues sous le nom de
+      coucous.</p>
+    <image href="../../images/Primula.jpg" id="image_kkv_mlb_gw"/>
+    <p>Les hybrides de toutes les couleurs largement cultivés sont principalement des hybrides de P.
+      vulgaris, P. veris, P. elatior, P. juliae. Ces hybrides sont parfois appelés indistinctement
+      "Primevère Polyanthus" ou "Primula polyantha" mais ce nom ne désigne spécifiquement que les
+      hybrides P. veris - P. vulgaris</p>
+    <p>Dans le calendrier républicain français, le 1er jour du mois de germinal, est officiellement
+      dénommé jour de la Primevère.</p>
+  </body>
+  <related-links>
+    <link href="iris.dita" audience="novice"/>
+    <link href="tulip.dita"/>
+  </related-links>
+</topic>
