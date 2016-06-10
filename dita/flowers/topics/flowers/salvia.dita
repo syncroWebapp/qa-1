@@ -39,7 +39,8 @@
       the <b>Coleophora</b> case-bearers <b>C. aegyptiacae</b>, <b>C. salviella</b> (both feed
       exclusively on <b>S. aegyptiaca</b>), <b>C. ornatipennella</b> and <b>C. virgatella</b> (both
       recorded on <b>S. pratensis</b>).</p>
-    <p>The defining characteristic of the genus <b>Salvia</b> is the unusual
+    <?oxy_attributes audience="&lt;change type=&quot;inserted&quot; author=&quot;julien&quot; timestamp=&quot;20160610T091407+0300&quot; /&gt;"?>
+    <p audience="expert">The defining characteristic of the genus <b>Salvia</b> is the unusual
         <?oxy_attributes keyref="&lt;change type=&quot;modified&quot; oldValue=&quot;pollination&quot; author=&quot;julien&quot; timestamp=&quot;20160506T151141+0300&quot; /&gt;"?><xref
         keyref="flowers.pollination" format="dita">pollination</xref> mechanism, which consists of
       two stamens (instead of the typical four found in other members of the tribe <b>Mentheae</b>)
