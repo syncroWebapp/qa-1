@@ -5,9 +5,10 @@
     <body>
         <p><i>From Wikipedia, the free encyclopedia.</i></p>
         <p><b>Chrysanthemums</b><indexterm>flowers<indexterm>autumn<indexterm>chrysanthemums</indexterm></indexterm></indexterm>,
-            often called 'mums', are a <xref keyref="flowers.genus" format="dita">genus</xref> (<b>Chrysanthemum</b>) of about 30 species of <xref keyref="flowers.perennial"
-                format="dita">perennial</xref> flowering
-            plants in the family Asteraceae, native to Asia and northeastern Europe.</p>
+            often called 'mums', are a <xref keyref="flowers.genus" format="dita">genus</xref>
+                (<b>Chrysanthemum</b>) of about 30 species of <xref keyref="flowers.perennial"
+                format="dita">perennial</xref> flowering plants in the family Asteraceae, native to
+            Asia and northeastern Europe. Test</p>
         <p><image href="../../images/Chrysanthemums.jpg" id="image_qmb_31j_5v" scale="200"/></p>
         <p>The genus once included many more species, but was split several decades ago into several
             genera; the naming of the genera has been contentious, but a ruling of the International
