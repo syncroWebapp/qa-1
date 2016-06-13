@@ -1,12 +1,15 @@
 language: dita
 install:
-  - echo "Installed"
+- echo "Installed"
 script:
-  - sh .travis/publish.sh
+- sh .travis/publish.sh
 after_success:
-  - sh .travis/deploy.sh
+- sh .travis/deploy.sh
 env:
   global:
-    - DITAMAP=file:/C:/Users/julien/Documents/GitHub/qa/dita/flowers/flowers.ditamap
-    - DITAVAL=file:/C:/Users/julien/Documents/GitHub/qa/dita/flowers/conditions.ditaval
-    - ANT_OPTS=-Xmx1024M
+  - DITAMAP=file:/C:/Users/julien/Documents/GitHub/qa/dita/flowers/flowers.ditamap
+  - DITAVAL=file:/C:/Users/julien/Documents/GitHub/qa/dita/flowers/conditions.ditaval
+  - ANT_OPTS=-Xmx1024M
+before_install:
+- openssl aes-256-cbc -K $encrypted_39c3f1c68f4a_key -iv $encrypted_39c3f1c68f4a_iv
+  -in licenseKey.txt.enc -out licenseKey.txt -d
