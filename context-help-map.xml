@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="introduction" path="topics/introduction.html"/>
+   <appContext helpID="care" path="topics/care.html"/>
+   <appContext helpID="prunning" path="tasks/pruning.html"/>
+   <appContext helpID="index" path="topics/index.html"/>
+   <appContext helpID="springFlowers" path="concepts/springFlowers.html"/>
+   <appContext helpID="iris" path="topics/flowers/iris.html"/>
+   <appContext helpID="use" path="topics/use.html"/>
+   <appContext helpID="tulip" path="topics/flowers/tulip.html"/>
+   <appContext helpID="snowdrop" path="topics/flowers/snowdrop_classic.html"/>
+   <appContext helpID="primula" path="topics/flowers/primula.html"/>
+   <appContext helpID="summerFlowers" path="concepts/summerFlowers.html"/>
+   <appContext helpID="rose" path="topics/flowers/rose.html"/>
+   <appContext helpID="gardenia" path="topics/flowers/gardenia.html"/>
+   <appContext helpID="helianthus" path="topics/flowers/helianthus.html"/>
+   <appContext helpID="autumnFlowers" path="concepts/autumnFlowers.html"/>
+   <appContext helpID="salvia" path="topics/flowers/salvia.html"/>
+   <appContext helpID="viola" path="topics/flowers/viola.html"/>
+   <appContext helpID="winterFlowers" path="concepts/winterFlowers.html"/>
+   <appContext helpID="gerbera" path="topics/flowers/gerbera.html"/>
+   <appContext helpID="flowers.genus" path="concepts/glossaryGenus.html"/>
+   <appContext helpID="flowers.pollination" path="concepts/glossaryPollination.html"/>
+   <appContext helpID="flowers.sepal" path="concepts/glossarySepal.html"/>
+   <appContext helpID="flowers.rhizome" path="concepts/glossaryRhizome.html"/>
+   <appContext helpID="flowers.bulb" path="concepts/glossaryBulb.html"/>
+   <appContext helpID="flowers.cultivar" path="concepts/glossaryCultivar.html"/>
+   <appContext helpID="flowers.perennial" path="concepts/glossaryPerennial.html"/>
+   <appContext helpID="flowers.panicle" path="concepts/glossaryPanicle.html"/>
+   <appContext helpID="copyright" path="topics/copyright.html"/>
+</map>
