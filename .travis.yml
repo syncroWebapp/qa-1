@@ -1,0 +1,12 @@
+language: dita
+install:
+  - echo "Installed"
+script:
+  - sh .travis/publish.sh
+after_success:
+  - sh .travis/deploy.sh
+env:
+  global:
+    - DITAMAP=file:/C:/Users/julien/Documents/GitHub/qa/dita/flowers/flowers.ditamap
+    - DITAVAL=file:/C:/Users/julien/Documents/GitHub/qa/dita/flowers/conditions.ditaval
+    - ANT_OPTS=-Xmx1024M
