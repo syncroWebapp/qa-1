@@ -1,5 +1,5 @@
 # Travis Deploy (EXM-31234)
-Oxygen Documentation "Building Oxygen XML WebHelp Output on Travis CI" https://travis-ci.org/syncroWebapp/qa.svg?branch=master
+Oxygen Documentation "Building Oxygen XML WebHelp Output on Travis CI" [![Build Status](https://travis-ci.org/syncroWebapp/qa.svg?branch=master)](https://travis-ci.org/syncroWebapp/qa)
 
 # Jenkins Deploy (EXM-31234)
 Oxygen Documentation "Building Oxygen XML WebHelp Output on Jenkins"
