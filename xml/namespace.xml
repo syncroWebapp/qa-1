@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="namespace.css"?>
+<rt:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://fake.com/ns1 namespace.xsd" xmlns:rt="http://fake.com/ns1">
+    <rt:title>Namespaces in XML</rt:title>
+    <rt:text>The schema is declared on namespace.xsd</rt:text>
+</rt:root>
