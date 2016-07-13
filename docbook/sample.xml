@@ -158,7 +158,7 @@
         <para>Here's a small sample of audio in <code>Docbook</code>:</para>
         <mediaobject>
             <audioobject>
-                <audiodata fileref="metal.m3u"/>
+                <audiodata fileref="medias/music.mp3"/>
             </audioobject>
         </mediaobject>
     </sect1>
