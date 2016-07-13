@@ -207,5 +207,10 @@ public class SelectElementAtCaretOperation implements AuthorOperation {
         <para>You can read more about the <code>Author SDK</code> here: <link
                 xlink:href="http://www.oxygenxml.com/oxygen_sdk.html"
                 >http://www.oxygenxml.com/oxygen_sdk.html</link>.</para>
+        <mediaobject>
+            <audioobject>
+                <audiodata fileref="radio.m3u"/>
+            </audioobject>
+        </mediaobject>
     </sect1>
 </article>
