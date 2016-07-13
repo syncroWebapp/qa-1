@@ -154,6 +154,15 @@
                 <code>Docbook</code> tables. <?oxy_comment_end?></para>
     </sect1>
     <sect1>
+        <title>Audio and Video</title>
+        <para>Here's a small sample of audio in <code>Docbook</code>:</para>
+        <mediaobject>
+            <audioobject>
+                <audiodata fileref="metal.m3u"/>
+            </audioobject>
+        </mediaobject>
+    </sect1>
+    <sect1>
         <title>About Author Customization</title>
         <para>The built-in <code>Docbook</code> support in <code>oXygen</code> includes a large set
             of operations and functionality. However, there are situations in which you must extend
@@ -207,10 +216,5 @@ public class SelectElementAtCaretOperation implements AuthorOperation {
         <para>You can read more about the <code>Author SDK</code> here: <link
                 xlink:href="http://www.oxygenxml.com/oxygen_sdk.html"
                 >http://www.oxygenxml.com/oxygen_sdk.html</link>.</para>
-        <mediaobject>
-            <audioobject>
-                <audiodata fileref="metal.m3u"/>
-            </audioobject>
-        </mediaobject>
     </sect1>
 </article>
