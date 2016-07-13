@@ -209,7 +209,7 @@ public class SelectElementAtCaretOperation implements AuthorOperation {
                 >http://www.oxygenxml.com/oxygen_sdk.html</link>.</para>
         <mediaobject>
             <audioobject>
-                <audiodata fileref="radio.m3u"/>
+                <audiodata fileref="metal.m3u"/>
             </audioobject>
         </mediaobject>
     </sect1>
