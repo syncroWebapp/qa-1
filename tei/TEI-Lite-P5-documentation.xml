@@ -72,11 +72,11 @@
     </teiHeader>
     <text>
         <front>
-            <div/>            
             <titlePage>
                 <docTitle>
-                    <titlePart type="sub">How to create a <hi rend="bold">TEI</hi> XML document and convert it to 
-                                <hi rend="bold">PDF</hi> within the <hi rend="bold">&lt;oXygen/> XML Editor</hi></titlePart>
+                    <titlePart type="sub">How to create a <hi rend="bold">TEI</hi> XML document and
+                        convert it to <hi rend="bold">PDF</hi> within the <hi rend="bold"
+                            >&lt;oXygen/> XML Editor</hi></titlePart>
                 </docTitle>
                 <docAuthor>
                     <name>syncRO soft</name>
