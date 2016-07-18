@@ -3,7 +3,31 @@
 <?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <chapter xmlns="http://docbook.org/ns/docbook"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
-     <title/>
-     <para/>
+     <title>Amyotrophic lateral sclerosis</title>
+     <para><emphasis>From Wikipedia, the free encyclopedia</emphasis></para>
+    <para>Amyotrophic lateral sclerosis (ALS, also known as Lou Gehrig's disease) is a specific
+        disorder that involves the death of neurons that control voluntary muscles. In a number of
+        countries, the term motor neurone disease (MND) is commonly used, while others use that term
+        for a group of five conditions of which ALS is the most common. ALS is characterized by
+        stiff muscles, muscle twitching, and gradually worsening weakness due to muscles decreasing
+        in size. This results in difficulty speaking, swallowing, and eventually breathing.</para>
+    <para>The cause is not known in 90% to 95% of cases. About 5–10% of cases are inherited from a
+        person's parents. About half of these genetic cases are due to one of two specific genes.
+        The diagnosis is based on a person's signs and symptoms with testing done to rule out other
+        potential causes.</para>
+    <para>No cure for ALS is known. A medication called riluzole may extend life by about two to
+        three months. Non-invasive ventilation may result in both improved quality and length of
+        life. The disease usually starts around the age of 60 and in inherited cases around the age
+        of 50. The average survival from onset to death is three to four years. About 10% survive
+        longer than 10 years. Most die from respiratory failure. In much of the world, rates of ALS
+        are unknown. In Europe and the United States, the disease affects about two people per
+        100,000 per year.</para>
+    <para>Descriptions of the disease date back to at least 1824 by Charles Bell. In 1869, the
+        connection between the symptoms and the underlying neurological problems was first described
+        by Jean-Martin Charcot, who in 1874 began using the term amyotrophic lateral sclerosis. It
+        became well known in the United States in the 20th century when it affected the baseball
+        player Lou Gehrig, and later when Stephen Hawking gained fame for his scientific
+        achievements. In 2014, videos of the ice bucket challenge went viral on the internet and
+        increased public awareness.</para>
 </chapter>
 
