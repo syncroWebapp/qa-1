@@ -85,7 +85,6 @@
             </titlePage>
         </front>
         <body>
-            <divGen type="toc"/>
             <div type="abstract" xml:id="S0" rend="bold">
                 <head rend="bold">Abstract</head>
                 <p rend="bold">
