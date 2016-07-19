@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="audios">
+  <title>Audio in DITA</title>
+  <body>
+    <p><b><u>Here's an example of audio in DITA :</u></b></p>
+    <object outputclass="audio" type="audio/mp3">
+      <param name="src" value="audio/music.mp3"/>
+    </object>
+    <object data="audio/music.mp3"/>
+  </body>
+</topic>

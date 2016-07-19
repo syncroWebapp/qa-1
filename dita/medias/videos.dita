@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="videos">
+  <title>Video in DITA</title>
+  <body>
+    <p><b><u>Here's some example of videos in DITA :</u></b></p>
+    <object data="videos/flowers.mp4">
+      <desc>MP4</desc>
+    </object>
+    <object data="videos/bunny.flv">
+      <desc>FLV</desc>
+    </object>
+    <object data="videos/jellyfish.mkv">
+      <desc>MKV</desc>
+    </object>
+    <object data="videos/centaur.mpg">
+      <desc>MPEG</desc>
+    </object>
+    <object data="videos/mouse.3gp">
+      <desc>3GP</desc>
+    </object>
+  </body>
+</topic>

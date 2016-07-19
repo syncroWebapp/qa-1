@@ -16,8 +16,5 @@
             Flowers can be selected for specific blooming seasons, colors and shapes. Both annual
             and <xref format="dita" keyref="flowers.perennial">perennial</xref> flower gardens can
             be planted depending on climate and specific needs.</p>
-        <object data="../videos/red_flowers.mp4">
-            <desc>Some flowers</desc>
-        </object>
     </body>
 </topic>

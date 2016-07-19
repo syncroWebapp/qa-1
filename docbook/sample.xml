@@ -161,6 +161,12 @@
                 <audiodata fileref="medias/music.mp3"/>
             </audioobject>
         </mediaobject>
+        <para>Here's a small sample of video in <code>Docbook</code>:</para>
+        <mediaobject>
+            <videoobject>
+                <videodata fileref="medias/flowers.mp4"/>
+            </videoobject>
+        </mediaobject>
     </sect1>
     <sect1>
         <title>About Author Customization</title>

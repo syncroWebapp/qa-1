@@ -38,12 +38,8 @@
       financiers, commerciaux, technologiques, ou encore les arts et les divertissements, font
       aujourd'hui de la ville de Lyon une ville mondiale. Lyon est également le siège d'Interpol
       depuis 1989.</p>
-    <?oxy_insert_start author="syncroWebapp" timestamp="20160713T162056+0300"?>
-    <object
-      data="https://www.youtube.com/watch?v=OK8yfn1cBxU">
+    <object data="https://www.youtube.com/embed/OK8yfn1cBxU">
       <desc>Lyon - Nuits Sonores 2014</desc>
     </object>
-    <?oxy_insert_end?>
   </body>
 </topic>
-<?oxy_options track_changes="on"?>
