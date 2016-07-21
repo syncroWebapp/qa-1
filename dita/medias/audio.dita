@@ -4,9 +4,6 @@
   <title>Audio in DITA</title>
   <body>
     <p><b><u>Here's an example of audio in DITA :</u></b></p>
-    <object outputclass="audio" type="audio/mp3">
-      <param name="src" value="audio/music.mp3"/>
-    </object>
-    <object data="audio/music.mp3"/>
+    <object outputclass="audio" type="audio/mp3" data="audio/music.mp3"/>
   </body>
 </topic>
