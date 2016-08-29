@@ -1,0 +1,68 @@
+*{
+    display: block;
+    color: black;
+}
+
+personnel:before{
+    margin: 50px;
+    margin-left: 40%;
+    font-size: 1.8em;
+    font-weight: bold;
+    content: "Employees";
+}
+
+personnel{
+    margin: 2em;
+    border: 1px solid black;
+    padding-bottom: 50px;
+}
+
+person{
+    margin: 1em;
+    background-color: rgb(200, 220, 225);
+}
+
+person > *{
+    margin: 5px;
+}
+
+email:before{
+    content: "Email : ";
+}
+
+url:before{
+    content: "URL : "
+ oxy_textfield(
+edit, "@href", 
+width, 30%);
+}
+
+link:before{
+    content: "Manager : "
+ oxy_textfield(
+edit, "@manager", 
+width, auto);
+}
+
+link[subordinates]:before{
+    content: "Subordinates : "
+ oxy_textfield(
+edit, "@subordinates", 
+width, 30%);
+}
+
+name{
+    padding: 1em;
+}
+
+email,
+url,
+link{
+    padding: 1em;
+    padding-left: 3em;
+}
+
+given,
+family{
+    padding: 0.5em;
+}
