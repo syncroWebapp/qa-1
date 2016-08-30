@@ -164,7 +164,7 @@
         <para>Here's a small sample of video in <code>Docbook</code>:</para>
         <mediaobject>
             <videoobject>
-                <videodata fileref="medias/flowers.mp4"/>
+                <videodata fileref="medias/bunny.mp4"/>
             </videoobject>
         </mediaobject>
     </sect1>
