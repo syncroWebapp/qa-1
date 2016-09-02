@@ -3,7 +3,13 @@
 <topic id="audios">
   <title>Audio in DITA</title>
   <body>
-    <p><b><u>Here's an example of audio in DITA :</u></b></p>
+    <p><b><u>Here's an audio example :</u></b></p>
     <object outputclass="audio" type="audio/mp3" data="audio/music.mp3"/>
+    <p><b><u>And here is another one :</u></b></p>
+    <object outputclass="audio" type="audio/wav" data="audio/music.wav"/>
+    <p><b><u>And here's the last one :</u></b></p>
+    <object outputclass="audio" type="audio/aiff" data="audio/music.aiff"/>
+    <p><b><u>This one isn't supported by JavaFX :</u></b></p>
+    <object outputclass="audio" type="audio/aiff" data="audio/music.ogg"/>
   </body>
 </topic>

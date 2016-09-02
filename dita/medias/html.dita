@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="html">
+  <title>HTML in DITA</title>
+  <body>
+    <object outputclass="iframe" data="https://www.oxygenxml.com/" width="800" height="600"/>
+    <object outputclass="iframe" data="http://example.com/" width="21cm" height="13cm"/>
+  </body>
+</topic>
