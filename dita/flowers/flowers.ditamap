@@ -11,7 +11,7 @@
     </topicref>
     <topicref href="topics/care.dita">
         <topicref href="tasks/pruning.dita"/>
-        <topicref href="tasks/gardenPreparation.dita" audience="expert"/>
+        <topicref href="tasks/gardenPreparation.dita"/>
     </topicref>
     <topicref href="topics/index.dita" collection-type="sequence">
         <topicref href="concepts/springFlowers.dita" collection-type="sequence">
