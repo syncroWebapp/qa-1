@@ -1,3 +1,7 @@
+echo "Cleaning output"
+rm -rf out
+rm -rf out
+
 wget http://mirror.oxygenxml.com/InstData/Editor/Webhelp/oxygen-webhelp.zip
 unzip oxygen-webhelp.zip 
 
@@ -12,8 +16,6 @@ bin/ant -f integrator.xml
 cd ..
 
 cp licenseKey.txt dita-ot-2.3.2/plugins/com.oxygenxml.webhelp/licensekey.txt
-
-rm -rf out
 
 REPONAME=`basename $PWD`
 PARENTDIR=`dirname $PWD`
