@@ -19,4 +19,7 @@ REPONAME=`basename $PWD`
 PARENTDIR=`dirname $PWD`
 USERNAME=`basename $PARENTDIR`
 
+find -name flowers.ditamap
+find -name conditions.ditaval
+
 dita-ot-2.3.2/bin/dita -i $DITAMAP -f webhelp-responsive -filter=$DITAVAL
