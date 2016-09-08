@@ -11,6 +11,7 @@ cd dita-ot-2.3.2/
 bin/ant -f integrator.xml 
 cd ..
 
+find -name licenseKey.txt
 cp licenseKey.txt dita-ot-2.3.2/plugins/com.oxygenxml.webhelp/licensekey.txt
 
 rm -rf out
