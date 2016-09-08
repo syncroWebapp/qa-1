@@ -11,7 +11,7 @@
     </topicref>
     <topicref href="topics/care.dita">
         <topicref href="tasks/pruning.dita"/>
-        <topicref href="tasks/gardenPreparation.dita"/>
+        <topicref href="tasks/gardenPreparation.dita" audience="expert"/>
     </topicref>
     <topicref href="topics/index.dita" collection-type="sequence">
         <topicref href="concepts/springFlowers.dita" collection-type="sequence">
@@ -19,7 +19,7 @@
                 <topicref href="topics/use.dita"/>
             </topicref>
             <topicref href="topics/flowers/tulip.dita"/>
-            <topicref href="topics/flowers/snowdrop_classic.dita"/>
+            <topicref href="topics/flowers/snowdrop.dita"/>
             <topicref href="topics/flowers/primula.dita"/>
         </topicref>
         <topicref href="concepts/summerFlowers.dita" collection-type="sequence">

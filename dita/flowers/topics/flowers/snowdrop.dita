@@ -4,8 +4,7 @@
     <title>Snowdrop</title>
     <body>
         <p><i>From Wikipedia, the free encyclopedia.</i></p>
-        <p><b>Snowdrop</b><xref keyref="snowdrop.galanthus/galanthus-nivalis"
-                        /><indexterm>flowers<indexterm>spring<indexterm>snowdrop</indexterm></indexterm></indexterm>
+        <p><b>Snowdrop</b><indexterm>flowers<indexterm>spring<indexterm>snowdrop</indexterm></indexterm></indexterm>
             is the common name for members of the <xref keyref="flowers.genus" format="dita"
                 >genus</xref>
             <b>Galanthus</b>, a small genus of about 20 species in the family <b>Amaryllidaceae</b>;
