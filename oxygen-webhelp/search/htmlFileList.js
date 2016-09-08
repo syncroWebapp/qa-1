@@ -25,7 +25,7 @@ fl["21"]= "topics/flowers/iris.html";
 fl["22"]= "topics/flowers/primula.html";
 fl["23"]= "topics/flowers/rose.html";
 fl["24"]= "topics/flowers/salvia.html";
-fl["25"]= "topics/flowers/snowdrop_classic.html";
+fl["25"]= "topics/flowers/snowdrop.html";
 fl["26"]= "topics/flowers/tulip.html";
 fl["27"]= "topics/flowers/viola.html";
 var doStem = false;searchLoaded = true;

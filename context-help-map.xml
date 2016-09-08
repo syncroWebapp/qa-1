@@ -8,7 +8,7 @@
    <appContext helpID="iris" path="topics/flowers/iris.html"/>
    <appContext helpID="use" path="topics/use.html"/>
    <appContext helpID="tulip" path="topics/flowers/tulip.html"/>
-   <appContext helpID="snowdrop" path="topics/flowers/snowdrop_classic.html"/>
+   <appContext helpID="snowdrop" path="topics/flowers/snowdrop.html"/>
    <appContext helpID="primula" path="topics/flowers/primula.html"/>
    <appContext helpID="summerFlowers" path="concepts/summerFlowers.html"/>
    <appContext helpID="rose" path="topics/flowers/rose.html"/>

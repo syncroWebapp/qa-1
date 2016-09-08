@@ -1,6 +1,7 @@
 var localization = new Array();
 
-localization["label.shareFrom"]="If you already have an user account for any of the following products, you can use that account to login.";
+localization["label.home"]="Home";
+    localization["label.shareFrom"]="If you already have an user account for any of the following products, you can use that account to login.";
     localization["label.unconfirmedUsers"]="Unconfirmed Users";
     localization["label.cleanUsers"]="Delete Pending Users";
     localization["label.tc.userName"]="User";

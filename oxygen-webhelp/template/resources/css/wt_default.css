@@ -401,6 +401,25 @@ a.wh_term_target{
     margin-left:0.8em;
 }
 
+@media only screen and (max-width: 767px) {
+
+    .wh_indexterms_link {
+        float: none;
+        margin-top: .5em;
+    }
+
+    .wh_indexterms_link a:before{
+        position: relative;
+        padding-bottom: 0 !important;
+        margin-left: 0.5em;
+    }
+
+    .wh_indexterms_link + .wh_top_menu {
+        margin-top: 0;
+        padding-top: 0 !important;
+    }
+}
+
 /*
  * ------------------------------------------------------------------
  *  
@@ -505,6 +524,11 @@ a.wh_term_target{
  * 
  */
 /* Make the link from the tile the entire width */
+.wh_tile_image {
+    text-align: center;
+    padding-bottom: .5em;
+}
+
 .wh_tile_text{
     position:relative;
     height:100%;
@@ -518,6 +542,12 @@ a.wh_term_target{
     width: 100%;
     height:25%;
 }
+
+.wh_tile_image + .wh_tile_text:after {
+    /* It will probably overflow the tile bounds. */
+    display:none;
+}
+
 .wh_tile_title span{
     display: block;
     width: 100%;
