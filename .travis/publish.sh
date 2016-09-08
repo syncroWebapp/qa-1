@@ -1,11 +1,14 @@
-echo "Cleaning output"
-rm -rf out
+echo "Cleaning output..."
+rm -rf dita-ot*
+rm -rf oxygen-webhelp*
+rm -rf com.oxygenxml*
+rm -rf oxygen_custom*
 rm -rf out
 
+echo "Downloading ZIP files..."
 wget http://mirror.oxygenxml.com/InstData/Editor/Webhelp/oxygen-webhelp.zip
-unzip oxygen-webhelp.zip 
-
 wget https://github.com/dita-ot/dita-ot/releases/download/2.3.2/dita-ot-2.3.2.zip
+unzip oxygen-webhelp.zip 
 unzip dita-ot-2.3.2.zip 
 
 cp -R com.oxygenxml.* dita-ot-2.3.2/plugins/
@@ -16,9 +19,5 @@ bin/ant -f integrator.xml
 cd ..
 
 cp licenseKey.txt dita-ot-2.3.2/plugins/com.oxygenxml.webhelp/licensekey.txt
-
-REPONAME=`basename $PWD`
-PARENTDIR=`dirname $PWD`
-USERNAME=`basename $PARENTDIR`
 
 dita-ot-2.3.2/bin/dita -i $DITAMAP -f webhelp-responsive -filter=$DITAVAL
