@@ -3,6 +3,7 @@
 <topic id="chrysanthemum">
     <title>Chrysanthemum</title>
     <body>
+      	<!-- A comment -->
         <p><i>From Wikipedia, the free encyclopedia.</i></p>
         <p><b>Chrysanthemums</b><indexterm>flowers<indexterm>autumn<indexterm>chrysanthemums</indexterm></indexterm></indexterm>,
             often called 'mums', are a <xref keyref="flowers.genus" format="dita">genus</xref>
