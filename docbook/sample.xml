@@ -32,7 +32,8 @@
     <sect1>
         <title>Lists and Tables</title>
         <para>Here is a list of useful <abbrev>XML</abbrev> links:</para>
-        <?oxy_comment_start author="John" timestamp="20120510T143828+0300" comment="We should also add an ordered list sample."?>
+        <?oxy_comment_start author="John" timestamp="20120510T143828+0300" comment="We should also add an ordered list sample." id="irs_xwm_hx"?>
+        <?oxy_comment_start author="syncroWebapp" timestamp="20160915T143131+0300" comment="I&apos;ve added it already." parentID="irs_xwm_hx" mid="1"?>
         <itemizedlist>
             <listitem>
                 <para>
@@ -51,6 +52,7 @@
             </listitem>
         </itemizedlist>
         <?oxy_comment_end?>
+        <?oxy_comment_end mid="1"?>
         <para>And here is the &lt;oXygen/&gt; home site:<link xlink:href="http://www.oxygenxml.com/"
                 >http://www.oxygenxml.com/</link>
         </para>
