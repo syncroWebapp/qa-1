@@ -2,12 +2,39 @@
 <!DOCTYPE dita PUBLIC "-//FIRELAB//DTD DITA Composite Plus MathML//EN" "ditabase.dtd">
 <dita>
   <topic id="topic_p4w_2bw_mx">
-    <title></title>
+    <title>MathML</title>
     <body>
+      <p><i>From Wikipedia, the free encyclopedia</i></p>
+      <p><b>Mathematical Markup Language</b> (<b>MathML</b>) is a mathematical markup language, an
+        application of XML for describing mathematical notations and capturing both its structure
+        and content. It aims at integrating mathematical formulae into World Wide Web pages and
+        other documents. It is part of HTML5 and an ISO standard ISO/IEC DIS 40314 since 2015.</p>
+      <section id="section_ccp_541_nx">
+        <title>History</title>
+      </section>
+      <p>MathML 1 was released as a W3C recommendation in April 1998 as the first XML language to be
+        recommended by the W3C. Version 1.01 of the format was released in July 1999 and version 2.0
+        appeared in February 2001.</p>
+      <p>In October 2003, the second edition of MathML Version 2.0 was published as the final
+        release by the W3C math working group.</p>
+      <p>MathML was originally designed before the finalization of XML namespaces. However it was
+        assigned a namespace immediately after the Namespace Recommendation was completed, and for
+        XML use, the elements should be in the namespace with namespace URI
+        http://www.w3.org/1998/Math/MathML. When MathML is used in HTML (as opposed to XML) this
+        namespace is automatically inferred by the HTML parser and need not be specified in the
+        document.</p>
+      <section id="section_t3b_rp1_nx">
+        <title>Example of MathML</title>
+        <p>The area of a circle is <math type="presentation">
+          <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+            <mml:mi>&pi;</mml:mi>
+            <mml:mo>&InvisibleTimes;</mml:mo>
+            <mml:msup><mml:mi>r</mml:mi><mml:mn>2</mml:mn></mml:msup>
+          </mml:math></math></p>
+      </section>
       <p>An equation: <equation>
           <math type="presentation">
-            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"
-              display="block">
+            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="block">
               <mml:semantics>
                 <mml:mrow>
                   <mml:mrow>
