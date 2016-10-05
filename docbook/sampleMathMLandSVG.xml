@@ -67,8 +67,8 @@
                 </mml:math>
             </equation>
             <para>Another line of text.</para>
-            <para>Inline equation. The equation :<inlineequation><mml:math
-                        xmlns:mml="http://www.w3.org/1998/Math/MathML">
+            <para>Inline equation. The equation :<inlineequation>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
                         <mml:mstyle>
                             <mml:mrow>
                                 <mml:mfrac>
@@ -143,8 +143,10 @@
                     </imageobject>
                 </mediaobject>
             </figure>
-            <para>This is an inline <inlinemediaobject><imageobject><imagedata><svg:svg
-                                xmlns:svg="http://www.w3.org/2000/svg" width="3cm" height="3cm"
+            <para>This is an inline <inlinemediaobject>
+                    <imageobject>
+                        <imagedata>
+                            <svg:svg xmlns:svg="http://www.w3.org/2000/svg" width="3cm" height="3cm"
                                 viewBox="0 0 400 400">
                                 <svg:g style="fill-opacity:0.7; stroke:black; stroke-width:0.1cm;">
                                     <svg:circle cx="6cm" cy="2cm" r="100" style="fill:red;"
@@ -154,7 +156,10 @@
                                     <svg:circle cx="6cm" cy="2cm" r="100" style="fill:green;"
                                         transform="translate(-70,150)"/>
                                 </svg:g>
-                            </svg:svg></imagedata></imageobject></inlinemediaobject> image.</para>
+                            </svg:svg>
+                        </imagedata>
+                    </imageobject>
+                </inlinemediaobject> image.</para>
         </sect2>
         <sect2>
             <title>External SVG Images</title>
@@ -169,6 +174,535 @@
                         <imagedata fileref="images/blured-shapes.svg" format="SVG"/>
                     </imageobject>
                 </mediaobject></para>
+        </sect2>
+    </sect1>
+    <sect1>
+        <title>MathML Demonstrations</title>
+        <sect2>
+            <title>Pythagorean Theorem</title>
+            <para><emphasis>From MDN, the Mozilla Developer Network</emphasis></para>
+            <equation>
+                <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="block">
+                    <mml:mtable columnalign="right center left">
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:msup>
+                                    <mml:mrow>
+                                        <mml:mo> ( </mml:mo>
+                                        <mml:mi> a </mml:mi>
+                                        <mml:mo> + </mml:mo>
+                                        <mml:mi> b </mml:mi>
+                                        <mml:mo> ) </mml:mo>
+                                    </mml:mrow>
+                                    <mml:mn> 2 </mml:mn>
+                                </mml:msup>
+                            </mml:mtd>
+                            <mml:mtd>
+                                <mml:mo> = </mml:mo>
+                            </mml:mtd>
+                            <mml:mtd>
+                                <mml:msup>
+                                    <mml:mi> c </mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msup>
+                                <mml:mo> + </mml:mo>
+                                <mml:mn> 4 </mml:mn>
+                                <mml:mo> ⋅ </mml:mo>
+                                <mml:mo>(</mml:mo>
+                                <mml:mfrac>
+                                    <mml:mn> 1 </mml:mn>
+                                    <mml:mn> 2 </mml:mn>
+                                </mml:mfrac>
+                                <mml:mi> a </mml:mi>
+                                <mml:mi> b </mml:mi>
+                                <mml:mo>)</mml:mo>
+                            </mml:mtd>
+                        </mml:mtr>
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:msup>
+                                    <mml:mi> a </mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msup>
+                                <mml:mo> + </mml:mo>
+                                <mml:mn> 2 </mml:mn>
+                                <mml:mi> a </mml:mi>
+                                <mml:mi> b </mml:mi>
+                                <mml:mo> + </mml:mo>
+                                <mml:msup>
+                                    <mml:mi> b </mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msup>
+                            </mml:mtd>
+                            <mml:mtd>
+                                <mml:mo> = </mml:mo>
+                            </mml:mtd>
+                            <mml:mtd>
+                                <mml:msup>
+                                    <mml:mi> c </mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msup>
+                                <mml:mo> + </mml:mo>
+                                <mml:mn> 2 </mml:mn>
+                                <mml:mi> a </mml:mi>
+                                <mml:mi> b </mml:mi>
+                            </mml:mtd>
+                        </mml:mtr>
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:msup>
+                                    <mml:mi> a </mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msup>
+                                <mml:mo> + </mml:mo>
+                                <mml:msup>
+                                    <mml:mi> b </mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msup>
+                            </mml:mtd>
+                            <mml:mtd>
+                                <mml:mo> = </mml:mo>
+                            </mml:mtd>
+                            <mml:mtd>
+                                <mml:msup>
+                                    <mml:mi> c </mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msup>
+                            </mml:mtd>
+                        </mml:mtr>
+                    </mml:mtable>
+                </mml:math>
+            </equation>
+        </sect2>
+        <sect2>
+            <title>Deriving the Quadratic Formula</title>
+            <para>From MDN, the Mozilla Developer Network</para>
+            <equation>
+                <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                    <mml:mtable columnalign="left">
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mrow>
+                                            <mml:mrow>
+                                                <mml:mi>a</mml:mi>
+                                                <mml:mo>⁢</mml:mo>
+                                                <mml:msup>
+                                                  <mml:mi>x</mml:mi>
+                                                  <mml:mn>2</mml:mn>
+                                                </mml:msup>
+                                            </mml:mrow>
+                                            <mml:mo> + </mml:mo>
+                                            <mml:mi>b</mml:mi>
+                                            <mml:mo>⁢</mml:mo>
+                                            <mml:mi>x</mml:mi>
+                                        </mml:mrow>
+                                        <mml:mo> + </mml:mo>
+                                        <mml:mi>c</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mo>=</mml:mo>
+                                    <mml:mn>0</mml:mn>
+                                </mml:mrow>
+                            </mml:mtd>
+                        </mml:mtr>
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                                        <mml:mi>a</mml:mi>
+                                        <mml:mo>⁢</mml:mo>
+                                        <mml:msup>
+                                            <mml:mi>x</mml:mi>
+                                            <mml:mn>2</mml:mn>
+                                        </mml:msup>
+                                    </mml:mrow>
+                                    <mml:mo> + </mml:mo>
+                                    <mml:mi>b</mml:mi>
+                                    <mml:mo>⁢</mml:mo>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                                </mml:mrow>
+                                <mml:mo>=</mml:mo>
+                                <mml:mo>-</mml:mo>
+                                <mml:mi> c</mml:mi>
+                                <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                            </mml:mtd>
+                        </mml:mtr>
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                                        <mml:msup>
+                                            <mml:mi>x</mml:mi>
+                                            <mml:mn>2</mml:mn>
+                                        </mml:msup>
+                                    </mml:mrow>
+                                    <mml:mo> + </mml:mo>
+                                    <mml:mfrac>
+                                        <mml:mrow>
+                                            <mml:mi>b</mml:mi>
+                                        </mml:mrow>
+                                        <mml:mi>a</mml:mi>
+                                    </mml:mfrac>
+                                    <mml:mo>⁤</mml:mo>
+                                    <mml:mi>x</mml:mi>
+                                </mml:mrow>
+                                <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                                <mml:mo>=</mml:mo>
+                                <mml:mfrac>
+                                    <mml:mrow>
+                                        <mml:mo>-</mml:mo>
+                                        <mml:mi>c</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mi>a</mml:mi>
+                                </mml:mfrac>
+                                <mml:mspace height="0.5ex" depth="1ex" width="2ex"/>
+                                <mml:mrow>
+                                    <mml:mtext mathsize="10pt">Divide out leading
+                                        coefficient.</mml:mtext>
+                                </mml:mrow>
+                            </mml:mtd>
+                        </mml:mtr>
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mrow>
+                                            <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                                            <mml:msup>
+                                                <mml:mi>x</mml:mi>
+                                                <mml:mn>2</mml:mn>
+                                            </mml:msup>
+                                        </mml:mrow>
+                                        <mml:mo> + </mml:mo>
+                                        <mml:mfrac>
+                                            <mml:mrow>
+                                                <mml:mi>b</mml:mi>
+                                            </mml:mrow>
+                                            <mml:mi>a</mml:mi>
+                                        </mml:mfrac>
+                                        <mml:mo>⁤</mml:mo>
+                                        <mml:mi>x</mml:mi>
+                                        <mml:mo> + </mml:mo>
+                                        <mml:msup>
+                                            <mml:mfenced>
+                                                <mml:mfrac>
+                                                  <mml:mrow>
+                                                  <mml:mi>b</mml:mi>
+                                                  </mml:mrow>
+                                                  <mml:mrow>
+                                                  <mml:mn>2</mml:mn>
+                                                  <mml:mi>a</mml:mi>
+                                                  </mml:mrow>
+                                                </mml:mfrac>
+                                            </mml:mfenced>
+                                            <mml:mn>2</mml:mn>
+                                        </mml:msup>
+                                    </mml:mrow>
+                                    <mml:mo>=</mml:mo>
+                                    <mml:mfrac>
+                                        <mml:mrow>
+                                            <mml:mo>-</mml:mo>
+                                            <mml:mi>c</mml:mi>
+                                            <mml:mo>(</mml:mo>
+                                            <mml:mn>4</mml:mn>
+                                            <mml:mi>a</mml:mi>
+                                            <mml:mo>)</mml:mo>
+                                        </mml:mrow>
+                                        <mml:mrow>
+                                            <mml:mi>a</mml:mi>
+                                            <mml:mo>(</mml:mo>
+                                            <mml:mn>4</mml:mn>
+                                            <mml:mi>a</mml:mi>
+                                            <mml:mo>)</mml:mo>
+                                        </mml:mrow>
+                                    </mml:mfrac>
+                                </mml:mrow>
+                                <mml:mo> + </mml:mo>
+                                <mml:mfrac>
+                                    <mml:mrow>
+                                        <mml:msup>
+                                            <mml:mi>b</mml:mi>
+                                            <mml:mn>2</mml:mn>
+                                        </mml:msup>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mn>4</mml:mn>
+                                        <mml:msup>
+                                            <mml:mi>a</mml:mi>
+                                            <mml:mn>2</mml:mn>
+                                        </mml:msup>
+                                    </mml:mrow>
+                                </mml:mfrac>
+                                <mml:mspace height="0.5ex" depth="1ex" width="2ex"/>
+                                <mml:mrow>
+                                    <mml:mtext mathsize="10pt">Complete the square.</mml:mtext>
+                                </mml:mrow>
+                            </mml:mtd>
+                        </mml:mtr>
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                                        <mml:mo>(</mml:mo>
+                                        <mml:mi>x</mml:mi>
+                                        <mml:mo> + </mml:mo>
+                                        <mml:mfrac>
+                                            <mml:mrow>
+                                                <mml:mi>b</mml:mi>
+                                            </mml:mrow>
+                                            <mml:mrow>
+                                                <mml:mn>2</mml:mn>
+                                                <mml:mi>a</mml:mi>
+                                            </mml:mrow>
+                                        </mml:mfrac>
+                                        <mml:mo>)</mml:mo>
+                                        <mml:mo>(</mml:mo>
+                                        <mml:mi>x</mml:mi>
+                                        <mml:mo> + </mml:mo>
+                                        <mml:mfrac>
+                                            <mml:mrow>
+                                                <mml:mi>b</mml:mi>
+                                            </mml:mrow>
+                                            <mml:mrow>
+                                                <mml:mn>2</mml:mn>
+                                                <mml:mi>a</mml:mi>
+                                            </mml:mrow>
+                                        </mml:mfrac>
+                                        <mml:mo>)</mml:mo>
+                                        <mml:mo>=</mml:mo>
+                                        <mml:mfrac>
+                                            <mml:mrow>
+                                                <mml:msup>
+                                                  <mml:mi>b</mml:mi>
+                                                  <mml:mn>2</mml:mn>
+                                                </mml:msup>
+                                                <mml:mo> - </mml:mo>
+                                                <mml:mn>4</mml:mn>
+                                                <mml:mi>a</mml:mi>
+                                                <mml:mi>c</mml:mi>
+                                            </mml:mrow>
+                                            <mml:mrow>
+                                                <mml:mn>4</mml:mn>
+                                                <mml:msup>
+                                                  <mml:mi>a</mml:mi>
+                                                  <mml:mn>2</mml:mn>
+                                                </mml:msup>
+                                            </mml:mrow>
+                                        </mml:mfrac>
+                                    </mml:mrow>
+                                    <mml:mspace height="0.5ex" depth="1ex" width="2ex"/>
+                                    <mml:mrow>
+                                        <mml:mtext mathsize="10pt">Discriminant
+                                            revealed.</mml:mtext>
+                                    </mml:mrow>
+                                </mml:mrow>
+                            </mml:mtd>
+                        </mml:mtr>
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                                        <mml:msup>
+                                            <mml:mrow>
+                                                <mml:mo>(</mml:mo>
+                                                <mml:mi>x</mml:mi>
+                                                <mml:mo> + </mml:mo>
+                                                <mml:mfrac>
+                                                  <mml:mrow>
+                                                  <mml:mi>b</mml:mi>
+                                                  </mml:mrow>
+                                                  <mml:mrow>
+                                                  <mml:mn>2</mml:mn>
+                                                  <mml:mi>a</mml:mi>
+                                                  </mml:mrow>
+                                                </mml:mfrac>
+                                                <mml:mo>)</mml:mo>
+                                            </mml:mrow>
+                                            <mml:mn>2</mml:mn>
+                                        </mml:msup>
+                                        <mml:mo>=</mml:mo>
+                                        <mml:mfrac>
+                                            <mml:mrow>
+                                                <mml:msup>
+                                                  <mml:mi>b</mml:mi>
+                                                  <mml:mn>2</mml:mn>
+                                                </mml:msup>
+                                                <mml:mo> - </mml:mo>
+                                                <mml:mn>4</mml:mn>
+                                                <mml:mi>a</mml:mi>
+                                                <mml:mi>c</mml:mi>
+                                            </mml:mrow>
+                                            <mml:mrow>
+                                                <mml:mn>4</mml:mn>
+                                                <mml:msup>
+                                                  <mml:mi>a</mml:mi>
+                                                  <mml:mn>2</mml:mn>
+                                                </mml:msup>
+                                            </mml:mrow>
+                                        </mml:mfrac>
+                                    </mml:mrow>
+                                    <mml:mspace height="0.5ex" depth="1ex" width="2ex"/>
+                                    <mml:mrow>
+                                        <mml:mtext mathsize="10pt"/>
+                                    </mml:mrow>
+                                </mml:mrow>
+                            </mml:mtd>
+                        </mml:mtr>
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                                        <mml:mrow>
+                                            <mml:mi>x</mml:mi>
+                                            <mml:mo> + </mml:mo>
+                                            <mml:mfrac>
+                                                <mml:mrow>
+                                                  <mml:mi>b</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                  <mml:mn>2</mml:mn>
+                                                  <mml:mi>a</mml:mi>
+                                                </mml:mrow>
+                                            </mml:mfrac>
+                                        </mml:mrow>
+                                        <mml:mo>=</mml:mo>
+                                        <mml:msqrt>
+                                            <mml:mfrac>
+                                                <mml:mrow>
+                                                  <mml:msup>
+                                                  <mml:mi>b</mml:mi>
+                                                  <mml:mn>2</mml:mn>
+                                                  </mml:msup>
+                                                  <mml:mo> - </mml:mo>
+                                                  <mml:mn>4</mml:mn>
+                                                  <mml:mi>a</mml:mi>
+                                                  <mml:mi>c</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                  <mml:mn>4</mml:mn>
+                                                  <mml:msup>
+                                                  <mml:mi>a</mml:mi>
+                                                  <mml:mn>2</mml:mn>
+                                                  </mml:msup>
+                                                </mml:mrow>
+                                            </mml:mfrac>
+                                        </mml:msqrt>
+                                    </mml:mrow>
+                                    <mml:mspace height="0.5ex" depth="1ex" width="2ex"/>
+                                    <mml:mrow>
+                                        <mml:mtext mathsize="10pt"/>
+                                    </mml:mrow>
+                                </mml:mrow>
+                            </mml:mtd>
+                        </mml:mtr>
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                                        <mml:mrow>
+                                            <mml:mi>x</mml:mi>
+                                        </mml:mrow>
+                                        <mml:mo>=</mml:mo>
+                                        <mml:mfrac>
+                                            <mml:mrow>
+                                                <mml:mo>-</mml:mo>
+                                                <mml:mi>b</mml:mi>
+                                            </mml:mrow>
+                                            <mml:mrow>
+                                                <mml:mn>2</mml:mn>
+                                                <mml:mi>a</mml:mi>
+                                            </mml:mrow>
+                                        </mml:mfrac>
+                                        <mml:mo>±</mml:mo>
+                                        <mml:mrow>
+                                            <mml:mo>{</mml:mo>
+                                            <mml:mi>C</mml:mi>
+                                            <mml:mo>}</mml:mo>
+                                        </mml:mrow>
+                                        <mml:msqrt>
+                                            <mml:mfrac>
+                                                <mml:mrow>
+                                                  <mml:msup>
+                                                  <mml:mi>b</mml:mi>
+                                                  <mml:mn>2</mml:mn>
+                                                  </mml:msup>
+                                                  <mml:mo> - </mml:mo>
+                                                  <mml:mn>4</mml:mn>
+                                                  <mml:mi>a</mml:mi>
+                                                  <mml:mi>c</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                  <mml:mn>4</mml:mn>
+                                                  <mml:msup>
+                                                  <mml:mi>a</mml:mi>
+                                                  <mml:mn>2</mml:mn>
+                                                  </mml:msup>
+                                                </mml:mrow>
+                                            </mml:mfrac>
+                                        </mml:msqrt>
+                                    </mml:mrow>
+                                    <mml:mspace height="0.5ex" depth="1ex" width="2ex"/>
+                                    <mml:mrow>
+                                        <mml:mtext mathsize="10pt">There's the vertex
+                                            formula.</mml:mtext>
+                                    </mml:mrow>
+                                </mml:mrow>
+                            </mml:mtd>
+                        </mml:mtr>
+                        <mml:mtr>
+                            <mml:mtd>
+                                <mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mspace height="0.5ex" depth="1ex" width="2.5ex"/>
+                                        <mml:mrow>
+                                            <mml:mi>x</mml:mi>
+                                        </mml:mrow>
+                                        <mml:mo>=</mml:mo>
+                                        <mml:mfrac>
+                                            <mml:mrow>
+                                                <mml:mo>-</mml:mo>
+                                                <mml:mi> b</mml:mi>
+                                                <mml:mo>±</mml:mo>
+                                                <mml:mrow>
+                                                  <mml:mo>{</mml:mo>
+                                                  <mml:mi>C</mml:mi>
+                                                  <mml:mo>}</mml:mo>
+                                                </mml:mrow>
+                                                <mml:msqrt>
+                                                  <mml:msup>
+                                                  <mml:mi>b</mml:mi>
+                                                  <mml:mn>2</mml:mn>
+                                                  </mml:msup>
+                                                  <mml:mo> - </mml:mo>
+                                                  <mml:mn>4</mml:mn>
+                                                  <mml:mi>a</mml:mi>
+                                                  <mml:mi>c</mml:mi>
+                                                </mml:msqrt>
+                                            </mml:mrow>
+                                            <mml:mrow>
+                                                <mml:mn>2</mml:mn>
+                                                <mml:mi>a</mml:mi>
+                                            </mml:mrow>
+                                        </mml:mfrac>
+                                    </mml:mrow>
+                                    <mml:mspace height="0.5ex" depth="1ex" width="2ex"/>
+                                    <mml:mrow>
+                                        <mml:mtext mathsize="10pt"/>
+                                    </mml:mrow>
+                                </mml:mrow>
+                            </mml:mtd>
+                        </mml:mtr>
+                    </mml:mtable>
+                </mml:math>
+            </equation>
         </sect2>
     </sect1>
 </article>
