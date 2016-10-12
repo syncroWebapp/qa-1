@@ -775,4 +775,5 @@ w["morphologically"]="8*0";
 w["morphology"]="19*0";
 w["moschata"]="23*0";
 w["most"]="9*0,14*26,15*52,17*1,19*0,25*0";
+w["mostly"]="19*0";
 
