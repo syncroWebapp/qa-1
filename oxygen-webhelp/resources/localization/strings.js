@@ -195,4 +195,5 @@ localization["label.home"]="Home";
     localization["inst.adminPass2"]="Confirm Administrator Password";
     localization["inst.start"]="Start Installation";
     localization["inst.nextStep"]="Next Step";
+    localization["excluded.terms"]="Excluded terms:";
     
