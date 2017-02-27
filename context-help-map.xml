@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="introduction" path="topics/introduction.html"/>
+   <appContext helpID="introductionAAAA" path="topics/introduction.html"/>
    <appContext helpID="care" path="topics/care.html"/>
    <appContext helpID="prunning" path="tasks/pruning.html"/>
    <appContext helpID="index" path="topics/index.html"/>
