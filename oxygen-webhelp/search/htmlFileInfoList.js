@@ -1,5 +1,5 @@
 fil = new Array();
-fil["0"]= "concepts/autumnFlowers.html@@@Autumn Flowers modified by Marius further@@@Autumn is the season of the primary harvest. Autumn falls during September - November in the Northern hemisphere, and during March - June in the Southern hemisphere. Crops are harvested during Autumn...";
+fil["0"]= "concepts/autumnFlowers.html@@@Autumn Flowers modified by Irina@@@Autumn is the season of the primary harvest. Autumn falls during September - November in the Northern hemisphere, and during March - June in the Southern hemisphere. Crops are harvested during Autumn...";
 fil["1"]= "concepts/glossaryBulb.html@@@Bulb@@@...";
 fil["2"]= "concepts/glossaryCultivar.html@@@Cultivar@@@...";
 fil["3"]= "concepts/glossaryGenus.html@@@Genus@@@...";
