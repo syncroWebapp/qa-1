@@ -1,0 +1,2646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:system_cache__appinfo="http://biuro.biall-net.pl/xmlschema_procesy5/default_db_xml_cache/appinfo.xsd"
+      id="task_1607"
+      xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+   <title>{<b>1607</b>}  Opracowanie nowych (brakujących) procesów i wymagań ogólnych / tworzenie procesów wraz z tworzeniem zasobów, tworzeniem pytań testowych teoretycznych i praktycznych [wszystkie procesy wykazane w drzewie procesów muszą być tak zorganizowane]</title>
+   <shortdesc>W firmie prowadzi się rejestr procesów oraz zasobów. Procesy są gromadzone w postaci konspektu/drzewa. Procesy mogą zawierać informacje o charakterze choreografii postępowania (czyli instrukcje postępowania krok-po-kroku), mogą także zawierać ogólne wymagania (np. szkolenie z zakresu wiedzy ogólnej na temat instrukcji BHP lub specjalne szkolenie z zakresu asortymentu produktów jakie dana firma sprzedaje/kupuje). &lt;br&gt;
+Niniejszy proces opisuje zasady tworzenia tych procesów (wymagań).&lt;br&gt;
+Należy ten proces wykonywać podczas weryfikacji poprawności procesów/procedur, zwłaszcza w przypadku rozwiązywania zgłoszeń błędów w systemie jakości. W ramach niego należy zgłaszać/wprowadzać poprawki także w infrastrukturze swoich zasobów oraz zasobów podległych pod swoich pracowników. W razie wątpliwości co do sposobu/zakresu wprowadzenia zmian należy wykonywać stosowne procedury dotyczące zgłaszania błędów/sugestii w procesach.&lt;br&gt; 
+Osoba odpowiada za prawidłowość oraz aktualność wszystkich procesów w drzewie procesów, za które jest wskazana jako osoba odpowiedzialna (pole L_APPOITMENT_USER) oraz za wszystkie procesy znajdujące się pod tymi procesami, w ramach drzewa procesów. </shortdesc>
+   <prolog>
+      <author>chojnickaa w 2012-05-17-16:04</author>
+      <change-historylist>
+         <change-item>
+            <change-completed>2017-01-19-01:20a.binder</change-completed>
+         </change-item>
+      </change-historylist>
+   </prolog>
+   <taskbody>
+      <prereq>zasoby:
+                    <ol>
+            <li/>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[2973]<b>Serwisant sieci telekomunikacyjnej (serwisowanie sieci bez robot ciezkich)</b>; 
+                            <ph/>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko posiada uprawnienie do kontrolowania procedury</p>
+               <p>[11874]<b>Typowe stanowisko obsługujące Obieg Dokumentów - wdrażane po instalacji systemu</b>; 
+                            <ph/>
+               </p>
+               <p>
+                  <note>Możliwość zapoznania sie ze szkoleniem</note>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[2237]<b>Referent ds. Administracji w firmie BIALL-NET [opcjonalnie praktykant]</b>; 
+                            <ph>PRACOWNIK</ph>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[20046]<b>Referent ds. Kontroli Jakości i Obiegu Dokumentów bez uprawnień dla Obiegu Dokumentów i Rekrutacji (każdy podmiot)</b>; 
+                            <ph/>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[11875]<b>Referent ds. Kontroli Jakości i Obiegu Dokumentów (Każdy podmiot)</b>; 
+                            <ph/>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[2551]<b>Windykator (Referent d/s windykacji) </b>; 
+                            <ph>PRACOWNIK</ph>
+               </p>
+               <p>
+                  <note>Osoba powinna wykonywać ten proces dla wykonywanych przez siebie obowiązków/swoich podwładnych, zwłaszcza na etapie tworzenia draftów/diagramów przepływu niezdefiniowanych procesów lub zdefiniowanych nieprawidłowo. Powinna zgłaszać/wprowadzać poprawki w infrastrukturze swoich zasobów oraz zasobów podległych pod swoich pracowników. W razie wątpliwości co do sposobu/zakresu wprowadzenia zmian kontaktuje się ze Specjalistą d/s Jakości.</note>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[79]<b>Kierownik BOK  (BIALL-NET)</b>; 
+                            <ph/>
+               </p>
+               <p>
+                  <note>Osoba powinna wykonywać ten proces dla wykonywanych przez siebie obowiązków/swoich podwładnych, zwłaszcza na etapie tworzenia draftów/diagramów przepływu niezdefiniowanych procesów lub zdefiniowanych nieprawidłowo. Powinna zgłaszać/wprowadzać poprawki w infrastrukturze swoich zasobów oraz zasobów podległych pod swoich pracowników. W razie wątpliwości co do sposobu/zakresu wprowadzenia zmian kontaktuje się ze Specjalistą d/s Jakości.</note>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[860]<b>Kierownik Dzialu Adminstracji (BIALL-NET)</b>; 
+                            <ph/>
+               </p>
+               <p>
+                  <note>Osoba powinna wykonywać ten proces dla wykonywanych przez siebie obowiązków/swoich podwładnych, zwłaszcza na etapie tworzenia draftów/diagramów przepływu niezdefiniowanych procesów lub zdefiniowanych nieprawidłowo. Powinna zgłaszać/wprowadzać poprawki w infrastrukturze swoich zasobów oraz zasobów podległych pod swoich pracowników. W razie wątpliwości co do sposobu/zakresu wprowadzenia zmian kontaktuje się ze Specjalistą d/s Jakości.</note>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[333]<b>Kierownik Działu Utrzymania Sieci (BIALL-NET)</b>; 
+                            <ph/>
+               </p>
+               <p>
+                  <note>Osoba powinna wykonywać ten proces dla wykonywanych przez siebie obowiązków/swoich podwładnych, zwłaszcza na etapie tworzenia draftów/diagramów przepływu niezdefiniowanych procesów lub zdefiniowanych nieprawidłowo. Powinna zgłaszać/wprowadzać poprawki w infrastrukturze swoich zasobów oraz zasobów podległych pod swoich pracowników. W razie wątpliwości co do sposobu/zakresu wprowadzenia zmian kontaktuje się ze Specjalistą d/s Jakości.</note>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[9]<b>Dyrektor Dzialu Technicznego - Dyrektor dzialu Inwestycji (BIALL-NET)</b>; 
+                            <ph/>
+               </p>
+               <p>
+                  <note>Osoba powinna wykonywać ten proces dla wykonywanych przez siebie obowiązków/swoich podwładnych, zwłaszcza na etapie tworzenia draftów/diagramów przepływu niezdefiniowanych procesów lub zdefiniowanych nieprawidłowo. Powinna zgłaszać/wprowadzać poprawki w infrastrukturze swoich zasobów oraz zasobów podległych pod swoich pracowników. W razie wątpliwości co do sposobu/zakresu wprowadzenia zmian kontaktuje się ze Specjalistą d/s Jakości.</note>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[2975]<b>Kierownik ds. Marketingu i Reklamy / PR (1 osoba zatrudniona na 1 firmę) (BIALL-NET)</b>; 
+                            <ph/>
+               </p>
+               <p>
+                  <note>Osoba powinna wykonywać ten proces dla wykonywanych przez siebie obowiązków/swoich podwładnych, zwłaszcza na etapie tworzenia draftów/diagramów przepływu niezdefiniowanych procesów lub zdefiniowanych nieprawidłowo. Powinna zgłaszać/wprowadzać poprawki w infrastrukturze swoich zasobów oraz zasobów podległych pod swoich pracowników. W razie wątpliwości co do sposobu/zakresu wprowadzenia zmian kontaktuje się ze Specjalistą d/s Jakości.</note>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[24]<b>Dyrektor Dzialu Sprzedazy (BIALL-NET)</b>; 
+                            <ph/>
+               </p>
+               <p>
+                  <note>Osoba powinna wykonywać ten proces dla wykonywanych przez siebie obowiązków/swoich podwładnych, zwłaszcza na etapie tworzenia draftów/diagramów przepływu niezdefiniowanych procesów lub zdefiniowanych nieprawidłowo. </note>
+               </p>
+            </li>
+            <li>
+               <p>Stanowisko odpowiedzialne</p>
+               <p>[1767]<b>Specjalista ds. organizacji procesow i systemow jakosci (BIALL-NET)</b>; 
+                            <ph/>
+               </p>
+            </li>
+         </ol>
+      </prereq>
+   </taskbody>
+   <task id="task_5914"
+         xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+      <title>{<b>5914</b>} W ramach wykonywania niniejszego procesu zwłaszcza w zakresie dowiązywania zdjęć do procesów, zasobów lub powiązań, korzysta się z tabeli utrzymującej zdjęcia, do czego uprawnia załączona procedura</title>
+      <shortdesc/>
+      <prolog>
+         <author>a.binder</author>
+         <change-historylist>
+            <change-item>
+               <change-completed/>
+            </change-item>
+         </change-historylist>
+      </prolog>
+      <taskbody>
+         <prereq>zasoby:
+                    <ol>
+               <li/>
+            </ol>
+         </prereq>
+      </taskbody>
+   </task>
+   <task id="task_5912"
+         xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+      <title>{<b>5912</b>} W ramach dowiązywania zasobów do procesów, korzysta się z tabeli przypadków użycia danego zasobu, co umożliwia dostęp do powiązanej procedury</title>
+      <shortdesc/>
+      <prolog>
+         <author>a.binder</author>
+         <change-historylist>
+            <change-item>
+               <change-completed/>
+            </change-item>
+         </change-historylist>
+      </prolog>
+      <taskbody>
+         <prereq>zasoby:
+                    <ol>
+               <li/>
+            </ol>
+         </prereq>
+      </taskbody>
+   </task>
+   <task id="task_4632"
+         xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+      <title>{<b>4632</b>} Najczęstsze błędy popełniane przez osoby modelujące procesy oraz zasoby - materiał uzupełniający, dzięki któremu można uniknąć wielu błędów przy tworzeniu/modyfikacji/doskonaleniu procesów biznesowych</title>
+      <shortdesc>Po mimo przeczytania założeń do modelowania procesów oraz udzielenia właściwych odpowiedzi, osoby odpowiedzialne za modyfikację procesów i zasobów popełniają błędy. W tym celu opracowano niniejszy materiał, po którego zaliczeniu jest możliwe lepsze wykonywanie pracy. Należy ten materiał w sposób ciągły doskonalić o nowe aspekty, które wyniknęły ze złego rozumienia założeń wymagań procesów opisujących zasady modelowania procesów oraz zasobów.&lt;br&gt;
+W niniejszych krokach opisano przypadki, jakie miały miejsce w firmie, dzięki którym lepiej możemy zrozumieć istotę tego procesu i sposób jego wykonywania. Często po przeczytaniu procesu pracownik nie wie i nie rozumie okoliczności, w jaki sposób praktycznie ma stosować ten proces. Poniższe przykłady dodatkowo wytłumaczą okoliczności procesu i pomogą pracownikowi we właściwym podejmowaniu kroków.</shortdesc>
+      <prolog>
+         <author>a.binder</author>
+         <change-historylist>
+            <change-item>
+               <change-completed>2015-07-08-14:52a.binder</change-completed>
+            </change-item>
+         </change-historylist>
+      </prolog>
+      <taskbody>
+         <prereq>zasoby:
+                    <ol>
+               <li/>
+            </ol>
+         </prereq>
+      </taskbody>
+      <task id="task_5130"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>5130</b>} Przypadek błędnej inwentaryzacji zasobów przez Irminę</title>
+         <shortdesc>Irmina wykonała inwentaryzację Biura obsługi klienta, zaczęła usuwać zasoby oraz stare oznaczenia z poszczególnych zasobów, przy czym tworzyła nowe takie same lub podobne i ponownie naklejała. Kolejnie błędnie podpinała zasoby, niezgodnie z naszą strukturą. Zamiast ujednolicać nasze standardy tworzyła nowe, które się różniły.</shortdesc>
+         <prolog>
+            <author>miotkm</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2015-09-12-14:32magdalena.cichosz</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+      </task>
+      <task id="task_4633"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>4633</b>} Przypadek torby na laptopa</title>
+         <shortdesc>Zasób zamówiony u dostawcy nie zgodny z opisem. Brak posiadania dodatkowych kieszonek na dokumenty.  Opis który opisywał torbę był zły.Została napisana reklamacja/formularz zgłoszeniowy, czas oczekiwania na odpowiedź od sprzedawcy do 14 dni.</shortdesc>
+         <prolog>
+            <author>a.binder</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2015-07-08-14:49a.binder</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+      </task>
+   </task>
+   <task id="task_3871"
+         xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+      <title>{<b>3871</b>} Ogólne założenia zasad systematyzacji Zasobów.</title>
+      <shortdesc>&lt;br&gt;Zasoby są to elementy, które biorą udział w procesach. Należy je systematyzować w sposób wynikający z typów tych zasobów, pełnionych funkcji oraz ich lokalizacji, w jakich się
+znajdują. Główne kryterium systematyzacji może być wyłącznie jedno.Zasoby można grupować poprzez tworzenie zasobów opisujących grupę danych zasobów.&lt;br&gt;&lt;br&gt; Zasoby uzupełniamy w następujący sposób: &lt;br&gt;&lt;br&gt;
+&lt;b&gt;a) Należy ustalić Cechy Szczególne.&lt;/b&gt;&lt;br&gt; Gdybyśmy zabierali się po raz pierwszy do systematyzacji zasobów i chcielibyśmy dodać pierwszy napotkany zasób w firmie będący "Tonerem do Drukarki", to prawdopodobnie powinniśmy ustalić jego cechy szczególne, które umożliwią jego rozróżnienie pomiędzy innymi tonerami, których użycie, zamiast tych właściwych było by niewłaściwe: np. w firmie używanych jest kilka typów Tonerów do drukarki, bez ustalenia ich konkretnych typów nie jest możliwa ich właściwa rewitalizacja (nikt nie będzie wiedział jaki konkretnie toner należy kupić, bo po złożeniu zamówienia na "Toner" będzie konieczna weryfikacja przez dostawcę o jaki konkretnie nam chodzi "Toner". Taki stan rzeczy będzie mieć miejsce do czasu dokładnie nie określimy cech zasobu. Z uwagi na ograniczenie pola nazwy zasobu powinniśmy zmieścić się w 250 znakach alfanumerycznych i w tym miejscu powinniśmy udzielić informacji przynajmniej o:&lt;br&gt;
+&lt;b&gt;- Oznaczenie możliwego producenta&lt;/b&gt; - umożliwi zakup oryginału lub zamiennika produktu w oparciu o producenta, podając nazwę producenta umożliwiamy szybką orientację i zawężamy krąg poszukiwań zamiennika do nazwy producenta.&lt;br&gt;
+&lt;b&gt;- Oznaczenie nazwy produktu/modelu&lt;/b&gt;, jeżeli posiada kilka typów różnych funkcjonalnie - umożliwi najszybszy sposób późniejszej rewitalizacji zasobu. Z reguły model produktu określany przez producenta jednoznacznie rozróżnia produkty. &lt;br&gt;
+- W przypadku kiedy dany zasób występuje wyłącznie w jednostce, w której wdrażany jest system jakości np. określa nazwę własną produktu, półproduktu, którym może być [987] "Obszar biura handlowego do którego mają dostęp klienci". W takim przypadku należy opisać ten obszar, jego cechy, parametry i główne funkcje.&lt;br&gt;
+- W przypadku Tonera, powinniśmy opisać go jako [99] &lt;u&gt;"Toner , gdzie XXX może wynosić : "BJC250X-2 firmy BUBBLEJET&lt;/u&gt;".&lt;br&gt;&lt;br&gt;
+&lt;b&gt;b) Następnie należy wykonać Ustalanie Stanu Zasobu.&lt;/b&gt;&lt;br&gt; Jeżeli dany zasób (toner) posiada kilka stanów, np.: &lt;br&gt; 
+- toner jest nowy, gotowy do użycia i włożenia do drukarki; &lt;br&gt;
+- toner jest używany (w jakiejś konkretnej drukarce);&lt;br&gt;
+- toner jest zużyty (leży gdzieś na półce);
+&lt;br&gt;
+Należy opisać zasób z określeniem tego stanu, jakiego dotyczy opisywany zasób (dodać tyle zasobów ile stanów).
+&lt;br&gt;&lt;br&gt;Ustalić zasób nadrzędny, gdzie zwykle dany zasób (toner) znajduje się w opisanym stanie. Każdy ze stanów danego zasobu zwykle ma inną lokalizację fizyczną oraz logiczną. Oznacza to, że zasób nadrzędny dla każdego ze stanów może być inny (np. zasób używany będzie przyporządkowany do konkretnego typu urządzenia (zasobu). Z kolei zużyty toner będzie przyporządkowany do szafki (opisanej konkretnym numerem zasobu),a nawet konkretnej półki (poprzez ustalenie  numeru zasobu półki w tej szafie). 
+&lt;br&gt;&lt;br&gt;Jeżeli nie jest opisany zasób nadrzędny, to nie możesz dodać nowego zasobu bez wcześniejszego ustalenia jego przynależności do nadrzędnego zasobu, który powinieneś dopisać do systemu, korzystając z tych samych zasad, opisanych wcześniej.
+&lt;br&gt;&lt;br&gt; Może się okazać, że dany zasób może występować w jednym lub większej ilości typów zasobów nadrzędnych (np. dany rodzaj tonera pasuje do kilku rodzajów drukarek), w takim wypadku należy zdać sobie sprawę z sytuacji, że został zidentyfikowany nowy stan zasobu. W takim przypadku mamy do czynienia z dwoma bliźniaczymi zasobami, np.: &lt;u&gt;[100] "Toner podczas używania w drukarce YYY&lt;/u&gt; oraz &lt;u&gt; [101] "Toner podczas używania w drukarce &lt;/u&gt;
+Z powyższego wynika,że właściwy opis do zasobu &lt;u&gt;[99] "Toner XXX gotowy do użycia na półce&lt;/u&gt;" będzie następujący: &lt;u&gt; [99] "Toner gotowy do użycia na półce, do użycia w drukarce YYY lub ZZZ&lt;/u&gt;", bowiem to konkretnie opisuje funkcje zasobu w strukturze.
+&lt;br&gt;&lt;br&gt;Opisane wcześniej stany zasobów tyczących się jednego i tego samego fizycznego zasobu, jakim jest w tym przypadku "Toner &lt;FONT COLOR="#ff00ff"&gt;typu XXX&lt;/FONT&gt;", powinny być powiązane wspólnym oznacznikiem w strukturze zasobów, opisanym jako (5) ALIAS_ID . Jeden z tych opisanych zasobów musi być ustalony jako wiodący. Powinien nim być zasób opisany stanem, z którym mamy do czynienia pierwotnie (np. tuż po zakupieniu tonera jego stanem będzie oczekiwanie na użycie na półce). 
+&lt;br&gt;&lt;br&gt;
+W przypadku chęci ograniczenia w początkowej fazie wdrażania systemu jakości dużej ilości dodawania szczegółowych zasobów, można utworzyć jeden zasób, ustalony jako wiodący, lecz zamiast tworzenia osobnych zasobów opisujących poszczególne stany jest możliwość wymienienia kilku miejsc, w których dany zasób może występować, poprzez ich ustalenie oraz wpisanie ich w ramach cechy P_ID3. Jeżeli decydujesz się na ten sposób dodawania zasobów to w P_ID powinieneś wpisać numer zasobu w jakim początkowo znajduje się ten zasób. &lt;u&gt;Np. jeżeli dodajemy zszywacz, to w komórce P_ID wpisujemy numer szafy na artykuły biurowe, a w P_ID3 wpisujemy numery zasobów biurek pracowników na których znajduje się zszywacz.&lt;/u&gt; Jednak w przypadku takiego sposobu dodawania zasobów nie będzie możliwe dokładne modelowanie procesów z uwzględnieniem zasobów w konkretnych stanach (Nie będzie można stworzyć procesu opisującego pobranie Zasobu &lt;u&gt;[99] Toner XXX gotowy do użycia, w celu umieszczenia go w drukarce YYY&lt;/u&gt;, co oznaczałoby wytworzenie zasobu &lt;u&gt;[100] Toner XXX w drukarce YYY&lt;/u&gt;&lt;br&gt;&lt;br&gt;
+&lt;b&gt;c) Zasób powinien w swoim oznaczeniu także posiadać opisane nominalne wartości ilości występowania danego zasobu:&lt;/b&gt;Jeżeli zasób jest stanowiskiem pracy, to niewątpliwie należy określić ilość minimalną oraz maksymalną występowania danego zasobu, czyli dla zasobu &lt;u&gt;[321]"Sprzedawca Stacjonarny pracujący w Biurze Obsługi Klienta&lt;/u&gt;powinniśmy opisać ile takich stanowisk ma być zatrudnionych w firmie.
+		Przyjęliśmy, że taki opis odnośnie nominalnych wartości wprowadza
+		się w nawiasach kwadratowych "[" oraz "]",
+		zatem opis właściwy zasobu [321] będzie następujący: [321]
+		"&lt;u&gt;Sprzedawca Stacjonarny &lt;/u&gt;&lt;FONT COLOR="#0000ff"&gt;&lt;u&gt;pracujący
+		w Biurze Obsługi Klienta&lt;/u&gt;&lt;/FONT&gt;&lt;u&gt; &lt;/u&gt;&lt;FONT COLOR="#ff0000"&gt;&lt;u&gt;[minimalne
+		2 osoby na biuro, w czasie wakacji może być 1 osoba]&lt;/u&gt;&lt;/FONT&gt;".
+		&lt;BR&gt;Z uwagi na konieczność opisania cech szczególnych, do opisu
+		nazwy tego zasobu powinniśmy modelowo kompletnie tak go opisać:
+		[321] "&lt;u&gt;Sprzedawca Stacjonarny, &lt;/u&gt;&lt;FONT COLOR="#ff00ff"&gt;&lt;u&gt;posiadający
+		szkolenia produktowe, po szkole średniej, zatrudniony na umowę o
+		pracę&lt;/u&gt;&lt;/FONT&gt;&lt;u&gt;, &lt;/u&gt;&lt;FONT COLOR="#0000ff"&gt;&lt;u&gt;pracujący w
+		Biurze Obsługi Klienta&lt;/u&gt;&lt;/FONT&gt;&lt;u&gt; &lt;/u&gt;&lt;FONT COLOR="#ff0000"&gt;&lt;u&gt;[minimalne
+		2 osoby na biuro, w czasie wakacji może być 1 osoba]&lt;/u&gt;&lt;/FONT&gt;".&lt;/P&gt;
+		&lt;P CLASS="western"&gt;Jeżeli
+		zasób to [99] "&lt;u&gt;Toner XXX &lt;/u&gt;&lt;FONT COLOR="#0000ff"&gt;&lt;u&gt;gotowy
+		do użycia na półce&lt;/u&gt;&lt;/FONT&gt;&lt;u&gt;, do użycia w druarce YYY lub
+		drukarce ZZZ&lt;/u&gt;", to
+		powinniśmy dołączyć opis ilości jego występowania w nastepujący
+		sposób [99] "Toner &lt;FONT COLOR="#ff00ff"&gt;typu
+		XXX &lt;/FONT&gt;&lt;FONT COLOR="#0000ff"&gt;gotowy
+		do użycia na półce&lt;/FONT&gt;,
+		do użycia w drukarce YYY lub drukarce ZZZ&lt;FONT COLOR="#ff0000"&gt;[minimalnie
+		2 tonery maksymalnie 4, jeżeli mniej niż 1 pilnie rewitalizuj!]&lt;/FONT&gt;".&lt;/P&gt;
+&lt;br&gt;Na załączonych zdjęciach widać przykładowe struktury zasobów</shortdesc>
+      <prolog>
+         <author>dominikmoksik</author>
+         <change-historylist>
+            <change-item>
+               <change-completed>2015-03-26-21:26a.binder</change-completed>
+            </change-item>
+         </change-historylist>
+      </prolog>
+      <taskbody>
+         <prereq>zasoby:
+                    <ol>
+               <li/>
+               <li>
+                  <p>Wprowadz inforamcję: (R)</p>
+                  <p>
+                     <codeblock>[1476]<b>DESC</b>; 
+                                <ph>Cecha</ph>
+                     </codeblock>
+                  </p>
+                  <p>
+                     <note>W tym polu należy uzupełniać opis zasobu zgodnie z wymogami tego kroku procesu.</note>
+                  </p>
+               </li>
+            </ol>
+         </prereq>
+      </taskbody>
+      <task id="task_5185"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>5185</b>} Zasady trzymania zasobów prototypowych (Abstract) dla zapewnienia potrzeb ewidencji unikalnych cech zasobów, zwłaszcza dla potrzeb wyposażenia, które powinny być dziedziczone (Aliasowane) w prawdziwych strukturach zasobów</title>
+         <shortdesc>W celu zapewnienia uzyskania jednoznaczności pod kątem posiadania unikalnej listy typów zasobów używanych w firmie, należy prowadzić w specjalnym miejscu w drzewie zasobów listę zasobów prototypowych (Abstract). Takie zasoby powinny być następnie dziedziczone w prawdziwych strukturach zasobów poprzez użycie pola ALIAS_ID (Aliasowanie). W specjalnych przypadkach należy stosować typ dziedziczenia wirtualny (Alias wirtualny), które tyczą się wykorzystywania tego samego numeru zasobu w innej strukturze.</shortdesc>
+         <prolog>
+            <author>a.binder</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed/>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+      </task>
+      <task id="task_5127"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>5127</b>} W jaki sposób tworzy się w systemie zasoby - rekomendowany proces tworzenia zasobów w systemie Procesy5</title>
+         <shortdesc/>
+         <prolog>
+            <author>a.binder</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed/>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+         <task id="task_2208"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>2208</b>} IF Jeżeli zasób ma niewłaściwie umiejscowienie w strukturze popraw jego lokalizację </title>
+            <shortdesc>Istnieje możliwość, że zasób ma niewłaściwie przyporządkowany zasób nadrzędny. Zasób powinien mieć przyporządkowany numer Zasobu Nadrzędnego w sposób taki, jaki najbardziej wynika z naturalnego logicznego przyporządkowania danego zasobu.
+W takim przypadku należy dokonać korekty tej struktury poprzez np: &lt;br&gt;
+a) przeniesienie danego numeru zasoby do innego / bardziej optymalnego numeru zasobu nadrzędnego&lt;br&gt;
+b) może się zdarzyć, że konieczna jest zmiana ustalenia numeru zasobu nadrzędnego dla danego zasobu - względnie przeniesienia całego fragmentu struktury zasobów w inne miejsce ( np. razem z przykładowym zasobem "[1234] Koło samochodowe" dowiązanym do zasobu "[2345] Wyprodukowany samochód" , który to zasób jest przyporządkowany do zasobu "[3456] Parking aut gotowych podziemny", należy przenieść całą strukturę zasobów do zasobu "[6543] Parking aut gotowych naziemny". W takim przypadku zmieniamy numer zasobu nadrzędnego tylko dla  jednego zasobu - w tym przypadku chodzi o zasób "[2345] Wyprodukowany samochód" - ustalamy mu nowy numer zasobu nadrzędnego "[6543] Parking aut gotowych naziemny". Jeżeli tak uczynimy - wszystkie zasoby powiązane do zasobu "[2345] Wyprodukowany samochód" zostaną także przeniesione , w tym zasób "[1234] Koło samochodowe" także).  &lt;br&gt;
+&lt;b&gt; Uwaga każdorazowo należy zweryfikować przed przemieszczeniem lub zmianą nazwy/funkcji danego zasobu, czy dany zasób nie jest już użyty w jakimś procesie!!! W takim przypadku należy przeanalizować wszystkie procesy, czy dana zmiana oznaczenia/lokalizacji zasobu nie zmieni sensu powiązanych procesów w sposób negatywny.&lt;/b&gt; Np. w przypadku przemieszczenia zasobu "Piekarnik" z zasobu nadrzędnego "Kuchnia" do "Piwnicy" może się okazać, że przestanie działać proces "{Pieczenie Chleba}".&lt;/b&gt;</shortdesc>
+            <prolog>
+               <author>sqix</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2015-08-24-14:30a.binder</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+         <task id="task_1624"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>1624</b>} IF Jeżeli zasób nie istnieje</title>
+            <shortdesc/>
+            <prolog>
+               <author>chojnickaa</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2015-08-24-14:30a.binder</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+            <task id="task_1625"
+                  xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+               <title>{<b>1625</b>} Dodać nowy zasób</title>
+               <shortdesc>W celu dodania nowego zasobu należy najpierw znaleźć numer zasobu nadrzędnego. Jeśli go nie znamy, wyszukujemy go w pierwszej linijce w tabeli zasobów po opisie bądź nazwie zasobu. Znaleziony numer zapamiętujemy w celu dodania nowego zasobu. Do tego wykorzystujemy ostatnią linijkę w tabeli zasobów.</shortdesc>
+               <prolog>
+                  <author>chojnickaa</author>
+                  <change-historylist>
+                     <change-item>
+                        <change-completed>2013-09-26-16:29szymanskaa</change-completed>
+                     </change-item>
+                  </change-historylist>
+               </prolog>
+               <taskbody>
+                  <prereq>zasoby:
+                    <ol>
+                        <li/>
+                        <li>
+                           <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                           <p>
+                              <codeblock>[21200]<b>ALIAS_MODE</b>; 
+                                <ph>typ&lt;br&gt;aliasu</ph>
+                              </codeblock>
+                           </p>
+                           <p>
+                              <note>Zwłaszcza w przypadkach chęci dowiązania do danej struktury zasobu, który nie powinien być osobno ewidencjonowany (np. szafka skrytkowa wyposażenia personalnego która jest powiązana do dużej szafy zawierającej te skrytki), a chcemy jedynie zaznaczyć, że ma być ona użyta dla danego stanowiska, należy ustawić typ aliasu na wirtualny (VIRTUAL)</note>
+                           </p>
+                        </li>
+                        <li>
+                           <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                           <p>
+                              <codeblock>[1467]<b>ID</b>; 
+                                <ph>Nr</ph>
+                              </codeblock>
+                           </p>
+                           <p>
+                              <note>Po dodaniu nowego rekordu, system utworzy nowy zasób z nowym unikalnym numerem, który pojawi się w tym polu.</note>
+                           </p>
+                        </li>
+                        <li>
+                           <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                           <p>
+                              <codeblock>[1473]<b>PARENT_ID</b>; 
+                                <ph>Nadrz.</ph>
+                              </codeblock>
+                           </p>
+                           <p>
+                              <note>Po wybraniu numeru nadrzędnego zasobu, system umieści informacje w tym polu.</note>
+                           </p>
+                        </li>
+                        <li>
+                           <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                           <p>
+                              <codeblock>[1477]<b>OPIS</b>; 
+                                <ph>Opis</ph>
+                              </codeblock>
+                           </p>
+                           <p>
+                              <note>W opisie należy podać w jaki sposób należy kupić produkt (preferowana firma), dokładne cechy produktu. Przykłady: przy wpisaniu cukru należy podać: producenta, rodzaj (w kostkach, kryształ), minimalną i maksymalną ilość kilogramów jaka powinna znajdować się w odpowiednim miejscu do którego podłączony jest dany zasób. Jeżeli wpisuje się np: papier należy podać: producenta, format (A4, A3), gramaturę, minimalna i maksymalną ilość ryz jakie powinny znajdować się w odpowiednim miejscu do którego podłączony jest dany zasób. </note>
+                           </p>
+                        </li>
+                        <li>
+                           <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                           <p>
+                              <codeblock>[1476]<b>DESC</b>; 
+                                <ph>Cecha</ph>
+                              </codeblock>
+                           </p>
+                           <p>
+                              <note>Wpisz nazwę zasobu. System doda informacje o opisie zasobu do tego pola. Opis zasobu musi być wyczerpujący aby w przypadku kiedy zasobem będzie jakieś Narzędzie, kiedy nastąpi konieczność jego zamówienia, aby osoba zamawiająca była w stanie zamówić dany zasób wyłącznie na podstawie opisu (specyfikacji)</note>
+                           </p>
+                        </li>
+                        <li>
+                           <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                           <p>
+                              <codeblock>[4924]<b>ALIAS_ID</b>; 
+                                <ph>Alias</ph>
+                              </codeblock>
+                           </p>
+                        </li>
+                        <li>
+                           <p>Wprowadz inforamcję: (R,X)</p>
+                           <p>[2956]<b>(+) Dodaj nowy proces /krok</b>; 
+                            <ph/>
+                           </p>
+                           <p>
+                              <note>Należy kliknąć przycisk "Dodaj nowy rekord", aby wyzwolić formularz dodawania nowego procesu.</note>
+                           </p>
+                        </li>
+                        <li>
+                           <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                           <p>
+                              <codeblock>[1475]<b>TYPE</b>; 
+                                <ph>Typ</ph>
+                              </codeblock>
+                           </p>
+                           <p>
+                              <note>Wybrać z listy odpowiedni typ zasobu.</note>
+                           </p>
+                        </li>
+                        <li>
+                           <p>Wprowadz inforamcję: (R,X)</p>
+                           <p>[2952]<b>Zasoby</b>; 
+                            </p>
+                        </li>
+                     </ol>
+                  </prereq>
+               </taskbody>
+               <task id="task_5183"
+                     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                  <title>{<b>5183</b>} Jeżeli dodajesz zasób prototypowy, ustal pole Abstract (Prototyp). W przypadku kiedy nie dodajesz zasobu prototypowego, powinieneś go powiązać z jednym z istniejących prototypów.</title>
+                  <shortdesc>Zasoby prototypowe należy gromadzić w drzewie zasobów pod specjalną gałęzią do tego celu stworzoną, która zwykle nosi nazwę "Prototypy zasobów wyposażenia". W drzewie zasobów znajdują się różne gałęzie prototypów - także takie jak "prototypy stanowisk". Należy tworzyć prototypy wyposażeń używanych w strukturze, aby jednoznacznie określić jakie typy urządzeń/wyposażeń stosowane są w firmie. Umożliwi to zawężenie ilości różnych typów zasobów do minimum oraz poprawi ich kontrolę.</shortdesc>
+                  <prolog>
+                     <author>a.binder</author>
+                     <change-historylist>
+                        <change-item>
+                           <change-completed/>
+                        </change-item>
+                     </change-historylist>
+                  </prolog>
+                  <taskbody>
+                     <prereq>zasoby:
+                    <ol>
+                           <li/>
+                           <li>
+                              <p>Wprowadz inforamcję: (R,X)</p>
+                              <p>[21144]<b>Przycisk { + }</b>; 
+                            <ph/>
+                              </p>
+                           </li>
+                        </ol>
+                     </prereq>
+                  </taskbody>
+               </task>
+               <task id="task_4387"
+                     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                  <title>{<b>4387</b>} Ustal minimalną oraz maksymalną ilość danego zasobu, jaka ma występować w ramach struktury</title>
+                  <shortdesc>Dzięki technologii XML-Schema jest możliwe stworzenie systemowej informacji na temat właściwej ilości występowania danego elementu w strukturze. Nominalnie system zakłada, że dany element powinien występować nie mniej i nie więcej niż jeden raz. &lt;br&gt; Aby nie trzeba było podczas rewitalizacji zasobów korzystać z opisów, ile dany element powinien występować w strukturze należy w sposób jednoznaczny określić ilość występowania danego elementu. Minimalna ilość występowania określona jako 0 (zero) oznacza, że dany element jest opcjonalny. &lt;br&gt;W przypadku chęci określenia wymaganego stanu danego zasobu w granicach np. 5 - 10 sztuk, należy określić to w parametrach &lt;b&gt;minOccurs=5&lt;/b&gt; oraz &lt;b&gt;maxOccurs=10&lt;/b&gt;.</shortdesc>
+                  <prolog>
+                     <author>a.binder</author>
+                     <change-historylist>
+                        <change-item>
+                           <change-completed/>
+                        </change-item>
+                     </change-historylist>
+                  </prolog>
+                  <taskbody>
+                     <prereq>zasoby:
+                    <ol>
+                           <li/>
+                           <li>
+                              <p>Wprowadz inforamcję: (R,X)</p>
+                              <p>[21144]<b>Przycisk { + }</b>; 
+                            <ph/>
+                              </p>
+                              <p>
+                                 <note>Ustal maxymalną ilość występowania danego zasobu</note>
+                              </p>
+                           </li>
+                           <li>
+                              <p>Wprowadz inforamcję: (R,X)</p>
+                              <p>[2966]<b>IMG</b>; 
+                            <ph/>
+                              </p>
+                              <p>
+                                 <note>Ustal minimalną ilość występowania danego zasobu</note>
+                              </p>
+                           </li>
+                        </ol>
+                     </prereq>
+                  </taskbody>
+               </task>
+               <task id="task_1626"
+                     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                  <title>{<b>1626</b>} Po dodaniu zasobu możesz dodać do niego zdjęcie, aby za każdym razem było widoczne podczas kojarzenia danego zasobu z procesem.</title>
+                  <shortdesc/>
+                  <prolog>
+                     <author>chojnickaa</author>
+                     <change-historylist>
+                        <change-item>
+                           <change-completed>2014-11-11-01:03a.binder</change-completed>
+                        </change-item>
+                     </change-historylist>
+                  </prolog>
+                  <taskbody>
+                     <prereq>zasoby:
+                    <ol>
+                           <li/>
+                           <li>
+                              <p>Wprowadz inforamcję: (R,X)</p>
+                              <p>[21144]<b>Przycisk { + }</b>; 
+                            <ph/>
+                              </p>
+                              <p>
+                                 <note>Po kliknięciu następuje przekierowanie do wyboru zdjęcia, które chcemy dodać do zasobu/procesu.</note>
+                              </p>
+                           </li>
+                           <li>
+                              <p>Wprowadz inforamcję: (R,X)</p>
+                              <p>[2966]<b>IMG</b>; 
+                            <ph/>
+                              </p>
+                              <p>
+                                 <note>Jeżeli jest taka możliwość, należy dodać zdjęcie do zasobu. W tym przypadku kliknąć na "IMG +" w celu uaktywnienia przeglądania oraz edycji zdjęć przy zasobach.</note>
+                              </p>
+                           </li>
+                        </ol>
+                     </prereq>
+                  </taskbody>
+               </task>
+            </task>
+         </task>
+      </task>
+      <task id="task_5126"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>5126</b>} Ważniejsze typy zasobów, przetwarzane przez system w specjalny sposób DZIAL, STANOWISKO, LOKALIZACJA, URZADZENIE, SPRAWA, DOKUMENT</title>
+         <shortdesc>Na załączonym zdjęciu przedstawiono przykłady właściwego umiejscowienia w strukturze poszczególnych typów zasobów, co szczegółowo opisano w kolejnych krokach.</shortdesc>
+         <prolog>
+            <author>a.binder</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2015-10-23-22:37magdalena.cichosz</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+         <task id="task_5125"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>5125</b>} PODMIOT - typ zasobu - używać zawsze na samym początku drzewa procesów, dla grupowania zasobów dla podmiotu</title>
+            <shortdesc>Rekomendowany zasób nadrzędny: &lt;br&gt;
+ Główne drzewo zasobów (Nr PARENT_ID=0)  - w rozumieniu podmiotu/firmy. Pod tym zasobem powinny rekomendujemy tworzenie zasobów typu STANOWISKO, DZIAŁ. 
+&lt;br&gt;
+Instancjonowanie:&lt;br&gt;
+PODMIOT nie posiada na ten moment tabeli dla instancjonowania, dla tego zawsze występuje tylko jeden raz pod nazwą zgodną z wpisem w zasobach.
+&lt;br&gt;</shortdesc>
+            <prolog>
+               <author>a.binder</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2015-08-24-14:28a.binder</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+         <task id="task_5124"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>5124</b>} PROJEKT, SPRAWA - typ zasobu - rekomendowane użycie pod typem zasobu PODMIOT, SPRAWA.  Służy do określenia, że jest wymagane istnienie sprawy dla danego typu zasobu</title>
+            <shortdesc>Rekomendowany zasób nadrzędny: &lt;br&gt;
+PODMIOT, SPRAWA.  Służy do określenia, że jest wymagane istnienie sprawy dla danego typu zasobu.
+&lt;br&gt;
+Instancjonowanie:&lt;br&gt;
+PODMIOT, SPRAWA jest instancjonowane w tabeli IN7_MK_BAZA_DYSTRYBUCJI (Projekty) i jest możliwość istnienia więcej niż jednej sprawy dla jednego numeru zasobu - czyli może być wiele spraw danego rodzaju.
+&lt;br&gt;
+Instancjonowanie dla zasobu nadrzędnego LOKALIZACJA:&lt;br&gt;
+System poszukiwać będzie konkretnej lokalizacji powiązanej z konkretną lokalizacją, do ustala się w polu ID_PROJECT (Nr sprawy). Czyli Można stworzyć zasób SPRAWA o opisie (umowa na dzierżawę magazynu) a pod nim lokalizację typu MAGAZYN, co oznaczać będzie konieczność zawarcia umowy na magazyn, z której system wymuszać będzie stworzenie w systemie magazynu powiązanego z daną sprawą.
+Instancjonowanie dla zasobu nadrzędnego SPRAWA:&lt;br&gt;
+System poszukiwać będzie konkretnej lokalizacji powiązanej ze sprawą nadrzędnym w polu P_ID (Sprawa nadrzędna). Sugerowane stosowanie dla przypadku np. Stworzenie konieczności istnienia grupy spraw np. Grupa spraw na zakup energii, pod którą powinny być sprawy Umowa na energię elektryczną. &lt;br&gt;</shortdesc>
+            <prolog>
+               <author>a.binder</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2015-08-24-14:28a.binder</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+         <task id="task_5123"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>5123</b>} LOKALIZACJA, OBSZAR, POLKA, MAGAZYN, POMIESZCZENIE - typ zasobu - rekomendowane użycie pod typem zasobu URZADZENIE, DZIAL, STANOWISKO, LOKALIZACJA.  Służy do określenia, że jest wymagane istnienie lokalizacji dla danego typu zasobu</title>
+            <shortdesc>Rekomendowany zasób nadrzędny: &lt;br&gt;
+URZADZENIE, DZIAL, STANOWISKO, LOKALIZACJA.  Służy do określenia, że jest wymagane istnienie lokalizacji dla danego typu zasobu.
+&lt;br&gt;
+Instancjonowanie:&lt;br&gt;
+LOKALIZACJA, OBSZAR, POLKA, MAGAZYN, POMIESZCZENIE jest instancjonowane w tabeli TELBOXES (Lokalizacje) i jest możliwość istnienia więcej niż jednej lokalizacji dla jednego numeru zasobu - czyli może być wiele lokalizacji danego rodzaju.
+&lt;br&gt;
+Instancjonowanie dla zasobu nadrzędnego URZADZENIE:&lt;br&gt;
+System poszukiwać będzie konkretnej lokalizacji powiązanej z urządzeniem nadrzędnym w polu PARENT_ID_DEVICE (Urządzenie nadrzędne).&lt;br&gt;
+Instancjonowanie dla zasobu nadrzędnego STANOWISKO:&lt;br&gt;
+System poszukiwać będzie konkretnej lokalizacji powiązanej z konkretnym użytkownikiem, do ustala się w polu ADMIN_USERS_ID (Osoba odpowiedzialna).
+Instancjonowanie dla zasobu nadrzędnego LOKALIZACJA:&lt;br&gt;
+System poszukiwać będzie konkretnej lokalizacji powiązanej z konkretną lokalizacją, do ustala się w polu T_TELBOX_NEIGHBOUR_IN_ID (Nr lokalizacji). Czyli Można stworzyć lokalizację typu MAGAZYN a pod nią stworzyć lokalizację SZAFA, co w przypadku stworzenia kilku magazynów będzie skutkować oczekiwaniem dla każdego z nich szafy.</shortdesc>
+            <prolog>
+               <author>a.binder</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2015-08-24-14:28a.binder</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+         <task id="task_5122"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>5122</b>} URZADZENIE - typ zasobu - rekomendowane użycie pod typem zasobu URZADZENIE, DZIAL, STANOWISKO, LOKALIZACJA.  Służy do określenia, że jest wymagane urządzenie danego rodzaju w strukturze</title>
+            <shortdesc>Rekomendowany zasób nadrzędny: &lt;br&gt;
+URZADZENIE, DZIAL, STANOWISKO, LOKALIZACJA.  Służy do określenia, że jest wymagane urządzenie danego rodzaju w strukturze
+&lt;br&gt;
+Instancjonowanie:&lt;br&gt;
+URZADZENIE jest instancjonowane w tabeli DEVICES (Urządzenia) i jest możliwość istnienia więcej niż jednego URZADZENIA dla jednego numeru zasobu - czyli może być wiele urządzeń danego rodzaju.
+&lt;br&gt;
+Instancjonowanie dla zasobu nadrzędnego URZADZENIE:&lt;br&gt;
+System poszukiwać będzie konkretnego urządzenia powiązanego z urządzeniem nadrzędnym w polu PARENT_ID (Urządzenie nadrzędne).&lt;br&gt;
+Instancjonowanie dla zasobu nadrzędnego STANOWISKO:&lt;br&gt;
+System poszukiwać będzie konkretnego urządzenia powiązanego z konkretnym użytkownikiem, do ustala się w polu ADMIN_USERS_ID (Osoba odpowiedzialna).
+Instancjonowanie dla zasobu nadrzędnego LOKALIZACJA:&lt;br&gt;
+System poszukiwać będzie konkretnego urządzenia powiązanego z konkretną lokalizacją, do ustala się w polu T_TELBOX_NEIGHBOUR_IN_ID (Nr lokalizacji).</shortdesc>
+            <prolog>
+               <author>a.binder</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2015-08-24-14:28a.binder</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+         <task id="task_5121"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>5121</b>} STANOWISKO - typ zasobu - rekomendowane użycie pod typem zasobu DZIAL, PODMIOT, STANOWISKO - służy do określenia, że jest wymagane zatrudnienie pracownika na danym stanowisku</title>
+            <shortdesc>Rekomendowany zasób nadrzędny: &lt;br&gt;
+   ekomendowane użycie pod typem zasobu DZIAL, PODMIOT, STANOWISKO - służy do określenia, że jest wymagane zatrudnienie pracownika na danym stanowisku. 
+&lt;br&gt;
+Instancjonowanie:&lt;br&gt;
+STANOWISKO jest instancjonowane w tabeli ADMIN_USERS (Użytkownicy) i jest możliwość istnienia więcej niż jednego STANOWISKA dla jednego numeru zasobu - czyli można ustalić, że pracuje więcej osób na jednym stanowisku. W przypadku większej ilości osób zatrudnionych na danym stanowisku oraz istnienia zdefiniowanych zasobów pod nim innych niż DZIAL, to system będzie oczekiwać istnienia instancji URZADZENIE, LOKALIZACA, DOKUMENT itp. przywiązanych do danego konkretnego użytkownika.
+&lt;br&gt;</shortdesc>
+            <prolog>
+               <author>a.binder</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2015-08-24-14:28a.binder</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+         <task id="task_5120"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>5120</b>} DOKUMENTY - typ zasobu - używać zawsze pod typem zasobu LOKALIZACJA, URZADZENIE, SPRAWA - służy do określenia, że jest wymagane istnienie dokumentu dla danego zasobu - np. Dowód Rejestracyjny dla zasobu URZADZENIE - np. samochoód</title>
+            <shortdesc>Rekomendowany zasób nadrzędny: &lt;br&gt;
+  LOKALIZACJA, URZADZENIE, SPRAWA - zasobu, do którego jest wymagane istnienie dokumentu.
+&lt;br&gt;
+Instancjonowanie:&lt;br&gt;
+DOKUMENTY są instancjonowane w tabeli KORESPONDENCJI i jest możliwość istnienia więcej niż jednego DOKUMENTU dla jednego numeru zasobu.
+&lt;br&gt;
+Instancjonowanie dla nadrzędnego zasobu LOKALIZACJA :&lt;br&gt;
+W przypadku kiedy zasób nadrzędny posiada więcej niż jedną instancję, zasób DOKUMENTY jest instancjonowany dla każdej z nich, przy czym system wyszukuje powiązania DOKUMENTU do konkretnej lokalizacji. &lt;br&gt;
+Instancjonowanie dla nadrzędnego zasobu URZADZENIE :&lt;br&gt;
+W przypadku kiedy zasób nadrzędny posiada więcej niż jedną instancję, zasób DOKUMENTY jest instancjonowany dla każdej z nich, przy czym system wyszukuje powiązania DOKUMENTU do konkretnego powiązanego urządzenia. &lt;br&gt;
+Instancjonowanie dla nadrzędnego zasobu SPRAWA :&lt;br&gt;
+W przypadku kiedy zasób nadrzędny posiada więcej niż jedną instancję, zasób DOKUMENTY jest instancjonowany dla każdej z nich, przy czym system wyszukuje powiązania DOKUMENTU do konkretnej sprawy. &lt;br&gt;</shortdesc>
+            <prolog>
+               <author>a.binder</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2015-08-24-14:28a.binder</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+         <task id="task_5119"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>5119</b>} DZIAL - typ zasobu - używać zawsze pod typem zasobu STANOWISKO (kierownicze), dla grupowania zasobów podległych pod dział np. Techniczny, a pod nim wprowadzać zasoby typu STANOWISKO oraz inne zasoby.</title>
+            <shortdesc>Rekomendowany zasób nadrzędny: &lt;br&gt;
+ STANOWISKO - w rozumieniu stanowiska kierowniczego.
+&lt;br&gt;
+Instancjonowanie:&lt;br&gt;
+DZIAL nie posiada na ten moment tabeli dla instancjonowania, dla tego zawsze występuje tylko jeden raz pod nazwą zgodną z wpisem w zasobach.
+&lt;br&gt;
+Instancjonowanie dla nadrzędnego zasobu STANOWISKO:&lt;br&gt;
+W przypadku kiedy zasób nadrzędny STANOWISKO posiada więcej niż jednego pracownika, zasób DZIAŁ jest instancjonowany wyłącznie jeden raz.&lt;br&gt;
+Instancjonowanie dla nadrzędnego zasobu LOKALIZACJA, URZĄDZENIE, PODMIOT, SPRAWA :&lt;br&gt;
+W przypadku kiedy zasób nadrzędny posiada więcej niż jedną instancję, zasób DZIAŁ jest instancjonowany dla każdej z nich.&lt;br&gt;</shortdesc>
+            <prolog>
+               <author>a.binder</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2015-08-24-14:28a.binder</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+      </task>
+      <task id="task_1623"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>1623</b>} dlaczego należy systematyzować zasoby oraz w jaki sposób są one wykorzystywane</title>
+         <shortdesc>W ramach tworzenia Procesów niezbędnym ich elementem jest powiązanie do danego Procesu zasobów, które biorą udział w wykonywaniu danego procesu. Zasoby mogą być powiązane na różne sposoby jeżeli chodzi o kontekst ich użycia, np.: zasób może być&lt;br&gt; a) Tworzony, &lt;br&gt;b) Wykorzystywany, &lt;br&gt;c) Brany pod uwagę &lt;br&gt; itp. &lt;br&gt;&lt;br&gt; Tym oraz innym przypadkom użycia odpowiadają odpowiednie statusy wskaźników (asocjacji) podczas ich powiązania. Zasoby do Procesów powiązane są poprzez stworzenie wskaźnika (asocjacji) ( rekordu w bazie Wskaźników posiadającego z jednej strony opisany numer Procesu (Kroku procesu), z drugiej strony posiadają podany numer Zasobu. Posiadają także dodatkowe pola umożliwiające ich opisanie - np. dodanie specyficznej instrukcji dotyczącej ich użycia. Do wskaźników (asocjacji) także mogą być powiązane dokładne pytania dla testów kompetencyjnych oraz wdrożeniowych.</shortdesc>
+         <prolog>
+            <author>chojnickaa</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2014-11-10-23:19a.binder</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+      </task>
+   </task>
+   <task id="task_3866"
+         xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+      <title>{<b>3866</b>} Procesy</title>
+      <shortdesc>Procesy są jednym z elementów składowych zintegrowanej dokumentacji jakości (kolejnym jest tzw. drzewo zasobów). 
+&lt;br&gt; W nawiązaniu do jednej z koncepcji zarządzania &lt;i&gt;Lean Management&lt;/i&gt; w celu minimalizacji popełniania błędów należy wszelkie występujące błędy odnotowywać w celu wprowadzenia usprawnień w procesach, których one dotyczyły. Bez istnienia procesów nie jest możliwe zachowanie tego wymagania. Dla tego jednym ze sposobów wytwarzania systemu jakości jest tworzenie go w oparciu o powstające błędy i zapisy jak należy i jak nie należy danej czynności wykonywać. Jeżeli opuścimy stanowisko, które znamy najlepiej, to jakość spada w tym miejscu. Aby temu zapobiec, trzeba spisać procedurę/proces i ją doskonalić.&lt;br&gt;&lt;br&gt;
+a) W celu właściwego wytworzenia dokumentacji jakości wraz ze zintegrowanym (jednoczesnym) wytworzeniem szkoleń, aplikacji oraz testów stanowiskowych stosuje się niniejsze założenia. Aby skutecznie kontrolować zasoby i procesy, jest konieczne przyjęcie następujących założeń:
+&lt;br&gt;- tylko teoretycznie jest możliwe 100% wykonanie systematyzacji oraz inwentaryzacji 100%
+	zasobów, jakie biorą udział w procesach, dlatego podczas
+	inwentaryzacji należy przede wszystkim ewidencjonować zasoby, które
+	będą brać udział w procesach wg. wiedzy/wyczucia osoby wykonującej
+	inwentaryzację zasobów.
+&lt;br&gt;- nie jest możliwe zbudowanie drzewa procesów podczas jego początkowego tworzenia,
+ w którym będzie naniesione 100% procesów, jakie zachodzą w firmie, dla tego też początkowo spisywane procesy będą w oderwaniu od pozostałych, a z czasem zacznie się tworzyć procesy/procedury powiązane, co umożliwi zbudowanie całościowej i kompletnej mapy procesów.
+&lt;br&gt;b) Realizacja zintegrowanej
+	dokumentacji jakości musi się odbywać według przyjętej
+	strategii. Zaliczamy do nich strategię:
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;"kompleksową"&lt;/b&gt;  - strategia
+		zalecana w przedsiębiorstwach, które mają ustabilizowaną sytuację,
+		personel jest w okresie dobrej identyfikacji swoich celów oraz
+		celów firmy, nie występują żadne wyraźniejsze problemy w jednym
+		miejscu (dziale) . 
+&lt;br&gt;&lt;br&gt;&lt;b&gt;"skoncentrowaną"&lt;/b&gt; - strategia
+		zalecana w przedsiębiorstwach, które zidentyfikowały wyraźne
+		problemy w danych działach/stanowiskach oraz w przypadku kiedy
+		istnieje konflikt lub brak akceptacji działań kierownictwa ze
+		strony załogi. Ta strategia umożliwia etapowe wymienianie
+		niedziałających elementów na nowe - funkcjonujące. Dany
+		obszar firmy, gdzie etapem została wdrożona ta strategia może
+		bezproblemowo współpracować z resztą firmy. W prosty sposób można
+		etapować wdrażanie zintegrowanego systemu jakości w kolejnych
+		blokach organizacyjnych. </shortdesc>
+      <prolog>
+         <author>dominikmoksik</author>
+         <change-historylist>
+            <change-item>
+               <change-completed>2017-01-19-01:05a.binder</change-completed>
+            </change-item>
+         </change-historylist>
+      </prolog>
+      <taskbody>
+         <prereq>zasoby:
+                    <ol>
+               <li/>
+            </ol>
+         </prereq>
+      </taskbody>
+      <task id="task_5016"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>5016</b>} Procesy o charakterze choreografii (opisujące przypadki kolejności postępowania w danym przypadku) oraz wymagania ogólne</title>
+         <shortdesc>W ramach tworzenia wymagań (procesów) z reguły mamy do czynienia z jakimś problemem, który chcemy rozwiązać, poprzez stworzenie zasad postępowania lub/i reguł, które po zapoznaniu się przez personel, będą mogły być realizowane w sposób wcześniej przemyślany i najskuteczniejszy. W zależności od zakresu przypadku, jaki chcemy w danej chwili zdefiniować należy rozróżnić te, które są wyjaśnione w kolejnych podpunktach:&lt;br&gt;</shortdesc>
+         <prolog>
+            <author>a.binder</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2015-06-23-20:58a.binder</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+         <task id="task_5018"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>5018</b>}  Zalecenia (wymagania) ogólne w tym wymagania w zakresie wiedzy produktowej, technologii</title>
+            <shortdesc>Wymagania ogólne w odróżnieniu od wymagań o charakterze procesowym (choreograficznym) w sposób ogólny definiują zasady, które są pozbawione informacji o konkretnie uszeregowanych czynnościach - np. zasady dobrego wychowania i komunikacji w firmie.&lt;br&gt;&lt;br&gt;
+  W skład takich wymagań wchodzą także wymagania w zakresie wiedzy produktowej - np. w przypadku kiedy firma sprzedaje samochody jakiejś konkretnej marki należy tworzyć wymagania w zakresie wiedzy na temat tych produktów.&lt;br&gt;
+  Warto takie zakresy wymagań wiązać ze sobą, podobnie jak pozostałe procesy - jeżeli do jakiegoś procesu jest wymagana określona wiedza.&lt;br&gt;
+  W powyższych punktach pokazano przykładowe wymagania ogólne. W tym momencie niniejszy krok szkolenia opisuje wiedzę o charakterze ogólnym.&lt;br&gt;&lt;br&gt;
+  W szkoleniu tym poza zasadami są ukazane konkretne działania jakie należy wykonywać w przypadku chęci stworzenia kroku procesu w systemie. W związku z tym pewne rzeczy można stosować zamiennie tak, by zoptymalizować aktualizację wymagań i przyswajania wiedzy przez personel.&lt;br&gt;&lt;br&gt;
+Wiedzę na dany temat można nabyć poprzez nagranie wideo lub nagranie głosowe podczas spotkania ze specjalistą w danej dziedzinie. Wykorzystanie tych materiałów pozwoli nam na proste przekazanie tej wiedzy poprzez szkolenia produktowe na podstawie materiału źródłowego.</shortdesc>
+            <prolog>
+               <author>a.binder</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2016-02-10-15:33michal.boldowski</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+         <task id="task_5017"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>5017</b>} Procesy wykonawcze - czyli bezpośrednio instruują pracownika jakie czynności po kolei ma wykonywać i jakimi narzędziami/zasobami </title>
+            <shortdesc>Na załączonym obrazku przedstawiono wynik dyskusji na temat ,,ak przebiega ogólnie proces wykonywania badań klienta. &lt;br&gt;Dzięki takiemu rysunkowi udało się ustalić jak należy podzielić osobne procesy (jakie są etapy tego działania), ponadto ustalono najważniejsze zasoby, jakie biorą udział w tym procesie (druki) oraz do jakiego miejsca one trafiają.&lt;br&gt; Dzięki takiemu rysunkowi można zweryfikować zgodność aktualnej struktury procesów/wyzwalanych procesów i dokonywać drobnych i nie inwazyjnych poprawek.&lt;br&gt;</shortdesc>
+            <prolog>
+               <author>a.binder</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2016-02-10-15:25michal.boldowski</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+      </task>
+      <task id="task_3869"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>3869</b>} Nazywanie procesów</title>
+         <shortdesc>W ramach bogatego doświadczenia w implementacji systemu jakości uzyskuje się największe efekty w przypadku zastosowania następujących reguł nazywania procesów. Jak wiadomo z niniejszego opracowania pojedynczy proces zawiera kilka pól, umożliwiających jego opisanie. Dwa z tych pól to : &lt;br&gt;
+&lt;b&gt;- NAZWA PROCESU (DESC) &lt;br&gt;
+- OPIS SZCZCZEGÓŁOWY PROCESU (OPIS) .&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Sugerujemy aby pole Nazwy Procesu, jako pole z założenia ograniczone długością 255 znaków, powinno zawierać w swojej nazwie elementy, które po jednym przeczytaniu wyczerpią następujące kwestie:&lt;br&gt;
+ &lt;i&gt;&lt;b&gt; 1) Jednoznacznie zidentyfikują zamierzenia procesu (pierwsze zdanie musi jednoznacznie określić cel procesu)&lt;br&gt;
+2) Odróżnią proces od innego podobnego procesu&lt;br&gt;&lt;br&gt;
+W opisie procesu należy rozwinąć nazwę oraz określić następujące parametry:&lt;br&gt;
+3) kiedy proces należy wykonywać, dlaczego dany proces został stworzony - na czyje potrzeby odpowiada, co by się wydarzyło, gdyby danego procesu się nie wykonało, co dzięki procesowi uzyskujemy, w czym proces pomaga, jakie czynności z reguły go wywołują oraz jakie procesy on wywołuje.&lt;br&gt;
+4) jaką ilość/jak często/w jaki sposób - dany proces należy wykonywać &lt;br&gt;
+5) umożliwić wstępne tworzenie informacji na temat analizy pracy poprzez wprowadzenie pracochłonności w godzinach lub tworzenie regulaminu premiowego/akordowego, poprzez dodanie w tym opisie jakiejś jednostki premiowej, np. (2zł/sztukę) lub (10punktów) za wykonanie.&lt;/b&gt;&lt;/i&gt;
+&lt;br&gt;&lt;br&gt;
+W związku z czym dwa pierwsze podpunkty (1,2) należy wpisać w nazwę procesu, a podpunkty (3,4,5) wprowadzić należy w nawiasach "{", "}".  Można też stosować nawiasy []. Przy zastosowaniu tych reguł podamy przykładowo prawidłowo nazwane procesy. &lt;br&gt;
+- &lt;FONT COLOR="#ff0000"&gt;Opracowanie nowych ( brakujących ) procesów / tworzenie procesów wraz z uzupełnianiem zasobów, tworzeniem pytań testowych teoretycznych i praktycznych&lt;/FONT&gt; wykonywać na wniosek przełożonych/kierowników w przypadku np. stwierdzenia wystąpienia problemu &lt;br&gt;
+- &lt;FONT COLOR="#ff0000"&gt;Przedłużanie kontraktów z klientami, &lt;/FONT&gt;w przypadku wykonania zadań z procesu {667} ( po wykonaniu zadań zleconych przez zwierzchników )&lt;/FONT&gt;minimum 15 telefonów dziennie na sprzedawcę/100 aneksów miesięcznie&lt;br&gt;
+&lt;FONT COLOR="#ff0000"&gt;Zgłaszanie wykonanych czynności/obowiązków niezgodnie z procesami lub nieobjętych w systemie jakości oraz błędów w systemie jakości dotyczących testów&lt;/FONT&gt; nieprawidłowości zgłaszać w przeciągu max 7 dni od wykonania czynności&lt;br&gt;
+&lt;FONT COLOR="#ff0000"&gt;Czyszczenie okien w obszarze fizycznym działu BOK, &lt;/FONT&gt;z wykorzystaniem urządzenia ciśnieniowego od strony zewnętrznej)&lt;br&gt;wykonywać 1 raz na 7 dni; 20 okien na godzinę; &lt;br&gt;&lt;br&gt;
+Powyższy sposób opisywania tych założeń procesów umożliwi bardzo szybkie ustalenie mierników na zasadach
+ogólnych/wbudowanych w system, które to sposoby będą mogły być w terminie późniejszym zmodyfikowane w oparciu o dowolny inny proces rozliczania efektów pracy. </shortdesc>
+         <prolog>
+            <author>dominikmoksik</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2015-03-17-20:26a.binder</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+      </task>
+      <task id="task_3868"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>3868</b>} Zasady dzielenia procesów na mniejsze wyzwalane etapy oraz łączenie z innymi procesami/procedurami poprzez stosowanie wyzwoleń do procesów (lub kroków w istniejącym procesie) lub/i dowiązywanie w nich innych Procesów (wyzwalanych), które wcześniej zostały</title>
+         <shortdesc>Każdy z procesów powinien być rozbudowywany w miarę potrzeb poprzez tworzenie mniejszych jego etapów i zagłębień.
+Do każdego z tych etapów jest konieczne powiązywanie zasobów, w sposób umożliwiający
+zachowanie odpowiedniej kolejności wykonywania czynności. Przy każdym z powiązanych zasobów możliwe jest jednoczesne wprowadzanie dodatkowych adnotacji. Do poszczególnych kroków procesów można dodać pytania i odpowiedzi, które mogą zostać wykorzystane do testów oceny okresowej/rekrutacji lub szkoleń. 
+To właśnie dzięki logicznej spójności procesów/zasobów/instrukcji/pytań otrzymujemy &lt;b&gt; zintegrowaną dokumentację jakości. &lt;/b&gt;
+&lt;br&gt;
+&lt;p&gt;Dowiązanie do Drzewa Procesów Drzewa Zasobów odbywa się poprzez "Wskaźniki" (asocjacje) - tabelę wskaźników, w której ewidencjonujemy powiązania pomiędzy Numerem Zasobu oraz Numerem Procesu. W ramach samego wskaźnika (asocjacji) mamy do dyspozycji specjalne pola opisowe oraz umożliwiające zaznaczenie kontekstu wykorzystania zasobu. Te właśnie wskaźniki (asocjacje) bezpośrednio umożliwiają jednoczesne stworzenie dostosowanego interfejsu dla użytkownika, czyli dynamiczne tworzenie aplikacji na podstawie Procesów/Zasobów. W tym miejscu także definiujemy rodzaje uprawnień do Zasobów (Odczyt, Edycja, Zapis, Nowy Rekord,(...)), z których część może stanowić dane do formularzy.
+&lt;/P&gt;
+&lt;br&gt;&lt;p&gt;&lt;b&gt;Opracowanie procesów&lt;/b&gt;. &lt;br&gt;Tworzenie procesów polega na przygotowaniu schematu blokowego (diagramu przepływu procesu) na kartce lub dowolnym narzędziu typu "diagram designer" umożliwiającemu wykonanie diagramu przepływu, który po weryfikacji/dyskusji z kierownikami jest następnie umieszczany w systemie procesów Procesy5.&lt;/p&gt;
+&lt;br&gt;&lt;p&gt;&lt;b&gt;Przejścia procesu pomiędzy stanowiskami&lt;/b&gt;&lt;br&gt;
+Należy mieć na uwadze fakt, że jeżeli jakiś proces obejmuje wykonywanie czynności na kilku różnych stanowiskach, w celu jego odpowiedniego wprowadzenia do systemu należy wprowadzić tyle jednostkowych procesów z wzajemnymi odwołaniami, aby tylko kompletne procedury oraz czynności były podzielone pomiędzy stanowiskami.&lt;/p&gt;
+&lt;br&gt;&lt;p&gt;&lt;b&gt;Procedury wyzwalane&lt;/b&gt;&lt;br&gt;
+W przypadku kiedy pewne czynności wykonywane są w kilku procesach w bardzo podobny sposób, należy wydzielić osobną procedurę wyzwalaną, która powinna być powiązana do procesu wyzwalającego w sposób WYKONAJ I POWRÓĆ (GOTO_AND_RETURN).&lt;/p&gt;
+&lt;br&gt;&lt;p&gt;&lt;b&gt;Wykonawcy procesu&lt;/b&gt;&lt;br&gt;
+Każdy proces jest uzupełniany o zasoby, osoby odpowiedzialne (pracownicy) wyłącznie w pierwszym kroku procesu.&lt;/p&gt;
+&lt;br&gt;&lt;p&gt;&lt;b&gt;Pytania oraz testy kompetencyjne&lt;/b&gt;
+Do każdego kroku procesu należy opracować pytania oraz odpowiedzi testowe i pytania do testów praktycznych /wdrożeniowe/ . &lt;/p&gt;
+&lt;br&gt;&lt;p&gt;&lt;b&gt;Które procesy należy dokumentować?&lt;/b&gt;&lt;br&gt;
+- w przypadku kiedy dowolny kierownik stwierdzi, że jakiś obowiązek nie jest wykonywany lub nastąpił problem i konieczna jest zapobiegnięcie poźniejszemu występowania takich samych problemów, co następuje głównie w wyniku zgłoszenia błędów do systemu jakości (zarówno błąd pracownika lub błąd procesu); &lt;br&gt;
+- istnieje rotacja lub zagrożenie rotacji na jakimś stanowisku;&lt;br&gt;
+- kiedy zostanie stwierdzone, ze jakiegoś istotnego z punktu widzenia procesu brakuje;&lt;br&gt;
+Procesy powinny zostać dopisywane w kolejności od najbardziej ważnych do najmniej istotnych. Ważność procesu określić można wagą, wyliczaną tak: Ilość osób wykonujących proces *( rotacja roczna na stanowisku + 1) * średni czas jednostkowy trwania pojedynczego procesu.&lt;/p&gt;
+&lt;br&gt;
+&lt;i&gt;/W załączonym obrazku przedstawiono zagadnienia pracy na drzewie procesów oraz strukturę informacji/funkcji jakie można wyzwolić i używać podczas pracy na drzewie&lt;/i&gt;&lt;br&gt;Po dodaniu co najmniej pytań teoretycznych należy zmienić status procesu na NORMAL.&lt;/br&gt;</shortdesc>
+         <prolog>
+            <author>dominikmoksik</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2015-11-22-19:03a.binder</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+      </task>
+      <task id="task_3867"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>3867</b>} Struktura Drzewa Procesów</title>
+         <shortdesc>System procesów zorganizowany jest w postaci konspektu punktów z zagłębieniami. Dla tego można go nazwać drzewem procesów, gdyż ilość możliwych zagłębień jest bardzo duża. Podstawową dodawania nowych procesów jest tworzenie tzw. "gałęzi drzew", co jest niczym innym jak wprowadzanie nowych procesów przy jednoczesnym określaniu procesu/węzła nadrzędnego (PARENT_ID). Po dodaniu nowego procesu otrzymuje on nowy numer procesu (ID). Pierwszy proces zwykle opisywany jest jako "Drzewo Procesów", powinien mieć numer ID = "1"  oraz numer węzła nadrzędnego  PARENT_ID=0. </shortdesc>
+         <prolog>
+            <author>dominikmoksik</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2014-11-23-01:25a.binder</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+      </task>
+      <task id="task_2166"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>2166</b>} Szczególne przypadki wymagające poprawy - w przypadku ich wykrycia wykonaj poprawy procesu, mając na względzie, że należy kasować lub zmieniać istniejące kroki procesu, aby nie duplikować informacji</title>
+         <shortdesc>W przypadku, kiedy wstępnie stwierdzono błędy w procesie, należy je poprawić.
+Przykładowe błędy to : &lt;br&gt;1)Nazwa procesu "Zewnętrzna inicjacja procesu" - niejasna nazwa procesu oraz brak definicji standardowej normy jakosciowej np. [minimalnie 2 razy w tygodniu].
+&lt;br&gt;2)W jednym z kroków odnośnie pieczenia chleba w opisie jest : "ustaw odpowiednią temperaturę" - temperatura musi być zdefiniowana dokładnie !
+&lt;br&gt;3) w jednym z kroków procesu jest mowa o "włóż dokument do kuwety działu księgowego ", natomiast po rozwinięciu procesów/zasobów widać jedynie wskaźnik np. " [1234] DZIAL Ksieowosci - tutaj powinna sie znajdować kuweta, do umieszczenia dokumentu" - błąd polega na nie określeniu dokładnego zasobu, do którego należy powiązac wykonanie procesu.</shortdesc>
+         <prolog>
+            <author>sqix</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2015-11-22-19:22a.binder</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+      </task>
+      <task id="task_1611"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>1611</b>} Jeżeli nie odnalazłeś procedury lub procesu i potwierdzasz, po jego przeanalizowaniu, należy dodać nowy lub poprawić istniejący, wykonaj kolejne czynności opisujące w jaki sposób dodać lub poprawić procesy/procedury do systemu</title>
+         <shortdesc>Jeżeli proces/procedura nie istnieje i należy ją stworzyć wykonaj kolejne kroki procesu.</shortdesc>
+         <prolog>
+            <author>chojnickaa</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2015-11-22-18:54a.binder</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+         <task id="task_1612"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>1612</b>} Wyszukać osobę odpowiedzialną za daną sprawę/proces.</title>
+            <shortdesc>Załączone zdjęcie pokazuje przykładowy widok struktury zasobów dotyczących Stanowisk/ Należy ustalić kto jest wykonawcą tego procesu ( jakie stanowisko wykonuje dany proces ) . Może być do tego pomocne wykorzystanie drzewa spraw i sprawdzenie czy nikt aktualnie się nie zajmuje tego typu sprawami. Warto wyszukać inny podobny proces i zweryfikować jakie stanowisko jest jego wykonawcą. W przypadku wątpliwości należy tą kwestię skonsultować z kierownikami działów, pod które dane sugerowane stanowisko podlega, poprzez wysłanie wiadomości email z podaniem numeru procesu oraz opisaniem wątpliwości, np: &lt;i&gt;Dla procesu {xxxx} (, gdzie xxxx to numer niniejszego procesu ) jest problem z ustaleniem stanowiska odpowiedzialnego za wykonywanie czynności (opisać czynności) , gdyż podobny proces o numerze {0001} oraz {0002} wykonują aktualnie stanowiska [11] Sprzedawca oraz [12] Przedstawiciel Handlowy&lt;/i&gt;.  &lt;br&gt;Po otrzymaniu informacji jednoznacznych należy dla przygotowywanego przez nas procesu wprowadzić ustalonego wykonawcę tego procesu. W przypadku braku możliwości rozstrzygnięcia problemu należy wysłać informację do Prezesa opisując ten problem (w temacie wiadomości umieścić {numer procesu} ) .</shortdesc>
+            <prolog>
+               <author>chojnickaa</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2014-03-31-16:35dominikmoksik</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[3597]<b>Przycisk - Przeglądaj ( obowiązki ) </b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>... następnie w przypadku kiedy chciałbyś sprawdzić na czym polega dany proces dokładnie, możesz użyć tego przycisku, rozwinie się cały proces dokładnie.</note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[3596]<b>Przycisk - POKAŻ MENU</b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>... po wybraniu filtru stanowisk, użyj tego przycisku, aby zastosować filtry.</note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[3595]<b>Menu - Stanowiska</b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>... w tym miejscu możesz wybrać kilka stanowisk, dla których chcesz rozważyć , kto mógłby wykonywać nowo tworzony proces. ( Poprzez trzymanie przycisku ctrl ( lub cmd w MAC OS ) możesz zaznaczyć kilka stanowisk) .</note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[2857]<b>Obowiązki</b>; 
+                            </p>
+                        <p>
+                           <note>Wejdź do menu Obowiązków, w celu przejrzenia ogólnie jakie stanowiska wykonują jakie obowiązki w firmie. Może to być bardzo pomocny widok, w którym prościej odnajdziesz najwłaściwszą osobę ( stanowisko), której warto będzie przyporządkować nowo tworzony proces.</note>
+                        </p>
+                     </li>
+                  </ol>
+               </prereq>
+            </taskbody>
+            <task id="task_1613"
+                  xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+               <title>{<b>1613</b>} Przeprowadzenie wywiadu z pracownikiem</title>
+               <shortdesc>Należy skontaktować się osobiście lub elektronicznie z osobą wykonującą dane zadanie.
+Spisz istotne elementy z punktu widzenia kolejności wykonywanych czynności, jakie były używane narzędzia oraz zasoby do wykonywania tych czynności. Będzie to niezbędne do właściwego stworzenia mapy procesu oraz późniejszego jego wprowadzenia do systemu procesów.</shortdesc>
+               <prolog>
+                  <author>chojnickaa</author>
+                  <change-historylist>
+                     <change-item>
+                        <change-completed>2014-03-31-16:40dominikmoksik</change-completed>
+                     </change-item>
+                  </change-historylist>
+               </prolog>
+               <taskbody>
+                  <prereq>zasoby:
+                    <ol>
+                        <li/>
+                     </ol>
+                  </prereq>
+               </taskbody>
+               <task id="task_1614"
+                     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                  <title>{<b>1614</b>} Stworzenie diagramu przepływu procesu (Flowchart/Schemat Blokowy)</title>
+                  <shortdesc>Na podstawie otrzymanych danych na temat wykonywania zadania, należy stworzyć diagram przepływu procesu (Schemat Blokowy).  W tym celu użyć narzędzia Diagram Designer bądź innego narzędzia umożliwiającego wykonanie diagramu przepływu.  
+Diagram przepływu jest rysunkiem przedstawiającym przebieg danego pojedynczego procesu.(wykres blokowy), który zawiera poszczególne zadania po kolei, jakie należy w ramach danego procesu wykonać. W odróżnieniu od Diagramu Przepływu np. Mapa procesów zawiera informacje ogólne wraz z powiązaniami pomiędzy poszczególnymi procesami i z natury zawiera mniej szczegółów na temat samego przebiegu poszczególnego procesu (ciężko byłoby przedstawić wszystkie procesy wraz ze szczegółami zadań dla każdego z nich na jednym arkuszu). &lt;br&gt;
+&lt;i&gt; Definicja procesu powinna obejmować:&lt;br&gt;
+- początek i koniec procesu,&lt;br&gt;
+- strukturę procesu,&lt;br&gt;
+- wejścia i wyjścia,&lt;br&gt;
+- dostawców i klientów,&lt;br&gt;
+- właściciela procesu,&lt;br&gt;
+- kryteria oceny,&lt;br&gt;
+- wpływ na wynik całości organizacji,&lt;br&gt;
+- mierniki,&lt;br&gt;
+- narzędzia pomiaru i oceny,&lt;br&gt;
+- kryteria i metody sterowania, w tym sprzężenia zwrotne,&lt;br&gt;
+- zasoby i odstępstwa,&lt;br&gt;
+- dokumentacje procesu i jego przebiegu(1).&lt;br&gt;&lt;br&gt;
+Pożądany wynik osiąga się z większą efektywnością, gdy działania i związane z nimi zasobami są zarządzane jako proces.(2) Na tym polega istota podejścia procesowego - jednej z ośmiu zasad zarządzania jakością. System zarządzania jakością można podzielić na szereg procesów, wzajemnie ze sobą powiązanych. Podejście procesowe ma na celu tworzenie procesów występujących w organizacji i takie ich kształtowanie, aby ich efektywność i skuteczność były jak najwyższe.&lt;/i&gt;
+/W załączonym zdjęciach przedstawiono  przykładowa mapa procesu oraz diagram przepływu dla przykładowej eksploatacji lampy/</shortdesc>
+                  <prolog>
+                     <author>chojnickaa</author>
+                     <change-historylist>
+                        <change-item>
+                           <change-completed>2014-03-31-16:42dominikmoksik</change-completed>
+                        </change-item>
+                     </change-historylist>
+                  </prolog>
+                  <taskbody>
+                     <prereq>zasoby:
+                    <ol>
+                           <li/>
+                        </ol>
+                     </prereq>
+                  </taskbody>
+                  <task id="task_1615"
+                        xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                     <title>{<b>1615</b>} Weryfikacja diagramu</title>
+                     <shortdesc>Należy przedstawić gotowy diagram przepływu procesu (Flowchart/Schemat Blokowy) osobie odpowiedzialnej za wykonanie zadania, w celu sprawdzenia jego poprawności. Należy także diagram przepływu procesu (Flowchart/Schemat Blokowy) uzgodnić ze zwierzchnikiem danego stanowiska, które wykonuje dany proces ( na podstawie struktury zasobów ) </shortdesc>
+                     <prolog>
+                        <author>chojnickaa</author>
+                        <change-historylist>
+                           <change-item>
+                              <change-completed>2014-03-31-16:43dominikmoksik</change-completed>
+                           </change-item>
+                        </change-historylist>
+                     </prolog>
+                     <taskbody>
+                        <prereq>zasoby:
+                    <ol>
+                              <li/>
+                           </ol>
+                        </prereq>
+                     </taskbody>
+                     <task id="task_1618"
+                           xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                        <title>{<b>1618</b>} Diagram przepływu procesu nie wymaga poprawy</title>
+                        <shortdesc>Diagram został zaakceptowany. Można przejść do tworzenia procesu.</shortdesc>
+                        <prolog>
+                           <author>chojnickaa</author>
+                           <change-historylist>
+                              <change-item>
+                                 <change-completed>2014-03-31-16:49dominikmoksik</change-completed>
+                              </change-item>
+                           </change-historylist>
+                        </prolog>
+                        <taskbody>
+                           <prereq>zasoby:
+                    <ol>
+                                 <li/>
+                              </ol>
+                           </prereq>
+                        </taskbody>
+                        <task id="task_1619"
+                              xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                           <title>{<b>1619</b>} Po zakończeniu pracy w ramach tworzenia diagramu, należy ponownie uruchomić system procesy5.</title>
+                           <shortdesc>Po zakończeniu pracy z tworzeniem oraz uzgadnianiem diagramu przepływu należy ponownie wejść do systemu i się zalogować, po czym należy przejść do menu edycji drzewa procesów.</shortdesc>
+                           <prolog>
+                              <author>chojnickaa</author>
+                              <change-historylist>
+                                 <change-item>
+                                    <change-completed>2012-11-06-23:27sqix</change-completed>
+                                 </change-item>
+                              </change-historylist>
+                           </prolog>
+                           <taskbody>
+                              <prereq>zasoby:
+                    <ol>
+                                    <li/>
+                                    <li>
+                                       <p>Wprowadz inforamcję: (R,X)</p>
+                                       <p>[2951]<b>Procesy</b>; 
+                            </p>
+                                    </li>
+                                    <li>
+                                       <p>Wprowadz inforamcję: (R,X)</p>
+                                       <p>[15]<b>/SE/</b>; 
+                            </p>
+                                       <p>
+                                          <note>Zalogować się do systemu, używając swojego loginu i hasła.</note>
+                                       </p>
+                                    </li>
+                                 </ol>
+                              </prereq>
+                           </taskbody>
+                           <task id="task_3809"
+                                 xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                              <title>{<b>3809</b>} Przesuwanie kroków procesu</title>
+                              <shortdesc>Jeżeli dodałeś nowy krok procesu i chcesz zmienić jego usytuowanie, czyli przesunąć krok w górę bądź w dół, użyj funkcji do przesuwania poziomu procesu.</shortdesc>
+                              <prolog>
+                                 <author>zabielskam</author>
+                                 <change-historylist>
+                                    <change-item>
+                                       <change-completed>2014-11-10-23:27a.binder</change-completed>
+                                    </change-item>
+                                 </change-historylist>
+                              </prolog>
+                              <taskbody>
+                                 <prereq>zasoby:
+                    <ol>
+                                       <li/>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1489]<b>OPIS</b>; 
+                                <ph>Opis szeroki</ph>
+                                             </codeblock>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1488]<b>DESC</b>; 
+                                <ph>Opis</ph>
+                                             </codeblock>
+                                          </p>
+                                       </li>
+                                    </ol>
+                                 </prereq>
+                              </taskbody>
+                           </task>
+                           <task id="task_1629"
+                                 xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                              <title>{<b>1629</b>} Sprawdzić czy można przejść proces</title>
+                              <shortdesc>Należy wykonać proces w celu sprawdzenia jego poprawności i czytelności. </shortdesc>
+                              <prolog>
+                                 <author>chojnickaa</author>
+                                 <change-historylist>
+                                    <change-item>
+                                       <change-completed>2015-01-16-12:39a.binder</change-completed>
+                                    </change-item>
+                                 </change-historylist>
+                              </prolog>
+                              <taskbody>
+                                 <prereq>zasoby:
+                    <ol>
+                                       <li/>
+                                    </ol>
+                                 </prereq>
+                              </taskbody>
+                              <task id="task_1633"
+                                    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                 <title>{<b>1633</b>} Jeżeli można przejść proces</title>
+                                 <shortdesc/>
+                                 <prolog>
+                                    <author>chojnickaa</author>
+                                    <change-historylist>
+                                       <change-item>
+                                          <change-completed/>
+                                       </change-item>
+                                    </change-historylist>
+                                 </prolog>
+                                 <taskbody>
+                                    <prereq>zasoby:
+                    <ol>
+                                          <li/>
+                                       </ol>
+                                    </prereq>
+                                 </taskbody>
+                                 <task id="task_1634"
+                                       xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                    <title>{<b>1634</b>} Sprawdzić proces przez osobę odpowiedzialną za sprawę</title>
+                                    <shortdesc>Należy wykonać zadanie według procesu, sprawdzić jasność sformułowanych poleceń, poprawną kolejność poszczególnych kroków, użycie zasobów. Wszystkie ewentualne uwagi należy zgłosić osobie tworzącej proces. </shortdesc>
+                                    <prolog>
+                                       <author>chojnickaa</author>
+                                       <change-historylist>
+                                          <change-item>
+                                             <change-completed>2013-09-26-09:47szymanskaa</change-completed>
+                                          </change-item>
+                                       </change-historylist>
+                                    </prolog>
+                                    <taskbody>
+                                       <prereq>zasoby:
+                    <ol>
+                                             <li/>
+                                          </ol>
+                                       </prereq>
+                                    </taskbody>
+                                    <task id="task_1638"
+                                          xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                       <title>{<b>1638</b>} Jeżeli proces jest zgodny</title>
+                                       <shortdesc/>
+                                       <prolog>
+                                          <author>chojnickaa</author>
+                                          <change-historylist>
+                                             <change-item>
+                                                <change-completed/>
+                                             </change-item>
+                                          </change-historylist>
+                                       </prolog>
+                                       <taskbody>
+                                          <prereq>zasoby:
+                    <ol>
+                                                <li/>
+                                             </ol>
+                                          </prereq>
+                                       </taskbody>
+                                       <task id="task_1639"
+                                             xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                          <title>{<b>1639</b>} Dodać pytania do testów</title>
+                                          <shortdesc>W celu właściwego wdrożenia procesu istnieje konieczność weryfikacji czy uczestnicy/wykonawcy tego procesu (aktualni a także przyszli) są w stanie go wykonać lub czy zapoznali się wystarczająco z materiałem dotyczącym tego procesu, aby wykonywać ten proces. W celu optymalnego zapewnienia takiej funkcjonalności system umożliwia wprowadzenie pytań testowych oraz gotowych sugerowanych odpowiedzi bezpośrednio w strukturze procesów. Każde z pytań jest postawione do danego kroku procesu jednak można także dodatkowo dane pytanie uszczegółowić dla konkretnego numeru wskaźnika (zasobu). Przygotowywane pytania mogą mieć wszystkie prawdziwe jak i wszystkie nieprawdziwe sugerowane odpowiedzi. Pytania do procesów są wykorzystywane podczas procesów rekrutacji oraz innych opisanych w systemie jakości. Wyzwalanie pytań odbywa się za pomocą osobnego menu TESTY.
+&lt;i&gt;/Na załączonym obrazku przedstawiono przykładowy ekran podczas dodawania pytań do procesu&lt;/i&gt;/
+Użyć przycisku "P+" przy danym kroku. Po przyciśnięciu tego przycisku istnieje możliwość dodania zarówno pytania praktycznego, jak i teoretycznego. W zależności jakie pytanie chcesz dodać taki typ pytania wybierz.</shortdesc>
+                                          <prolog>
+                                             <author>chojnickaa</author>
+                                             <change-historylist>
+                                                <change-item>
+                                                   <change-completed>2014-02-27-12:15skoropinskaa</change-completed>
+                                                </change-item>
+                                             </change-historylist>
+                                          </prolog>
+                                          <taskbody>
+                                             <prereq>zasoby:
+                    <ol>
+                                                   <li/>
+                                                   <li>
+                                                      <p>Wprowadz inforamcję: (R,X)</p>
+                                                      <p>
+                                                         <codeblock>[6356]<b>A_RECORD_UPDATE_DATE</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Może być przydatne sprawdzenie, kiedy ostatnio był aktualizowany rekord pytania</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadz inforamcję: (R,X)</p>
+                                                      <p>
+                                                         <codeblock>[6355]<b>A_RECORD_UPDATE_AUTHOR</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Może być przydatne sprawdzenie autora ostatniej aktualizacji rekordu</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6352]<b>ODP_4_ODP</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Określ czy odpowiedź 5 jest odpowiedzią prawidłową lub prawidłowym wykonaniem zadania praktycznego.</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6347]<b>ODP_4</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Pytanie 5 - Podaj przykładową odpowiedź prawdziwą lub fałszywą. W przypadku zadania praktycznego określ możliwy pożądany sposób wykonania zadania np: "Pracownik samodzielnie wykonał zadanie".</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6351]<b>ODP_3_ODP</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Określ czy odpowiedź 4 jest odpowiedzią prawidłową lub prawidłowym wykonaniem zadania praktycznego.</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6346]<b>ODP_3</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Pytanie 4 - Podaj przykładową odpowiedź prawdziwą lub fałszywą. W przypadku zadania praktycznego określ możliwy pożądany sposób wykonania zadania np: "Pracownik samodzielnie wykonał zadanie".</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6350]<b>ODP_2_ODP</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Określ czy odpowiedź 3 jest odpowiedzią prawidłową lub prawidłowym wykonaniem zadania praktycznego.</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6345]<b>ODP_2</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Pytanie 3 - Podaj przykładową odpowiedź prawdziwą lub fałszywą. W przypadku zadania praktycznego określ możliwy pożądany sposób wykonania zadania np: "Pracownik samodzielnie wykonał zadanie".</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6349]<b>ODP_1_ODP</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Określ czy odpowiedź 2 jest odpowiedzią prawidłową lub prawidłowym wykonaniem zadania praktycznego.</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6344]<b>ODP_1</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Pytanie 2 - Podaj przykładową odpowiedź prawdziwą lub fałszywą. W przypadku zadania praktycznego określ możliwy pożądany sposób wykonania zadania np: \"Pracownik samodzielnie wykonał zadanie\".</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6348]<b>ODP_0_ODP</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Określ czy odpowiedź 1 jest odpowiedzią prawidłową lub prawidłowym wykonaniem zadania praktycznego.</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6343]<b>ODP_0</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Pytanie 1 - Podaj przykładową odpowiedź prawdziwą lub fałszywą. W przypadku zadania praktycznego określ możliwy pożądany sposób wykonania zadania np: \"Pracownik samodzielnie wykonał zadanie\".</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6342]<b>PYTANIE</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Zadaj pierwsze pytanie do testu teoretycznego lub zadanie dla testu praktycznego</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6357]<b>TEST_TYPE</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Określ typ testu, czy jest to test teoretyczny czy test praktyczny w tym polu</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6341]<b>ID_WSKAZNIK</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Jeżeli jest to istotne, aby dowiązać pytanie lub test praktyczny do konkretnego wskaźnika (elementarnej części procesu), możesz je przyporządkować, podając w tym miejscu numer tego wskaźnika.</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6340]<b>ID_PROCES</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Pytanie zostanie przyporządkowane do bieżącego procesu, do którego jest dodawane pytanie.</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                                      <p>
+                                                         <codeblock>[6339]<b>ID</b>; 
+                                <ph/>
+                                                         </codeblock>
+                                                      </p>
+                                                      <p>
+                                                         <note>Ta funkcja doda pytania do tabeli z pytaniami, tworząc nowe pytanie w rejestrze.</note>
+                                                      </p>
+                                                   </li>
+                                                   <li>
+                                                      <p>Wprowadz inforamcję: (R,X)</p>
+                                                      <p>[3586]<b>Dodanie pytania do elementu danego procesu</b>; 
+                            <ph/>
+                                                      </p>
+                                                      <p>
+                                                         <note>To narzędzie P+ używamy w celu dodania pytania do procesu/kroku...</note>
+                                                      </p>
+                                                   </li>
+                                                </ol>
+                                             </prereq>
+                                          </taskbody>
+                                          <task id="task_3817"
+                                                xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                             <title>{<b>3817</b>} IF Jeżeli dodajesz pytanie praktyczne</title>
+                                             <shortdesc>Jeżeli dodajesz pytanie praktyczne, to w treść pytania wpisz polecenie, jakie pracownik ma wykonać. W jedną z możliwych odpowiedzi wpisz np. "pracownik wykonał zadanie" oraz odpowiedź ustaw na "TAK". W kolejnym polu na odpowiedzi wpisz np. "pracownik nie wykonał zadania" a odpowiedź ustaw na "NIE". </shortdesc>
+                                             <prolog>
+                                                <author>skoropinskaa</author>
+                                                <change-historylist>
+                                                   <change-item>
+                                                      <change-completed>2014-02-27-12:48skoropinskaa</change-completed>
+                                                   </change-item>
+                                                </change-historylist>
+                                             </prolog>
+                                             <taskbody>
+                                                <prereq>zasoby:
+                    <ol>
+                                                      <li/>
+                                                   </ol>
+                                                </prereq>
+                                             </taskbody>
+                                          </task>
+                                          <task id="task_3811"
+                                                xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                             <title>{<b>3811</b>} IF Jeżeli dodajesz pytanie teoretyczne</title>
+                                             <shortdesc>Jeżeli dodajesz pytanie teoretyczne to wpisz treść pytania oraz proponowane odpowiedzi. Przy każdej odpowiedzi wybierz: "TAK" - jeżeli jest poprawna, bądź "NIE" - jeżeli jest błędna. </shortdesc>
+                                             <prolog>
+                                                <author>a.binder</author>
+                                                <change-historylist>
+                                                   <change-item>
+                                                      <change-completed>2014-02-27-12:17skoropinskaa</change-completed>
+                                                   </change-item>
+                                                </change-historylist>
+                                             </prolog>
+                                             <taskbody>
+                                                <prereq>zasoby:
+                    <ol>
+                                                      <li/>
+                                                   </ol>
+                                                </prereq>
+                                             </taskbody>
+                                          </task>
+                                          <task id="task_1640"
+                                                xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                             <title>{<b>1640</b>} Rozpocząć testy </title>
+                                             <shortdesc>Należy wybrać osoby do wykonanie testów i postępować wg procesu [1530].</shortdesc>
+                                             <prolog>
+                                                <author>chojnickaa</author>
+                                                <change-historylist>
+                                                   <change-item>
+                                                      <change-completed>2014-11-04-00:38a.binder</change-completed>
+                                                   </change-item>
+                                                </change-historylist>
+                                             </prolog>
+                                             <taskbody>
+                                                <prereq>zasoby:
+                    <ol>
+                                                      <li/>
+                                                   </ol>
+                                                </prereq>
+                                             </taskbody>
+                                          </task>
+                                       </task>
+                                    </task>
+                                    <task id="task_1635"
+                                          xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                       <title>{<b>1635</b>} Jeżeli proces nie jest zgodny</title>
+                                       <shortdesc/>
+                                       <prolog>
+                                          <author>chojnickaa</author>
+                                          <change-historylist>
+                                             <change-item>
+                                                <change-completed/>
+                                             </change-item>
+                                          </change-historylist>
+                                       </prolog>
+                                       <taskbody>
+                                          <prereq>zasoby:
+                    <ol>
+                                                <li/>
+                                             </ol>
+                                          </prereq>
+                                       </taskbody>
+                                       <task id="task_1636"
+                                             xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                          <title>{<b>1636</b>} Nanieść poprawki</title>
+                                          <shortdesc/>
+                                          <prolog>
+                                             <author>chojnickaa</author>
+                                             <change-historylist>
+                                                <change-item>
+                                                   <change-completed/>
+                                                </change-item>
+                                             </change-historylist>
+                                          </prolog>
+                                          <taskbody>
+                                             <prereq>zasoby:
+                    <ol>
+                                                   <li/>
+                                                </ol>
+                                             </prereq>
+                                          </taskbody>
+                                       </task>
+                                    </task>
+                                 </task>
+                              </task>
+                              <task id="task_1630"
+                                    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                 <title>{<b>1630</b>} Jeżeli nie można przejść procesu</title>
+                                 <shortdesc/>
+                                 <prolog>
+                                    <author>chojnickaa</author>
+                                    <change-historylist>
+                                       <change-item>
+                                          <change-completed/>
+                                       </change-item>
+                                    </change-historylist>
+                                 </prolog>
+                                 <taskbody>
+                                    <prereq>zasoby:
+                    <ol>
+                                          <li/>
+                                       </ol>
+                                    </prereq>
+                                 </taskbody>
+                                 <task id="task_1631"
+                                       xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                    <title>{<b>1631</b>} Nanieść poprawki</title>
+                                    <shortdesc/>
+                                    <prolog>
+                                       <author>chojnickaa</author>
+                                       <change-historylist>
+                                          <change-item>
+                                             <change-completed/>
+                                          </change-item>
+                                       </change-historylist>
+                                    </prolog>
+                                    <taskbody>
+                                       <prereq>zasoby:
+                    <ol>
+                                             <li/>
+                                          </ol>
+                                       </prereq>
+                                    </taskbody>
+                                    <task id="task_3988"
+                                          xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                       <title>{<b>3988</b>} IF Jeżeli proces zawiera niewłaściwe dowiązane zasoby (np. jeżeli odnosi się do innej tabeli lub stanowisk)</title>
+                                       <shortdesc>Należy dokonać edycji wskaźników przypisanych do danego procesu oraz w nich określić właściwy numer powiązanego zasobu. W tym przypadku korzystamy z podglądu drzewa zasobów, które możemy mieć otwarte w osobnym oknie w zasobie, który nas interesuje (w rozwiniętym jego drzewie). </shortdesc>
+                                       <prolog>
+                                          <author>a.binder</author>
+                                          <change-historylist>
+                                             <change-item>
+                                                <change-completed>2014-11-10-23:30a.binder</change-completed>
+                                             </change-item>
+                                          </change-historylist>
+                                       </prolog>
+                                       <taskbody>
+                                          <prereq>zasoby:
+                    <ol>
+                                                <li/>
+                                                <li>
+                                                   <p>Wprowadź informację do formularza: </p>
+                                                   <p>
+                                                      <codeblock>[20415]<b>A_CLASSIFIED</b>; 
+                                <ph>odczyt&lt;br&gt;dla</ph>
+                                                      </codeblock>
+                                                   </p>
+                                                   <p>
+                                                      <note>Skontroluj grupę, która może widzieć dane przywiązanie zasobu w tej kolumnie</note>
+                                                   </p>
+                                                </li>
+                                                <li>
+                                                   <p>Wprowadź informację do formularza: </p>
+                                                   <p>
+                                                      <codeblock>[1526]<b>A_ADM_COMPANY</b>; 
+                                <ph>Zapis dla</ph>
+                                                      </codeblock>
+                                                   </p>
+                                                   <p>
+                                                      <note>W razie potrzeb zaktualizuj grupę, która może edytować dane powiązanie</note>
+                                                   </p>
+                                                </li>
+                                                <li>
+                                                   <p>Wprowadź informację do formularza: </p>
+                                                   <p>
+                                                      <codeblock>[1525]<b>SORT_PRIO</b>; 
+                                <ph>sort.</ph>
+                                                      </codeblock>
+                                                   </p>
+                                                </li>
+                                                <li>
+                                                   <p>Wprowadź informację do formularza: </p>
+                                                   <p>
+                                                      <codeblock>[1520]<b>ID_PRZYPADEK</b>; 
+                                <ph>uprawnienie</ph>
+                                                      </codeblock>
+                                                   </p>
+                                                   <p>
+                                                      <note>Zaktualizuj typ uprawnienia dostępu/użycia zasobu. W zależności od tego typu system umożliwia czytanie bądź edycję lub inne sposoby dostępu do rekordu.</note>
+                                                   </p>
+                                                </li>
+                                                <li>
+                                                   <p>Wprowadź informację do formularza: </p>
+                                                   <p>
+                                                      <codeblock>[6399]<b>A_STATUS</b>; 
+                                <ph>status</ph>
+                                                      </codeblock>
+                                                   </p>
+                                                   <p>
+                                                      <note>W razie chęci skasowania powiązania zasobu, zaktualizuj status na SKASOWANY ( DELETED )</note>
+                                                   </p>
+                                                </li>
+                                                <li>
+                                                   <p>Wprowadź informację do formularza: </p>
+                                                   <p>
+                                                      <codeblock>[1518]<b>OPIS_ZASOB</b>; 
+                                <ph>opis</ph>
+                                                      </codeblock>
+                                                   </p>
+                                                   <p>
+                                                      <note>Zweryfikuj opis zasobu, a w razie błędnego opisu popraw go na prawidłowy</note>
+                                                   </p>
+                                                </li>
+                                                <li>
+                                                   <p>Wprowadź informację do formularza: </p>
+                                                   <p>
+                                                      <codeblock>[1517]<b>ID_ZASOB</b>; 
+                                <ph>Nr zasobu</ph>
+                                                      </codeblock>
+                                                   </p>
+                                                   <p>
+                                                      <note>Zweryfikuj lub zmień numer zasobu.</note>
+                                                   </p>
+                                                </li>
+                                                <li>
+                                                   <p>Wprowadź informację do formularza: </p>
+                                                   <p>
+                                                      <codeblock>[1516]<b>ID_PROCES</b>; 
+                                <ph>nr proc</ph>
+                                                      </codeblock>
+                                                   </p>
+                                                   <p>
+                                                      <note>Zweryfikuj numer procedsu, do którego jest dowiązany wskaźnik. Możesz przypisać zasób do innego procesu (przesunąć go)</note>
+                                                   </p>
+                                                </li>
+                                                <li>
+                                                   <p>Wprowadz inforamcję: (R)</p>
+                                                   <p>
+                                                      <codeblock>[1514]<b>ID</b>; 
+                                <ph>Nr</ph>
+                                                      </codeblock>
+                                                   </p>
+                                                </li>
+                                             </ol>
+                                          </prereq>
+                                       </taskbody>
+                                    </task>
+                                 </task>
+                              </task>
+                           </task>
+                           <task id="task_1622"
+                                 xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                              <title>{<b>1622</b>} Dodanie kolejnych kroków procesu</title>
+                              <shortdesc>Po dodaniu pierwszego kroku procesu system utworzył nowy krok z nowym numerem XXX, który to został przyporządkowany do ostatnio wybranego przez nas nadrzędnego numeru procesu. Aby dodać kolejne kroki musimy postępować dokładnie w taki sam sposób, z tą różnicą, że kolejne kroki procesu nie są już typu PROCES_INIT, tylko  PROCES. 
+Aby dodać kolejny krok odnajdź jaki był numer kroku procesu ostatnio dodanego rekordu, tą liczbę wprowadź do kolumny P_ID na samym dole tabeli. W pokazanym przykładowym rysunku dodajemy kolejny krok do kroku o numerze {1662} . 
+Należy pamiętać aby w sposób właściwy opisać Krok Procesu w polu DESC oraz OPIS Kroku procesu w polu OPIS, zgodnie z dokładnymi instrukcjami we wskaźnikach tego kroku.&lt;br&gt;
+&lt;i&gt;/Na załączonych zdjęciach widać menu edycji kroków oraz przykładowy widok procesu wraz z kolejnymi logicznymi krokami do wykonania/&lt;/i&gt;</shortdesc>
+                              <prolog>
+                                 <author>chojnickaa</author>
+                                 <change-historylist>
+                                    <change-item>
+                                       <change-completed>2014-11-10-23:26a.binder</change-completed>
+                                    </change-item>
+                                 </change-historylist>
+                              </prolog>
+                              <taskbody>
+                                 <prereq>zasoby:
+                    <ol>
+                                       <li/>
+                                       <li>
+                                          <p>Wprowadz inforamcję: (R,X)</p>
+                                          <p>[2956]<b>(+) Dodaj nowy proces /krok</b>; 
+                            <ph/>
+                                          </p>
+                                          <p>
+                                             <note>Dodać opis do kroku. Powinien być krótki, zrozumiały, napisany językiem technicznym. Musi odwoływać się tylko do czynności, która jest wpisana w nazwie kroku. Nie można w opisie odwoływać się do czynności z kroku poprzedniego oraz opisywać inne czynności, które nie są określone w nazwie kroku. </note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadz inforamcję: (R,X)</p>
+                                          <p>[2960]<b>OPIS</b>; 
+                            <ph/>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1488]<b>DESC</b>; 
+                                <ph>Opis</ph>
+                                             </codeblock>
+                                          </p>
+                                          <p>
+                                             <note>Wybrać z listy typ "PROCES"</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1486]<b>PARENT_ID</b>; 
+                                <ph>Nr nadrz.</ph>
+                                             </codeblock>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Stanowisko odpowiedzialne</p>
+                                          <p>[1767]<b>Specjalista ds. organizacji procesow i systemow jakosci (BIALL-NET)</b>; 
+                            <ph/>
+                                          </p>
+                                          <p>
+                                             <note>Jeżeli nie kliknąłeś w ostatnim kroku wróć do procesów, powinieneś ponownie wyzwolić tą funkcję, w celu powrotu do widoku procesów. Jeżeli jesteś w widoku procesów, nie musisz uruchamiać tego przycisku.</note>
+                                          </p>
+                                       </li>
+                                    </ol>
+                                 </prereq>
+                              </taskbody>
+                              <task id="task_3639"
+                                    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                 <title>{<b>3639</b>} Ewentualne użycie istniejącej procedury wyzwalanej (w przypadku konieczności przeskoku do innego procesu lub procedury)</title>
+                                 <shortdesc>Jeżeli chciałbyś użyć w ramach wykonywania czynności istniejącej procedury wyzwalanej, oznacz w danym kroku procesu numer tego kroku procesu oraz wybierz tryb wyzwalania obcego procesu</shortdesc>
+                                 <prolog>
+                                    <author>a.binder</author>
+                                    <change-historylist>
+                                       <change-item>
+                                          <change-completed>2014-11-11-00:52a.binder</change-completed>
+                                       </change-item>
+                                    </change-historylist>
+                                 </prolog>
+                                 <taskbody>
+                                    <prereq>zasoby:
+                    <ol>
+                                          <li/>
+                                          <li>
+                                             <p>Wprowadz inforamcję: (R,X)</p>
+                                             <p>[3562]<b>Dodaj zasób do procesu</b>; 
+                            <ph/>
+                                             </p>
+                                          </li>
+                                          <li>
+                                             <p>Wprowadz inforamcję: (R,X)</p>
+                                             <p>[2951]<b>Procesy</b>; 
+                            </p>
+                                          </li>
+                                          <li>
+                                             <p>Wprowadz inforamcję: (R,X)</p>
+                                             <p>[2956]<b>(+) Dodaj nowy proces /krok</b>; 
+                            <ph/>
+                                             </p>
+                                          </li>
+                                          <li>
+                                             <p>Stanowisko odpowiedzialne</p>
+                                             <p>[1767]<b>Specjalista ds. organizacji procesow i systemow jakosci (BIALL-NET)</b>; 
+                            <ph/>
+                                             </p>
+                                             <p>
+                                                <note>W tym polu ustaw tryb wyzwalania obcego procesu, zgodnie z opisami w kolejnych puntkach:</note>
+                                             </p>
+                                          </li>
+                                          <li>
+                                             <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                             <p>
+                                                <codeblock>[4916]<b>IF_TRUE_GOTO</b>; 
+                                <ph>Goto</ph>
+                                                </codeblock>
+                                             </p>
+                                             <p>
+                                                <note>W tym polu wprowadź numer procesu wyzwalanego.</note>
+                                             </p>
+                                          </li>
+                                       </ol>
+                                    </prereq>
+                                 </taskbody>
+                              </task>
+                              <task id="task_1628"
+                                    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                 <title>{<b>1628</b>} Dodaj zasób do kroku (Stworzenie Wskaźnika pomiędzy Procesem oraz Zasobem (asocjacji)), co umożliwi jednoczesne stworzenie aplikacji udostępniającej te dane a w przypadku urządzeń oznaczenie, które urządzenia są używane oraz jakich procesach</title>
+                                 <shortdesc>Po kliknięciu przycisku "Z+", jeżeli numer jest znany, wpisać numer w pole "Zasób", wybrać typ uprawnień, opisać kontekst użycia zasobu i kliknąć "OK". Jeżeli jest to konieczne dodać komentarz.&lt;br&gt;
+&lt;br&gt;
+Najczęściej wykorzystywane typy uprawnień:&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt; X: Kto wykonuje (dla zasobów typu: stanowisko) &lt;/li&gt;
+&lt;li&gt; R: Tylko do odczytu &lt;/li&gt;
+&lt;li&gt; R,W,X: Odczyt, zapis, wykonanie &lt;/li&gt;
+&lt;li&gt; R,W,X,C: Odczyt, zapis, wykonanie, tworzenie &lt;/li&gt;
+&lt;li&gt; R,X: Odczyt, wykonanie &lt;/li&gt;
+&lt;li&gt; R,X,E: Export &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;&lt;i&gt;W załączonym zdjęciu widać przykładowe wskaźniki przedstawione w formie graficznej - poprzez dodanie zasobu do procesu mamy na myśli stworzenie powiązania (nazywane Wskaźnikiem) pomiędzy Zasobem a Procesem. Na zdjęciu widać kilka wskaźników z oznaczonym numerem Procesu z lewej strony oraz z prawej strony z numerem zasobu&lt;/i&gt;
+&lt;br&gt;&lt;i&gt;Na drugim zdjęciu widać przykładową animację jak działa funkcja i jak można znaleźć numery zasobów z poszukiwanej tabeli poprzez ich wyszukanie na liście zasobów, a następnie wyzwolenie drzewa zasobów i wyszukanie numeru zasobu w drzewie zasobów&lt;/i&gt;</shortdesc>
+                                 <prolog>
+                                    <author>chojnickaa</author>
+                                    <change-historylist>
+                                       <change-item>
+                                          <change-completed>2015-11-22-18:33a.binder</change-completed>
+                                       </change-item>
+                                    </change-historylist>
+                                 </prolog>
+                                 <taskbody>
+                                    <prereq>zasoby:
+                    <ol>
+                                          <li/>
+                                       </ol>
+                                    </prereq>
+                                 </taskbody>
+                                 <task id="task_5201"
+                                       xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                    <title>{<b>5201</b>} IF Jeżeli chcesz umożliwić eksport danych z zasobu typu: TABELA / KOMORKA  określ typ uprawnień na: R,X,E: Export</title>
+                                    <shortdesc>W przypadku gdy istnieje konieczność eksportowania danych z tabeli do pliku HTML lub CSV należy to określić w typie uprawnień dodawanego zasobu do procesu. W tym celu ustalamy typ uprawnień na: R,X,E: Export dla każdego zasobu, który ma być eksportowany. Możliwość eksportu można dodać zarówno na etapie dodawania zasobu do kroku jak i poprzez edycję / zmianę typu uprawnień już wcześniej dodanego zasobu. </shortdesc>
+                                    <prolog>
+                                       <author>magdalena.cichosz</author>
+                                       <change-historylist>
+                                          <change-item>
+                                             <change-completed/>
+                                          </change-item>
+                                       </change-historylist>
+                                    </prolog>
+                                    <taskbody>
+                                       <prereq>zasoby:
+                    <ol>
+                                             <li/>
+                                          </ol>
+                                       </prereq>
+                                    </taskbody>
+                                 </task>
+                              </task>
+                           </task>
+                           <task id="task_1621"
+                                 xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                              <title>{<b>1621</b>} Dodanie stanowiska wykonującego proces - stanowiska wykonujące proces dodajemy zawsze w pierwszym kroku procesu (PROCES_INIT), wskazując, że dane stanowisko odpowiada za wykonywanie całego procesu - spowoduje to dodanie obowiązków osobom na tym stanowisku</title>
+                              <shortdesc>Aby dodać stanowisko, któremu podlega dany proces ( dodanie wskaźnika do procesu z zasobem wykonawcy procesu ) należy kliknąć przycisk "Z+". Jeżeli jest znany numer zasobu stanowiska, wpisać numer w pole "Podaj numer zasobu:" i kliknąć "OK". Jeżeli numer stanowiska nie jest znany, należy wyszukać go w drzewie. Znaleziony zasób w drzewie dodać klikając "(DODAJ do proc.# XXXX)", gdzie XXXX jest numerem procesu. Stanowisko ma mieć: &lt;br&gt;
+- RODZAJ: RZECZOWNIK, &lt;br&gt;
+- PRZYPADKI RZECZOWNIKA: X</shortdesc>
+                              <prolog>
+                                 <author>chojnickaa</author>
+                                 <change-historylist>
+                                    <change-item>
+                                       <change-completed>2015-11-22-18:30a.binder</change-completed>
+                                    </change-item>
+                                 </change-historylist>
+                              </prolog>
+                              <taskbody>
+                                 <prereq>zasoby:
+                    <ol>
+                                       <li/>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1489]<b>OPIS</b>; 
+                                <ph>Opis szeroki</ph>
+                                             </codeblock>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadz inforamcję: (R,X)</p>
+                                          <p>[2956]<b>(+) Dodaj nowy proces /krok</b>; 
+                            <ph/>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadz inforamcję: (R,X)</p>
+                                          <p>[2960]<b>OPIS</b>; 
+                            <ph/>
+                                          </p>
+                                          <p>
+                                             <note>Dodając nowe stanowisko będzie ono przyporządkowane do powiązanego numeru procesu.</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1488]<b>DESC</b>; 
+                                <ph>Opis</ph>
+                                             </codeblock>
+                                          </p>
+                                          <p>
+                                             <note>W tym polu można odczytać jaki typ uprawnień został przypisany do danego powiązania</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1487]<b>TYPE</b>; 
+                                <ph>Typ</ph>
+                                             </codeblock>
+                                          </p>
+                                          <p>
+                                             <note>W tym polu, jeżeli ktoś dokona aktualizacji rekordu asocjacji/powiązania zasobu, to wprowadzi się automatycznie ostatnia data tej zmiany</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1486]<b>PARENT_ID</b>; 
+                                <ph>Nr nadrz.</ph>
+                                             </codeblock>
+                                          </p>
+                                          <p>
+                                             <note>W tym polu jeżeli ktoś dokona późniejszych zmian w powiązaniu/asocjacji zasobu, będzie to uwidocznione, kto to zrobił</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Stanowisko odpowiedzialne</p>
+                                          <p>[1767]<b>Specjalista ds. organizacji procesow i systemow jakosci (BIALL-NET)</b>; 
+                            <ph/>
+                                          </p>
+                                          <p>
+                                             <note>System wprowadzi  w tym polu datę wprowadzenia nowego rekordu powiązania.</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadz inforamcję: (R)</p>
+                                          <p>
+                                             <codeblock>[1521]<b>A_RECORD_CREATE_AUTHOR</b>; 
+                                <ph>Autor</ph>
+                                             </codeblock>
+                                          </p>
+                                          <p>
+                                             <note>System stworzy nowy rekord w bazie asocjacji/powiązań zasobów, wprowadzając dane użytkownika, który dokonał tego wpisu w tym polu.</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadz inforamcję: (R,X)</p>
+                                          <p>[3569]<b>[Tree] - Link - Wróć do drzewa procesów </b>; 
+                            <ph/>
+                                          </p>
+                                          <p>
+                                             <note>... jeżeli nie zamierzasz dodawać więcej stanowisk, które mogą wykonywać ten proces, to naciśnij ten przycisk. Może się zdarzyć, że jeden proces jest wykonywany przez kilka stanowisk, np: jeżeli firma posiada specjalną procedurę wejścia do pomieszczeń , która obejmuje rozbrojenie alarmu, otwarcie drzwi oraz kraty, to ten proces wykonują różne stanowiska. Należy zatem dodać je do tego procesu za pomocą następnego wskaźnika ...</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadz inforamcję: (X)</p>
+                                          <p>[3567]<b>Przycisk DODAJ zasób z opisami</b>; 
+                            <ph/>
+                                          </p>
+                                          <p>
+                                             <note>... po ustaleniu parametrów zasobu należy nacisnąć ten przycisk, aby dodać ten zasób do kroku. W ten sposób pierwszy krok nowego procesu otrzyma wkaźnik z oznaczonym zasobem oraz jego opisami. W ten sam sposób można dodać kolejne zasoby do procesu ( wskaźniki ) .</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                          <p>
+                                             <codeblock>[1518]<b>OPIS_ZASOB</b>; 
+                                <ph>opis</ph>
+                                             </codeblock>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                          <p>
+                                             <codeblock>[1520]<b>ID_PRZYPADEK</b>; 
+                                <ph>uprawnienie</ph>
+                                             </codeblock>
+                                          </p>
+                                          <p>
+                                             <note>Ustal kontekst użycia zasobu. Dla pracownika będzie to X Mianownik KTO CO. ( Odpowiada to sensowi tego kroku, że dodawany Zasób w postaci Stanowiska będzie podmiotem tego procesu, jako wykonawca. Czyli odpowiada to logice użycia tego przypadku. </note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza (nowego rekordu lub zedytuj istniejący)</p>
+                                          <p>
+                                             <codeblock>[1517]<b>ID_ZASOB</b>; 
+                                <ph>Nr zasobu</ph>
+                                             </codeblock>
+                                          </p>
+                                          <p>
+                                             <note>Należy podać numer zasobu lub odnaleźć uważnie zasób po nazwie. W przypadku, kiedy nie znasz numeru zasobu, możesz poszukać ciągu znaków STANOWISKO. </note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadz inforamcję: (R,X)</p>
+                                          <p>[3563]<b>Menu umożliwiające wprowadzenie zasobu do procesu poprzez podanie jego numeru.</b>; 
+                            <ph/>
+                                          </p>
+                                          <p>
+                                             <note>Wprowadź w to miejsce numer zasobu, który chcesz dodać do procesu. Jeżeli go nie znasz, możesz dzięki funkcji CTRL+F znaleźć numer zasobu w drzewie.</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadz inforamcję: (R,X)</p>
+                                          <p>[3562]<b>Dodaj zasób do procesu</b>; 
+                            <ph/>
+                                          </p>
+                                          <p>
+                                             <note>Naciśnij na przycisk znajdujący się obok przed chwilą dodanego procesu, do którego chcesz dodać kolejny zasób.  Nowo dodany proces utworzył się w drzewie procesów pod numerem procesu, którego wybrałeś w kroku poprzednim jako nadrzędny.</note>
+                                          </p>
+                                       </li>
+                                    </ol>
+                                 </prereq>
+                              </taskbody>
+                              <task id="task_2207"
+                                    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                                 <title>{<b>2207</b>} IF jeżeli nie istnieje zasób odpowiadający stanowisku pracy, jakie chcemy przyporządkować, należy je dodać jako nowy zasób, zgodnie z opisem w kroku {wywoływanym}</title>
+                                 <shortdesc>Może się zdarzyć, że powiązywane stanowisko, jakie wykonuje dany proces/powinno wykonywać dany proces nie jest zdefiniowane w zasobach. Należy w takim przypadku je dopisać do zasobów, zachowując zasady wprowadzania nowych zasobów w podanym kroku.  Każde stanowisko pracy podlega pod inne stanowisko pracy, w związku z czym najpierw należy ustalić stanowisko nadrzędne, któremu będzie podlegać nowe stanowisko. Analogicznie do sytuacji dodawania innych zasobów (np. w przypadku dodawania koła, zasobem nadrzędnym będzie prawdopodobnie samochód).</shortdesc>
+                                 <prolog>
+                                    <author>sqix</author>
+                                    <change-historylist>
+                                       <change-item>
+                                          <change-completed>2014-01-14-14:42a.binder</change-completed>
+                                       </change-item>
+                                    </change-historylist>
+                                 </prolog>
+                                 <taskbody>
+                                    <prereq>zasoby:
+                    <ol>
+                                          <li/>
+                                       </ol>
+                                    </prereq>
+                                 </taskbody>
+                              </task>
+                           </task>
+                           <task id="task_1620"
+                                 xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                              <title>{<b>1620</b>} Stworzenie i odpowiednie umiejscowienie procesu inicjującego (PROCES_INIT)</title>
+                              <shortdesc>Po wybraniu odpowiedniej lokalizacji nowego procesu w drzewie procesów należy stworzyć proces inicjujący nową procedurę. Pierwszy krok procesu ma specjalny typ, wg którego system traktuje ten krok procesu jako Pierwszy Krok Procesu - czyli PROCES_INIT.&lt;br&gt;
+Pierwszy krok możemy wykonać na 2 sposoby, możemy stworzyć nowy proces z poziomu tabeli za pomocą dodania nowego rekordu i ustalenia mu typu PROCES_INIT lub stworzenia nowego rekordu z poziomu drzewa procesów.&lt;br&gt;
+W celu dodania pierwszego kroku procesu powinniśmy przede wszystkim ustalić do jakiego procesu/drzewa procesów nadrzędnego chcemy wstawić dany proces. Czyli proces dotyczący np. pieczenia chleba powinien być przy procesach gotowania zupy, pieczenia ciasta. Nie powinien być przy procesie &lt;u&gt; robienia porządków w dużym pokoju &lt;/u&gt;. &lt;br&gt;
+&lt;b&gt;Uwaga! Nie wolno w jednym procesie tworzyć kolejnych początkowych kroków procesów (PROCES_INIT) - każdy z procesów może mieć tylko jeden początek. W przypadku chęci stworzenia odwołań do innych kroków procesów należy zawsze umieszczać kolejny zwyczajny krok procesu z ustawieniem w tym kroku odwołania do innych procesów/procedur wyzwalanych -&lt;u&gt; NIE NALEŻY JEDNAK TWORZYĆ TYCH KROKÓW PROCESÓW JAKO TYP PROCES_INIT&lt;/u&gt;&lt;/b&gt;</shortdesc>
+                              <prolog>
+                                 <author>chojnickaa</author>
+                                 <change-historylist>
+                                    <change-item>
+                                       <change-completed>2015-03-23-20:00a.binder</change-completed>
+                                    </change-item>
+                                 </change-historylist>
+                              </prolog>
+                              <taskbody>
+                                 <prereq>zasoby:
+                    <ol>
+                                       <li/>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1489]<b>OPIS</b>; 
+                                <ph>Opis szeroki</ph>
+                                             </codeblock>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1488]<b>DESC</b>; 
+                                <ph>Opis</ph>
+                                             </codeblock>
+                                          </p>
+                                          <p>
+                                             <note>Wpisać nazwę procesu. Nazwa procesu powinna odzwierciedlać wszystkie niezbędne informacje dotyczące identyfikacji danego procesu, gdzie się znajduje w Drzewie procesów. Czyli dla przykładowego procesu pieczenia chleba nie powinniśmy nazywać procesu &lt;i&gt;"Chleb"&lt;/i&gt;,  który ten proces znajdował się w drzewie procesów odnośnie pieczenia. Przy odczytywaniu tej struktury procesów będzie to jasne, jednak jeżeli dane procesy pojawią się w elektronicznym zakresie obowiązków, samo hasło &lt;i&gt;Chleb&lt;/i&gt; będzie niewystarczające. Opis tego procesu powinien wyglądać tak : &lt;i&gt; Pieczenie chleba w domu w piekarniku&lt;/i&gt;. &lt;br&gt;Po opisie procesu należy zawrzeć  dodatkowy opis zapisany w nawiasach kwadratowych :&lt;i&gt;[ założenia odnośnie standardowej jakości/ilości wykonywania danego procesu]&lt;/i&gt;.  Czyli dla procesu pieczenia chleba należałoby zapisać &lt;i&gt; [ Chleb powinien zostać upieczony za każdym razem, jak go brakuje maksymalnie w przeciągu 5 godzin od momentu stwierdzenia jego braku, w ilości nie mniejszej niż 2 sztuki za każdym razem] &lt;/i&gt;.  Według tego klucza będzie potem wystawiana ocena odnośnie właściwego/niewłaściwego wykonywania procesu przez pracowników. Na podstawie tej zawartości pracownicy będą poddawani ocenie zewnętrznej lub będą się oceniać samodzielnie. Dlatego też to pole powinno być bardzo mądrze i przemyślanie uzupełnione.</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1487]<b>TYPE</b>; 
+                                <ph>Typ</ph>
+                                             </codeblock>
+                                          </p>
+                                          <p>
+                                             <note>Wybrać z listy PROCES_INIT . Ten typ kroku procesu oznacza pierwszy krok procesu. System oznaczy go w drzewie procesów na czerwono.</note>
+                                          </p>
+                                       </li>
+                                       <li>
+                                          <p>Wprowadź informację do formularza: (do nowego rekordu) </p>
+                                          <p>
+                                             <codeblock>[1486]<b>PARENT_ID</b>; 
+                                <ph>Nr nadrz.</ph>
+                                             </codeblock>
+                                          </p>
+                                          <p>
+                                             <note>Wpisać numer procesu nadrzędnego. (Na załączonym przykładowym zdjęciu umieszczono przykład numeru procesu nadrzędnego dla niniejszego procesu.)</note>
+                                          </p>
+                                       </li>
+                                    </ol>
+                                 </prereq>
+                              </taskbody>
+                           </task>
+                        </task>
+                     </task>
+                     <task id="task_1616"
+                           xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+                        <title>{<b>1616</b>} IF Jeżeli diagram przepływu procesu wymaga poprawy - Wróć do kroku wywiadu i popraw diagram. </title>
+                        <shortdesc/>
+                        <prolog>
+                           <author>chojnickaa</author>
+                           <change-historylist>
+                              <change-item>
+                                 <change-completed>2014-11-03-17:32a.binder</change-completed>
+                              </change-item>
+                           </change-historylist>
+                        </prolog>
+                        <taskbody>
+                           <prereq>zasoby:
+                    <ol>
+                                 <li/>
+                              </ol>
+                           </prereq>
+                        </taskbody>
+                     </task>
+                  </task>
+               </task>
+            </task>
+         </task>
+      </task>
+      <task id="task_1609"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>1609</b>} Jeżeli odnalazłeś procedurę lub Proces i potwierdzasz, po jego przeanalizowaniu, że nie wymaga poprawy i spełnia swoje oczekiwania, przerwij proces dodawania nowego procesu do systemu, z informacją zwrotną</title>
+         <shortdesc>W przypadku jeżeli po wstępnej weryfikacji udało się ustalić, że jest proces i w zupełności w wystarczający sposób (zgodnie z przyjętymi standardami tworzenia nowych procesów) , opisuje on zagadnienia jakie były problemem i wyzwoliły niniejszy proces, możesz zakończyć ten proces. Jeżeli wykonywanie niniejszego obowiązku było zlecone, należy poinformować osobę zlecającą o tym , że dla danego zagadnienia XXXXX udało się zidentyfikować proces {ZZZZZ}. Należy powiadomić tą osobę elektronicznie i zakończyć proces.</shortdesc>
+         <prolog>
+            <author>chojnickaa</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2015-11-22-18:47a.binder</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+               </ol>
+            </prereq>
+         </taskbody>
+      </task>
+      <task id="task_1608"
+            xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+         <title>{<b>1608</b>} W przypadku chęci dodania nowych procesów/procedur należy zweryfikować istnienia procesu/procedury opisującej wybrane zadanie (za pomocą przeszukiwania listy procesów) w celu upewnienia się, że nie dodamy informacji do systemu, które już istnieją, co będz</title>
+         <shortdesc>Należy dążyć do tego aby dane zagadnienie było w systemie zdefiniowane wyłącznie jeden raz - dla tego upewniamy się, czy już dane zagadnienie nie zostało opisane. &lt;br&gt;
+Weryfikację zaczynamy od sprawdzenia listy procesów rozpoczynających (PROCES_INIT).
+W tym celu należy przejrzeć listę procesów,uprzednio logując się do systemu Procesy5. Lista procesów powinna być dostępna w MENU
+W tabeli/zestawieniu procesów uruchamiamy filtry do poszukiwania początkowych procesów , a spośród nich będziemy wyszukiwać procesu nas interesującego.</shortdesc>
+         <prolog>
+            <author>chojnickaa</author>
+            <change-historylist>
+               <change-item>
+                  <change-completed>2015-11-22-19:06a.binder</change-completed>
+               </change-item>
+            </change-historylist>
+         </prolog>
+         <taskbody>
+            <prereq>zasoby:
+                    <ol>
+                  <li/>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[6147]<b>A_HAS_IMAGE</b>; 
+                                <ph>Ilość zdjęć</ph>
+                        </codeblock>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[6148]<b>TEST_PYTANIE</b>; 
+                                <ph>ilość pytań</ph>
+                        </codeblock>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[12951]<b>TEST_TEOR</b>; 
+                                <ph>?test teoret</ph>
+                        </codeblock>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[12950]<b>TEST_PRAKT</b>; 
+                                <ph>?test prakt.</ph>
+                        </codeblock>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[4918]<b>EXPORT_PARAM</b>; 
+                                <ph>export?</ph>
+                        </codeblock>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[4922]<b>L_APPOITMENT_INFO</b>; 
+                                <ph>adnotacje</ph>
+                        </codeblock>
+                     </p>
+                     <p>
+                        <note>Adnotacja na temat danej procedury/kroku procesu.</note>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[4920]<b>L_APPOITMENT_DATE</b>; 
+                                <ph>Termin (ważn.)</ph>
+                        </codeblock>
+                     </p>
+                     <p>
+                        <note>Data przypomnienia/ważności procedury.</note>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[4921]<b>L_APPOITMENT_USER</b>; 
+                                <ph>Osoba odpow.</ph>
+                        </codeblock>
+                     </p>
+                     <p>
+                        <note>Sprawdź, kto jest odpowiedzialny za daną procedurę lub/i został upoważniony do jej poprawy.</note>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[6164]<b>A_CLASSIFIED</b>; 
+                                <ph>Odczyt dla</ph>
+                        </codeblock>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[1495]<b>A_ADM_COMPANY</b>; 
+                                <ph>Zapis dla</ph>
+                        </codeblock>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[4917]<b>IF_TRUE_GOTO_FLAG</b>; 
+                                <ph>Typ wyzw.</ph>
+                        </codeblock>
+                     </p>
+                     <p>
+                        <note>Typ wyzwalania obcej procedury.</note>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[4916]<b>IF_TRUE_GOTO</b>; 
+                                <ph>Goto</ph>
+                        </codeblock>
+                     </p>
+                     <p>
+                        <note>Tutaj możesz odnaleźć, czy dana procedura wyzwala inną w pierwszym kroku (pamiętaj, że wyzwalanie może być także w innym kroku)</note>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[4745]<b>A_STATUS</b>; 
+                                <ph>Status</ph>
+                        </codeblock>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[11728]<b>TAGS</b>; 
+                                <ph>Tagi</ph>
+                        </codeblock>
+                     </p>
+                     <p>
+                        <note>W tej kolumnie możesz przeszukać procesów po dowolnie utworzonych "tagach" klasyfikujących zagadnienia procesów.</note>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[1489]<b>OPIS</b>; 
+                                <ph>Opis szeroki</ph>
+                        </codeblock>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[1488]<b>DESC</b>; 
+                                <ph>Opis</ph>
+                        </codeblock>
+                     </p>
+                     <p>
+                        <note>W tej kolumnie możesz znaleźć interesujący Ciebie opis procesu</note>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[1486]<b>PARENT_ID</b>; 
+                                <ph>Nr nadrz.</ph>
+                        </codeblock>
+                     </p>
+                     <p>
+                        <note>W tej kolumnie odnajdziesz numer nadrzędnego procesu w drzewie</note>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[1485]<b>ID</b>; 
+                                <ph>Nr</ph>
+                        </codeblock>
+                     </p>
+                     <p>
+                        <note>W tej kolumnie odnajdziesz numer procesu</note>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>
+                        <codeblock>[1487]<b>TYPE</b>; 
+                                <ph>Typ</ph>
+                        </codeblock>
+                     </p>
+                     <p>
+                        <note>... w tym miejscu ustaw TYP procesu na PROCES_INIT, aby wyszukać tylko pierwsze kroki procesów z nazwami i opisami.</note>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Wprowadz inforamcję: (R,X)</p>
+                     <p>[15]<b>/SE/</b>; 
+                            </p>
+                     <p>
+                        <note>Uruchom przeglądarkę internetową i zaloguj się do systemu SE na podane podczas rekrutacji użytkownika/hasło dane.</note>
+                     </p>
+                  </li>
+               </ol>
+            </prereq>
+         </taskbody>
+         <task id="task_2165"
+               xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+            <title>{<b>2165</b>} Zweryfikuj czy nie istnieje proces/procedura opisująca wybrane zadanie (poprzez nawigację w drzewie procesów). Po czym wróć do wykonywania kolejnych instrukcji</title>
+            <shortdesc>Opcjonalna możliwość weryfikacji istnienia procesu opisującego interesującą nas procedurę: &lt;br&gt;
+- wyłącz rozwijanie drzewa, &lt;br&gt;
+- rozwiń zagnieżdzenia drzewa procesów (użyj funkcji Rozwijania, a w przypadku chęci rozwinięcia dalszych części procesów możemy skorzystać z funkcji szybkiego rozwijania drzewa "L"). &lt;br&gt;
+- rozwiń interesujący proces i przejrzyj wszystkie opisy oraz zasoby, jakie zostały użyte. Oceń czy dana proces w pełni i właściwie rozwiązuje napotkany problem. Może się okazać, że proces jest niepełen lub nie wszystkie instrukcje są w nim zdefiniowane. Np. przy przykładowym procesie pieczenia chleba ktoś nie uwzględnił konieczności ustalenia temperatury pieca lub/też nie wykazał konkretnie numeru zasobu dla pokrętła do ustalenia tej temperatury. Jest to błędem.</shortdesc>
+            <prolog>
+               <author>sqix</author>
+               <change-historylist>
+                  <change-item>
+                     <change-completed>2015-11-22-19:11a.binder</change-completed>
+                  </change-item>
+               </change-historylist>
+            </prolog>
+            <taskbody>
+               <prereq>zasoby:
+                    <ol>
+                     <li/>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[2951]<b>Procesy</b>; 
+                            </p>
+                        <p>
+                           <note>Uruchom widok drzewa procesów</note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[3577]<b>Przycisk IMG (+) - pokazuje dodane do procesów, zasobów, wskaźników zdjęcia ( lub je ukrywa) </b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>Możesz także uruchomić pokazywanie powiązanych dla danego procesu zdjęć, które umożliwią lepsze zrozumienie pokazywanego procesu.</note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[3575]<b>Przycisk Zasoby (+) - rozwija/zwija opisy ścieżki do zasobów</b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>Możesz także użyć funkcji pokazującej pełne ścieżki do zasobów ( po najechaniu myszą ). Pozwoli to na lepsze zrozumienie kontekstu użycia zasobów ( bowiem zamiast np. samego Zasobu Lodówka, pojawi się informacja : Budynek/Mieszkanie/Kuchnia/Lodówka . </note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[3576]<b>Przycisk Opisy (+) - rozwija szczegółowe opisy do kroków procesów oraz zasobów</b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>... konieczne jest aby rozwinąć także szczegółowe opisy dla wyświetlanych procesów ( przy Procesach oraz przy Zasobach ( wskaźnikach ) .</note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (X)</p>
+                        <p>[3574]<b>Przycisk Procesy (+) - rozwija kroki na drzewie procesow</b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>... po odnalezieniu właściwego procesu możesz rozwinąć użyte zasoby ( wskaźniki ) , za pomocą tej funkcji ( jeżeli nie była wcześniej użyta ) .</note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[3594]<b>Rozwiń całą gałąź drzewa w dół procesów </b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>... jeżeli jakiś proces chcesz zobaczyć w całości, warto użyć tej funkcji, aby rozwinąć wszystkie jego kroki w dół ( w razie kiedy nie otworzy się cały, powtórz odpowiednio czynności z pokazanymi elementami drzewa zasobów ) </note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[3593]<b>Rozwiń pojedynczą gałąź drzewa procesów/zasobów itp... ( zwiń - ) </b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>... następnie rozwijaj kolejne gałęzi procesów, aby zaglądać w głąb drzewa procesów ... możesz też chować nie interesujące Ciebie drzewa procesów za pomocą tego samego narzędzia, klikając na minus.</note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (R,X)</p>
+                        <p>[3585]<b>Filtrowanie po ID procesu/Zasobu, poprzez klikanie na numery procesów/zasobów</b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>Następnie klikaj po kolei różne numery Procesów, aby system otwierał filtrował tylko poszczególne pozycje drzewa zasobów. Na samym początku warto uruchomić filtr dla najwyższego węzła procesów...</note>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Wprowadz inforamcję: (R)</p>
+                        <p>[3573]<b>Przycisk Drzewo (ZWIN/ROZWIN)</b>; 
+                            <ph/>
+                        </p>
+                        <p>
+                           <note>Upewnij się, że opis tego przycisku wynosi "DRZEWO ROZWIŃ", w przeciwnym przypadku kliknij jego. Chodzi o to aby system zwinął drzewo do minimum, abyś mógł je przeglądać.</note>
+                        </p>
+                     </li>
+                  </ol>
+               </prereq>
+            </taskbody>
+         </task>
+      </task>
+   </task>
+</task>
