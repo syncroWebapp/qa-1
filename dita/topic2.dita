@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_jt5_b1b_bbb">
+    <title>Topic 2</title>
+    <titlealts>
+        <navtitle> NAV 2</navtitle>
+    </titlealts>
+    <body>
+        <p>P2</p>
+        <codeblock>
+            <xref href="topic1.dita"/>
+        </codeblock>
+    </body>
+</topic>
