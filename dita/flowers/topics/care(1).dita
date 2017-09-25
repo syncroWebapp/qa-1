@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="care">
+    <title>Care and Preparation</title>
+    <body>
+        <p>When caring for your flower garden you want to feed your plants properly, control pests
+            and weeds. Good soil is a must to successful gardening, landscaping, and healthy
+            flowers. You have to
+            <indexterm>tasks<indexterm>preparation</indexterm></indexterm>balance the soil structure
+            with nutrients and regulate the pH to cover your plants'
+            needs.<?oxy_comment_start author="Mary" timestamp="20120510T121702+0300" comment="Let&apos;s add information about fertilizers."?><?oxy_comment_start author="John" timestamp="20120510T121814+0300" comment="We must include information about fertilizers impact to the environment." mid="1"?>
+            And above all, remember that many flower gardens fail because they just don't get enough
+            of your attention.<?oxy_comment_end?><?oxy_comment_end mid="1"?></p>
+        <p>
+            <table frame="none">
+                <title>Flowers</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="171.0pt"/>
+                    <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c2" colnum="3" colwidth="99.0pt"/>
+                    <colspec colname="newCol3" colnum="4" colwidth="200px"/>
+                    <thead>
+                        <row>
+                            <entry>Flower</entry>
+                            <entry/>
+                            <entry namest="c2" nameend="newCol3">TypeSoil</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry namest="c1" nameend="newCol2">Gardenia</entry>
+                            <entry>perennial</entry>
+                            <entry>acidic</entry>
+                        </row>
+                        <row>
+                            <entry namest="c1" nameend="newCol3">Chrysanthemumperennialwell
+                                drained</entry>
+                        </row>
+                        <row>
+                            <entry morerows="2" namest="c1" nameend="newCol2"
+                                >GerberaIrisLilac</entry>
+                            <entry>annual</entry>
+                            <entry>sandy, well-drained</entry>
+                        </row>
+                        <row>
+                            <entry>perennial</entry>
+                            <entry>slightly acidic</entry>
+                        </row>
+                        <row>
+                            <entry>perennial</entry>
+                            <entry>alkaline</entry>
+                        </row>
+                        <row>
+                            <entry namest="c1" nameend="newCol2">Salvia</entry>
+                            <entry>perennial</entry>
+                            <entry>average</entry>
+                        </row>
+                        <row>
+                            <entry namest="c1" nameend="newCol2">Snowdrop</entry>
+                            <entry>perennial</entry>
+                            <entry>humus-rich</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </body>
+</topic>
