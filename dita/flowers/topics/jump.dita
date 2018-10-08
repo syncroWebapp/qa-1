@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="care">
+    <title>Ctrl/Meta + arrow navigation</title>
+    <shortdesc>A topic with a few samples to test ctrl+arrow caret navigation.</shortdesc>
+    <body>
+        <section id="section_pj3_xdh_tdb">
+            <title>Normal</title>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                    <u>   unknown   </u>    printer took a galley of type and scrambled it to make a
+                type specimen book.</p>
+            <?oxy_comment_start author="Anonymous" timestamp="20180508T115752+0300" comment="Hiragana"?>
+            <p xml:lang="ja"><?oxy_comment_end?>えんぴつ りゅうがくせい <u>とんかつ</u> やさい ゆうびんきょうく</p>
+            <p xml:lang="ro">Există o mulţime de variaţii disponibile ale pasajelor <u>Lorem
+                    Ipsum</u>, dar majoritatea lor au suferit alterări într-o oarecare măsură prin
+                infiltrare de elemente de umor, sau de cuvinte luate aleator, care nu sunt câtuşi de
+                puţin credibile.</p>
+            <?oxy_comment_start author="Anonymous" timestamp="20180508T115811+0300" comment="Cyrillic"?>
+            <p xml:lang="ru"><?oxy_comment_end?>Лорем ипсум долор сит амет, ет сед дуис доминг
+                албуциус. Еи лорем ерипуит пер, вих ан дицтас персецути адиписцинг, яуи но мунди
+                яуодси епицуреи. Воцент <u>бонорум</u> волуптатибус еос те. Не яуо хинц инцоррупте
+                диссентиет, ин яуо инвидунт маиестатис волуптатибус, ад вим магна алтерум
+                репримияуе.</p>
+        </section>
+        <section id="section_bsv_12h_tdb">
+            <title>Ideographs</title>
+            <?oxy_comment_start author="Anonymous" timestamp="20180508T115801+0300" comment="Kanji"?>
+            <p xml:lang="ja"
+                ><?oxy_comment_end?>女びーゃ港南家ま答川ばレり耐開ちスッ止8芸<u>たン</u>案陵スこゅ日損イ準高的使ぼ果人おドを開海きぽすド芸学レ成6元ヨ岩特ロイヌ稿松傍剰ン。判コノムト之話ミムロカ江間92写サレ既能ド再江調ノフ辻実サヲ堀申通シクロハ豊時界とれそ命8道モソス連変を報政され氷柴ケワユヲ脳串ソ精亮凱孫ぼクぎぱ。</p>
+        </section>
+        <section id="section_kw5_42h_tdb">
+            <title>Right-to-left</title>
+            <?oxy_comment_start author="Anonymous" timestamp="20180508T115949+0300" comment="Arabic"?>
+            <p dir="rlo" xml:lang="ar"><?oxy_comment_end?>تصفح إعمار التّحول بعض و. قد وأزيز
+                بالتوقيع التاريخ، انه, حالية وبولندا إذ كان. من غير وانهاء المشترك, شمال الستار أضف
+                أم. قد بعض الشرقي العاصمة والإتحاد, من للسيطرة العسكري حين. غير لعدم الأهداف ان, لم
+                ماشاء إنطلاق المعاهدات جهة, قبل تطوير الإثنان تم. لتقليعة التقليدي ثم بعد, بال هو
+                وحرمان الخاسر الجديدة،.</p>
+        </section>
+        <section id="section_sqg_t2h_tdb">
+            <title>Emoji</title>
+            <p>In arcu 👻👚 lectus volutpat, 🏰🍳 📥🔄🔸👊👒🍊 venenatis 💕🔧 congue 🏠🎾🐳👑 🍀🍖🔅
+                cursus quis 📐🐭 ultricies non; vitae aliquam quis ac quis 🌓🌝🐴🍧🎼💯🔎🐺🎴🌇🐊
+                nunc, 🐆🐙🕥 enim 🐂🍪🌘🍦🐟 nunc, faucibus eu.</p>
+        </section>
+    </body>
+</topic>
